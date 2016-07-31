@@ -126,7 +126,7 @@ agreement for further details.
 	(input)
 	(rect 1032 88 1200 104)
 	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
-	(text "Enable" (rect 5 0 55 14)(font "Arial" ))
+	(text "Enable" (rect 5 0 54 14)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -143,7 +143,7 @@ agreement for further details.
 	(input)
 	(rect 1040 504 1208 520)
 	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
-	(text "Z_Select" (rect 5 0 72 14)(font "Arial" ))
+	(text "Z_Select" (rect 5 0 71 14)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -160,7 +160,7 @@ agreement for further details.
 	(input)
 	(rect 1040 712 1208 728)
 	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
-	(text "W_Select" (rect 5 0 72 14)(font "Arial" ))
+	(text "W_Select" (rect 5 0 71 14)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -177,7 +177,7 @@ agreement for further details.
 	(input)
 	(rect 1408 160 1592 176)
 	(text "INPUT" (rect 141 0 182 11)(font "Arial" (font_size 6)))
-	(text "X_Limit_Pos" (rect 5 0 96 14)(font "Arial" ))
+	(text "X_Limit_Pos" (rect 5 0 95 14)(font "Arial" ))
 	(pt 184 8)
 	(drawing
 		(line (pt 100 12)(pt 125 12))
@@ -194,7 +194,7 @@ agreement for further details.
 	(input)
 	(rect 1408 272 1600 288)
 	(text "INPUT" (rect 149 0 190 11)(font "Arial" (font_size 6)))
-	(text "X_Limit_Neg" (rect 5 0 96 14)(font "Arial" ))
+	(text "X_Limit_Neg" (rect 5 0 95 14)(font "Arial" ))
 	(pt 192 8)
 	(drawing
 		(line (pt 108 12)(pt 133 12))
@@ -211,7 +211,7 @@ agreement for further details.
 	(input)
 	(rect 1408 520 1592 536)
 	(text "INPUT" (rect 141 0 182 11)(font "Arial" (font_size 6)))
-	(text "Z_Limit_Pos" (rect 5 0 96 14)(font "Arial" ))
+	(text "Z_Limit_Pos" (rect 5 0 95 14)(font "Arial" ))
 	(pt 184 8)
 	(drawing
 		(line (pt 100 12)(pt 125 12))
@@ -228,7 +228,7 @@ agreement for further details.
 	(input)
 	(rect 1408 576 1592 592)
 	(text "INPUT" (rect 141 0 182 11)(font "Arial" (font_size 6)))
-	(text "W_Limit_Pos" (rect 5 0 96 14)(font "Arial" ))
+	(text "W_Limit_Pos" (rect 5 0 95 14)(font "Arial" ))
 	(pt 184 8)
 	(drawing
 		(line (pt 100 12)(pt 125 12))
@@ -262,7 +262,7 @@ agreement for further details.
 	(input)
 	(rect 1408 680 1600 696)
 	(text "INPUT" (rect 149 0 190 11)(font "Arial" (font_size 6)))
-	(text "W_Limit_Neg" (rect 5 0 96 14)(font "Arial" ))
+	(text "W_Limit_Neg" (rect 5 0 95 14)(font "Arial" ))
 	(pt 192 8)
 	(drawing
 		(line (pt 108 12)(pt 133 12))
@@ -279,7 +279,7 @@ agreement for further details.
 	(input)
 	(rect 1408 336 1600 352)
 	(text "INPUT" (rect 149 0 190 11)(font "Arial" (font_size 6)))
-	(text "Y_Limit_Pos" (rect 5 0 96 14)(font "Arial" ))
+	(text "Y_Limit_Pos" (rect 5 0 95 14)(font "Arial" ))
 	(pt 192 8)
 	(drawing
 		(line (pt 108 12)(pt 133 12))
@@ -296,7 +296,7 @@ agreement for further details.
 	(input)
 	(rect 1408 448 1600 464)
 	(text "INPUT" (rect 149 0 190 11)(font "Arial" (font_size 6)))
-	(text "Y_Limit_Neg" (rect 5 0 96 14)(font "Arial" ))
+	(text "Y_Limit_Neg" (rect 5 0 95 14)(font "Arial" ))
 	(pt 192 8)
 	(drawing
 		(line (pt 108 12)(pt 133 12))
@@ -330,7 +330,7 @@ agreement for further details.
 	(input)
 	(rect 1408 944 1608 960)
 	(text "INPUT" (rect 157 0 198 11)(font "Arial" (font_size 6)))
-	(text "Z_Spindlerun" (rect 5 0 105 14)(font "Arial" ))
+	(text "Z_Spindlerun" (rect 5 0 104 14)(font "Arial" ))
 	(pt 200 8)
 	(drawing
 		(line (pt 116 12)(pt 141 12))
@@ -342,6 +342,22 @@ agreement for further details.
 	)
 	(text "VCC" (rect 160 7 184 18)(font "Arial" (font_size 6)))
 	(annotation_block (location)(rect 1400 1024 1472 1048))
+)
+(pin
+	(input)
+	(rect 1408 96 1576 112)
+	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
+	(text "ZW_Power" (rect 5 0 72 14)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 152 18)(font "Arial" (font_size 6)))
 )
 (pin
 	(output)
@@ -1056,6 +1072,22 @@ agreement for further details.
 		(line (pt 78 12)(pt 82 8))
 	)
 	(annotation_block (location)(rect 1880 1032 1952 1056))
+)
+(pin
+	(output)
+	(rect 1688 96 1864 112)
+	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
+	(text "ZW_Pwr" (rect 90 0 139 14)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
 )
 (symbol
 	(rect 112 224 144 240)
@@ -3851,6 +3883,31 @@ agreement for further details.
 		(line (pt 8 8)(pt 24 8))
 	)
 )
+(symbol
+	(rect 1608 88 1656 120)
+	(text "7404" (rect 1 -1 34 10)(font "Arial" (font_size 6)))
+	(text "ZWP" (rect 3 20 27 34)(font "Arial" ))
+	(port
+		(pt 0 16)
+		(input)
+		(text "2" (rect 20 12 25 26)(font "Courier New" (bold))(invisible))
+		(text "2" (rect 20 12 25 26)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 14 16))
+	)
+	(port
+		(pt 48 16)
+		(output)
+		(text "1" (rect 40 5 45 19)(font "Courier New" (bold))(invisible))
+		(text "1" (rect 40 5 45 19)(font "Courier New" (bold))(invisible))
+		(line (pt 38 16)(pt 48 16))
+	)
+	(drawing
+		(line (pt 13 25)(pt 13 7))
+		(line (pt 13 7)(pt 31 16))
+		(line (pt 13 25)(pt 31 16))
+		(circle (rect 30 12 38 20))
+	)
+)
 (connector
 	(pt 704 240)
 	(pt 712 240)
@@ -5799,6 +5856,14 @@ agreement for further details.
 	(pt 1640 456)
 	(pt 1680 456)
 )
+(connector
+	(pt 1656 104)
+	(pt 1688 104)
+)
+(connector
+	(pt 1576 104)
+	(pt 1608 104)
+)
 (junction (pt 584 352))
 (junction (pt 584 544))
 (junction (pt 584 736))
@@ -5884,7 +5949,7 @@ agreement for further details.
 (title_block
 	(rect 1576 1088 1944 1208)
 	(section (rect 0 24 368 48)(text "COMPANY" (rect 2 0 59 14)(font "Arial" ))(text "Production Automation" (rect 56 2 402 23)(font "Arial" (font_size 12)))(border))
-	(section (rect 0 96 240 120)(text "DATE" (rect 2 0 35 14)(font "Arial" ))(text "Thu Jul 21 19:04:08 2016" (rect 56 3 367 21)(font "Arial" (font_size 10)))(date)(border))
+	(section (rect 0 96 240 120)(text "DATE" (rect 2 0 35 14)(font "Arial" ))(text "Sat Jul 30 20:10:09 2016" (rect 56 3 367 21)(font "Arial" (font_size 10)))(date)(border))
 	(section (rect 0 48 368 72)(text "DESIGNER" (rect 2 0 68 14)(font "Arial" ))(text "James Richters" (rect 56 2 287 23)(font "Arial" (font_size 12)))(border))
 	(section (rect 0 72 280 96)(text "NUMBER" (rect 2 0 51 14)(font "Arial" ))(text "1.00" (rect 56 1 107 19)(font "Arial" (font_size 10)))(border))
 	(section (rect 310 96 368 120)(text "OF" (rect 10 0 26 14)(font "Arial" ))(text "1" (rect 34 4 46 22)(font "Arial" (font_size 10))))

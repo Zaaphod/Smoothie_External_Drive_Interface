@@ -95,7 +95,6 @@ set_location_assignment PIN_74 -to 22a
 set_location_assignment PIN_76 -to 23a
 set_location_assignment PIN_78 -to 24a
 set_location_assignment PIN_82 -to 25a
-set_location_assignment PIN_34 -to Spindle_Power
 set_location_assignment PIN_3 -to Z_Select
 set_location_assignment PIN_5 -to W_Select
 set_location_assignment PIN_7 -to ZW_Running
@@ -129,7 +128,6 @@ set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to 25a
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to 25b
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Z_Step
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Oscilator
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Spindle_Power
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Enable
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to W_Dir_Delay_Neg
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to W_Dir_Delay_Pos
@@ -174,3 +172,5 @@ set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ZW_Limit_Pos
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ZW_Running
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to X_Direction
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "NO HEAT SINK WITH STILL AIR"
+set_location_assignment PIN_34 -to ZW_Pwr
+set_location_assignment PIN_1 -to ZW_Power
