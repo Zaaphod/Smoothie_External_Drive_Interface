@@ -3,7 +3,7 @@ Wiring for EPM570T100C5 Board#1
 *Note Pins 39 and 87 are 3.3Volts on EPM570 and cannot be programmed
 
                                              13   12   11   10    9    8    7    6    5    4    3    2    1    <--DB Ribbon capble pins
-         SX+  SX-  SY+  SY-  SZ+  SZ-  LED2  WR       XS-  XD-            XD+  XS+   WP   WD-  WD+ WS+  W-L
+         SX-  SX+  SY-  SY+  SZ-  SZ+  LED2  WR       XS-  XD-            XD+  XS+   WP   WD-  WD+ WS+  W-L
           99   97   95   91   89   87   85   83   81   77   75   73   71   69   67   61   57   55   53   51
          100   98   96   92  X90X X88X  86   84   82   78   76   74   72   70   68   66   58   56   54   52
          ZWP  ZSL  WSL  ZWR            LED3 ---  GND  GND  GND  GND  GND  GND  GND  GND  X+L  X-L  WS-  W+L
