@@ -1,0 +1,24 @@
+switch.z_head.enable                           true             # Enable Z head.  Z axis moves will move Z head up and down. Z head limit switches will be passed to Z limits
+switch.z_head.input_on_command                 M381
+switch.z_head.input_off_command                M380
+switch.z_head.output_pin                       0.22
+switch.z_head.output_type                      digital
+switch.z_head.startup_state                    true
+switch.z_head.ignore_on_halt                   true
+
+switch.w_head.enable                           true             # Enable W head.  Z axis moves will move W head up and down. W head limit switches will be passed to Z limits
+switch.w_head.input_on_command                 M380
+switch.w_head.input_off_command                M381
+switch.w_head.output_pin                       0.21
+switch.w_head.output_type                      digital
+switch.w_head.startup_state                    false
+switch.w_head.ignore_on_halt                   true
+
+switch.spindle.enable                           true             # Spindle power.  Will power up selected spindle
+switch.spindle.input_on_command                 M3
+switch.spindle.input_off_command                M5
+switch.spindle.output_pin                       2.3
+switch.spindle.output_type                      digital
+switch.spindle.startup_state                    false
+switch.spindle.fail_safe_set_to                 0
+switch.spindle.ignore_on_halt                   false
