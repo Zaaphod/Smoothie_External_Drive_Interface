@@ -75,24 +75,10 @@ set_location_assignment PIN_50 -to Y_Limit_Neg
 set_location_assignment PIN_49 -to Y_Limit_Pos
 set_location_assignment PIN_43 -to Z_Limit_Neg
 set_location_assignment PIN_41 -to Z_Limit_Pos
-set_location_assignment PIN_35 -to 20b
-set_location_assignment PIN_33 -to 21b
-set_location_assignment PIN_29 -to 22b
-set_location_assignment PIN_27 -to 23b
-set_location_assignment PIN_21 -to 24b
-set_location_assignment PIN_19 -to 25b
 set_location_assignment PIN_51 -to W_Limit_Neg
 set_location_assignment PIN_52 -to W_Limit_Pos
 set_location_assignment PIN_56 -to X_Limit_Neg
 set_location_assignment PIN_58 -to X_Limit_Pos
-set_location_assignment PIN_66 -to 18a
-set_location_assignment PIN_68 -to 19a
-set_location_assignment PIN_70 -to 20a
-set_location_assignment PIN_72 -to 21a
-set_location_assignment PIN_74 -to 22a
-set_location_assignment PIN_76 -to 23a
-set_location_assignment PIN_78 -to 24a
-set_location_assignment PIN_82 -to 25a
 set_location_assignment PIN_96 -to Z_Select
 set_location_assignment PIN_98 -to W_Select
 set_location_assignment PIN_100 -to ZW_Running
@@ -108,22 +94,6 @@ set_location_assignment PIN_61 -to W_Power
 set_location_assignment PIN_83 -to W_Spindlerun
 set_location_assignment PIN_20 -to Z_Spindlerun
 set_location_assignment PIN_1 -to Oscilator
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to 18a
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to 18b
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to 19a
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to 19b
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to 20a
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to 20b
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to 21a
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to 21b
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to 22a
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to 22b
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to 23a
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to 23b
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to 24a
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to 24b
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to 25a
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to 25b
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Z_Step
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Oscilator
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Enable
@@ -213,3 +183,21 @@ set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Internal_Oscilator_O
 set_global_assignment -name CDF_FILE output_files/Chain14.cdf
 set_location_assignment PIN_15 -to SSD
 set_location_assignment PIN_16 -to SSC
+set_global_assignment -name VECTOR_WAVEFORM_FILE "SSI Test.vwf"
+set_global_assignment -name VECTOR_WAVEFORM_FILE SSI_Test.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform.vwf
+set_location_assignment PIN_66 -to GND_18a
+set_location_assignment PIN_68 -to GND_19a
+set_location_assignment PIN_70 -to GND_20a
+set_location_assignment PIN_72 -to GND_21a
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform1.vwf
+set_location_assignment PIN_74 -to GND_22a
+set_location_assignment PIN_76 -to GND_23a
+set_location_assignment PIN_78 -to GND_24a
+set_location_assignment PIN_82 -to GND_25a
+set_location_assignment PIN_35 -to GND_20b
+set_location_assignment PIN_33 -to GND_21b
+set_location_assignment PIN_29 -to GND_22b
+set_location_assignment PIN_27 -to GND_23b
+set_location_assignment PIN_21 -to GND_24b
+set_location_assignment PIN_19 -to GND_25b
