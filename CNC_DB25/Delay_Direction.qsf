@@ -174,9 +174,8 @@ set_location_assignment PIN_34 -to ZW_Pwr
 set_location_assignment PIN_92 -to ZW_Power
 set_global_assignment -name CDF_FILE output_files/Chain3.cdf
 set_location_assignment PIN_12 -to External_Oscilator
-set_location_assignment PIN_15 -to External_Oscilator_Out
+set_location_assignment PIN_17 -to External_Oscilator_Out
 set_global_assignment -name CDF_FILE output_files/Chain4.cdf
-set_location_assignment PIN_17 -to External_Osc_div_10
 set_global_assignment -name CDF_FILE output_files/Chain8.cdf
 set_global_assignment -name CDF_FILE output_files/Chain9.cdf
 set_location_assignment PIN_54 -to W_Step_Neg
@@ -210,6 +209,7 @@ set_instance_assignment -name SLOW_SLEW_RATE ON -to Z_Spindlerun
 set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to Z_Spindlerun
 set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to W_Spindlerun
 set_instance_assignment -name SLOW_SLEW_RATE ON -to W_Spindlerun
-set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to Internal_Oscilator_Out
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Internal_Oscilator_Out
 set_global_assignment -name CDF_FILE output_files/Chain14.cdf
-set_location_assignment PIN_16 -to Internal_Oscilator_Out
+set_location_assignment PIN_15 -to SSD
+set_location_assignment PIN_16 -to SSC
