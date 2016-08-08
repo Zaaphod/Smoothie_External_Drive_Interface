@@ -203,3 +203,4 @@ set_location_assignment PIN_21 -to GND_24b
 set_location_assignment PIN_19 -to GND_25b
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GND_19b
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GND_18b
+set_global_assignment -name VECTOR_WAVEFORM_FILE Test_SSI.vwf

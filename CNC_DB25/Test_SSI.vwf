@@ -1,0 +1,527 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+
+/*
+Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+*/
+
+HEADER
+{
+	VERSION = 1;
+	TIME_UNIT = ns;
+	DATA_OFFSET = 0.0;
+	DATA_DURATION = 100000.0;
+	SIMULATION_TIME = 0.0;
+	GRID_PHASE = 0.0;
+	GRID_PERIOD = 250.0;
+	GRID_DUTY_CYCLE = 50;
+}
+
+SIGNAL("External_Osc_div_10")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("External_Oscilator")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("W_Limit_Neg")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("W_Limit_Pos")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("X_Limit_Neg")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("X_Limit_Pos")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Y_Limit_Neg")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Y_Limit_Pos")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Z_Limit_Neg")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("Z_Limit_Pos")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("SSC")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("SSD")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("Clear")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("load")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+TRANSITION_LIST("External_Osc_div_10")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 100000.0;
+	}
+}
+
+TRANSITION_LIST("External_Oscilator")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 5000;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+		}
+	}
+}
+
+TRANSITION_LIST("W_Limit_Neg")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 6750.0;
+		LEVEL 1 FOR 7250.0;
+		LEVEL L FOR 1000.0;
+		LEVEL 1 FOR 1000.0;
+		LEVEL 0 FOR 8000.0;
+		LEVEL 1 FOR 8000.0;
+		LEVEL 0 FOR 8000.0;
+		LEVEL 1 FOR 24000.0;
+		LEVEL 0 FOR 16000.0;
+		LEVEL 1 FOR 8000.0;
+		LEVEL 0 FOR 8000.0;
+		LEVEL 1 FOR 4000.0;
+	}
+}
+
+TRANSITION_LIST("W_Limit_Pos")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 6750.0;
+		LEVEL 1 FOR 1750.0;
+		LEVEL 0 FOR 31500.0;
+		LEVEL 1 FOR 8000.0;
+		LEVEL 0 FOR 16000.0;
+		LEVEL 1 FOR 8000.0;
+		LEVEL 0 FOR 8000.0;
+		LEVEL 1 FOR 16000.0;
+		LEVEL 0 FOR 4000.0;
+	}
+}
+
+TRANSITION_LIST("X_Limit_Neg")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 6750.0;
+		LEVEL 1 FOR 500.0;
+		LEVEL 0 FOR 750.0;
+		LEVEL 1 FOR 8000.0;
+		LEVEL 0 FOR 16000.0;
+		LEVEL 1 FOR 8000.0;
+		LEVEL 0 FOR 16000.0;
+		LEVEL 1 FOR 24000.0;
+		LEVEL 0 FOR 8000.0;
+		LEVEL 1 FOR 12000.0;
+	}
+}
+
+TRANSITION_LIST("X_Limit_Pos")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 6750.0;
+		LEVEL 1 FOR 500.0;
+		LEVEL 0 FOR 16750.0;
+		LEVEL 1 FOR 8000.0;
+		LEVEL 0 FOR 24000.0;
+		LEVEL 1 FOR 16000.0;
+		LEVEL 0 FOR 16000.0;
+		LEVEL 1 FOR 8000.0;
+		LEVEL 0 FOR 4000.0;
+	}
+}
+
+TRANSITION_LIST("Y_Limit_Neg")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 6750.0;
+		LEVEL 1 FOR 500.0;
+		LEVEL 0 FOR 8750.0;
+		LEVEL 1 FOR 24000.0;
+		LEVEL 0 FOR 16000.0;
+		LEVEL 1 FOR 8000.0;
+		LEVEL 0 FOR 8000.0;
+		LEVEL 1 FOR 28000.0;
+	}
+}
+
+TRANSITION_LIST("Y_Limit_Pos")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 6750.0;
+		LEVEL 1 FOR 500.0;
+		LEVEL 0 FOR 750.0;
+		LEVEL 1 FOR 48000.0;
+		LEVEL 0 FOR 24000.0;
+		LEVEL 1 FOR 16000.0;
+		LEVEL 0 FOR 4000.0;
+	}
+}
+
+TRANSITION_LIST("Z_Limit_Neg")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 1 FOR 8000.0;
+		LEVEL 0 FOR 8000.0;
+		LEVEL 1 FOR 8000.0;
+		LEVEL 0 FOR 16000.0;
+		LEVEL 1 FOR 40000.0;
+		LEVEL 0 FOR 8000.0;
+		LEVEL 1 FOR 12000.0;
+	}
+}
+
+TRANSITION_LIST("Z_Limit_Pos")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL 0 FOR 6750.0;
+		LEVEL 1 FOR 750.0;
+		LEVEL 0 FOR 500.0;
+		LEVEL 1 FOR 8000.0;
+		LEVEL 0 FOR 8000.0;
+		LEVEL 1 FOR 8000.0;
+		LEVEL 0 FOR 16000.0;
+		LEVEL 1 FOR 8000.0;
+		LEVEL 0 FOR 16000.0;
+		LEVEL 1 FOR 16000.0;
+		LEVEL 0 FOR 12000.0;
+	}
+}
+
+TRANSITION_LIST("SSC")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL L FOR 7000.0;
+		LEVEL 0 FOR 50.0;
+		LEVEL 1 FOR 50.0;
+		NODE
+		{
+			REPEAT = 11;
+			LEVEL 0 FOR 50.0;
+			LEVEL 1 FOR 50.0;
+		}
+		LEVEL 0 FOR 35350.0;
+		LEVEL 1 FOR 50.0;
+		NODE
+		{
+			REPEAT = 14;
+			LEVEL 0 FOR 50.0;
+			LEVEL 1 FOR 50.0;
+		}
+		LEVEL 0 FOR 5550.0;
+		LEVEL 1 FOR 50.0;
+		NODE
+		{
+			REPEAT = 494;
+			LEVEL 0 FOR 50.0;
+			LEVEL 1 FOR 50.0;
+		}
+	}
+}
+
+TRANSITION_LIST("SSD")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 100000.0;
+	}
+}
+
+TRANSITION_LIST("Clear")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 100000.0;
+	}
+}
+
+TRANSITION_LIST("load")
+{
+	NODE
+	{
+		REPEAT = 1;
+		LEVEL X FOR 100000.0;
+	}
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "External_Oscilator";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 0;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "External_Osc_div_10";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 1;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "X_Limit_Pos";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 2;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "X_Limit_Neg";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 3;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Y_Limit_Pos";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 4;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Y_Limit_Neg";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 5;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Z_Limit_Pos";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 6;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Z_Limit_Neg";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 7;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "W_Limit_Pos";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 8;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "W_Limit_Neg";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 9;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "SSC";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 10;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "SSD";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 11;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Clear";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 12;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "load";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 13;
+	TREE_LEVEL = 0;
+}
+
+TIME_BAR
+{
+	TIME = 0;
+	MASTER = TRUE;
+}
+;
