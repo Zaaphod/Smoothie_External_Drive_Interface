@@ -5,10 +5,13 @@
 *.eqn
 *.pin
 *.sof
-*.pof
 *.summary
 *.done
 *.smsg
 *.qws
 *.jdi
+*.sft
+*.vo
+*.xrf
+*.sdo
 *db
