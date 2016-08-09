@@ -93,7 +93,6 @@ set_location_assignment PIN_30 -to Z_Power
 set_location_assignment PIN_61 -to W_Power
 set_location_assignment PIN_83 -to W_Spindlerun
 set_location_assignment PIN_20 -to Z_Spindlerun
-set_location_assignment PIN_1 -to Oscilator
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Z_Step
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Oscilator
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Enable
@@ -144,7 +143,6 @@ set_location_assignment PIN_34 -to ZW_Pwr
 set_location_assignment PIN_92 -to ZW_Power
 set_global_assignment -name CDF_FILE output_files/Chain3.cdf
 set_location_assignment PIN_12 -to External_Oscilator
-set_location_assignment PIN_17 -to External_Oscilator_Out
 set_global_assignment -name CDF_FILE output_files/Chain4.cdf
 set_global_assignment -name CDF_FILE output_files/Chain8.cdf
 set_global_assignment -name CDF_FILE output_files/Chain9.cdf
@@ -204,3 +202,7 @@ set_location_assignment PIN_19 -to GND_25b
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GND_19b
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GND_18b
 set_global_assignment -name VECTOR_WAVEFORM_FILE Test_SSI.vwf
+set_location_assignment PIN_1 -to load
+set_location_assignment PIN_17 -to Clear
+set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to SSC
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to SSC
