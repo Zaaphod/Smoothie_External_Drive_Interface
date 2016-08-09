@@ -206,3 +206,6 @@ set_location_assignment PIN_1 -to load
 set_location_assignment PIN_17 -to Clear
 set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to SSC
 set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to SSC
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to External_Osc_div_10
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Clear
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to load
