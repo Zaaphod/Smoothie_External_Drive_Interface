@@ -6005,7 +6005,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 1080 264 1200 376)
+	(rect 1080 272 1200 384)
 	(text "7493" (rect 45 1 96 19)(font "Arial" (font_size 10)))
 	(text "inst22" (rect 3 101 52 115)(font "Arial" ))
 	(port
@@ -6073,7 +6073,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 1080 408 1200 520)
+	(rect 1080 416 1200 528)
 	(text "7493" (rect 45 1 96 19)(font "Arial" (font_size 10)))
 	(text "inst24" (rect 3 101 52 115)(font "Arial" ))
 	(port
@@ -6141,7 +6141,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 1256 320 1320 432)
+	(rect 1264 328 1328 440)
 	(text "AND6" (rect 1 0 34 11)(font "Arial" (font_size 6)))
 	(text "inst4" (rect 3 101 44 115)(font "Arial" ))
 	(port
@@ -8205,10 +8205,6 @@ agreement for further details.
 	(pt 1152 248)
 )
 (connector
-	(pt 1416 152)
-	(pt 1416 216)
-)
-(connector
 	(pt 1960 112)
 	(pt 1960 144)
 )
@@ -8873,48 +8869,8 @@ agreement for further details.
 	(pt 1328 456)
 )
 (connector
-	(pt 1040 256)
-	(pt 1208 256)
-)
-(connector
-	(pt 1040 256)
-	(pt 1040 352)
-)
-(connector
-	(pt 1208 256)
-	(pt 1208 288)
-)
-(connector
 	(pt 1016 88)
 	(pt 1016 216)
-)
-(connector
-	(pt 1016 216)
-	(pt 1016 336)
-)
-(connector
-	(pt 1064 288)
-	(pt 1080 288)
-)
-(connector
-	(pt 1064 304)
-	(pt 1080 304)
-)
-(connector
-	(pt 1016 336)
-	(pt 1080 336)
-)
-(connector
-	(pt 1040 352)
-	(pt 1080 352)
-)
-(connector
-	(pt 1208 336)
-	(pt 1208 384)
-)
-(connector
-	(pt 1200 336)
-	(pt 1208 336)
 )
 (connector
 	(pt 1656 752)
@@ -9089,136 +9045,192 @@ agreement for further details.
 	(pt 1328 536)
 )
 (connector
-	(pt 1064 432)
-	(pt 1080 432)
-)
-(connector
-	(pt 1064 448)
-	(pt 1080 448)
-)
-(connector
-	(pt 1024 384)
-	(pt 1024 480)
-)
-(connector
-	(pt 1080 480)
-	(pt 1024 480)
-)
-(connector
-	(pt 1064 288)
-	(pt 1064 304)
-)
-(connector
-	(pt 1064 304)
-	(pt 1064 432)
-)
-(connector
-	(pt 1064 448)
-	(pt 1064 536)
-)
-(connector
 	(pt 1064 536)
 	(pt 1216 536)
 )
 (connector
-	(pt 1064 432)
-	(pt 1064 448)
-)
-(connector
-	(pt 1256 336)
-	(pt 1248 336)
-)
-(connector
-	(pt 1248 288)
-	(pt 1248 336)
-)
-(connector
-	(pt 1200 288)
-	(pt 1208 288)
-)
-(connector
 	(pt 1208 288)
 	(pt 1248 288)
 )
 (connector
-	(pt 1200 304)
-	(pt 1240 304)
+	(pt 1064 440)
+	(pt 1080 440)
 )
 (connector
-	(pt 1240 304)
-	(pt 1240 352)
+	(pt 1064 456)
+	(pt 1080 456)
 )
 (connector
-	(pt 1240 352)
-	(pt 1256 352)
+	(pt 1024 488)
+	(pt 1080 488)
 )
 (connector
-	(pt 1256 368)
-	(pt 1224 368)
+	(pt 1208 440)
+	(pt 1200 440)
 )
 (connector
-	(pt 1224 368)
-	(pt 1224 320)
+	(pt 1216 456)
+	(pt 1200 456)
 )
 (connector
-	(pt 1224 320)
-	(pt 1200 320)
+	(pt 1048 504)
+	(pt 1080 504)
 )
 (connector
-	(pt 1024 384)
-	(pt 1208 384)
+	(pt 1064 440)
+	(pt 1064 456)
 )
 (connector
-	(pt 1208 384)
-	(pt 1256 384)
+	(pt 1064 456)
+	(pt 1064 536)
 )
 (connector
-	(pt 1208 400)
-	(pt 1208 432)
+	(pt 1248 344)
+	(pt 1264 344)
 )
 (connector
-	(pt 1208 432)
-	(pt 1200 432)
+	(pt 1248 288)
+	(pt 1248 344)
 )
 (connector
-	(pt 1200 448)
-	(pt 1216 448)
+	(pt 1240 360)
+	(pt 1264 360)
 )
 (connector
-	(pt 1216 448)
-	(pt 1216 416)
+	(pt 1224 376)
+	(pt 1264 376)
 )
 (connector
-	(pt 1080 496)
-	(pt 1048 496)
+	(pt 1392 384)
+	(pt 1328 384)
 )
 (connector
-	(pt 1048 496)
-	(pt 1048 400)
+	(pt 1216 424)
+	(pt 1264 424)
 )
 (connector
-	(pt 1048 400)
-	(pt 1208 400)
-)
-(connector
-	(pt 1208 400)
-	(pt 1256 400)
-)
-(connector
-	(pt 1216 416)
-	(pt 1256 416)
-)
-(connector
-	(pt 1392 376)
-	(pt 1320 376)
+	(pt 1216 456)
+	(pt 1216 424)
 )
 (connector
 	(pt 1392 336)
-	(pt 1392 376)
+	(pt 1392 384)
 )
 (connector
-	(pt 1392 376)
+	(pt 1392 384)
 	(pt 1392 488)
+)
+(connector
+	(pt 1208 408)
+	(pt 1208 440)
+)
+(connector
+	(pt 1048 504)
+	(pt 1048 408)
+)
+(connector
+	(pt 1048 408)
+	(pt 1208 408)
+)
+(connector
+	(pt 1208 408)
+	(pt 1264 408)
+)
+(connector
+	(pt 1024 488)
+	(pt 1024 392)
+)
+(connector
+	(pt 1064 296)
+	(pt 1080 296)
+)
+(connector
+	(pt 1064 312)
+	(pt 1080 312)
+)
+(connector
+	(pt 1040 360)
+	(pt 1080 360)
+)
+(connector
+	(pt 1208 344)
+	(pt 1200 344)
+)
+(connector
+	(pt 1208 296)
+	(pt 1200 296)
+)
+(connector
+	(pt 1240 312)
+	(pt 1200 312)
+)
+(connector
+	(pt 1224 328)
+	(pt 1200 328)
+)
+(connector
+	(pt 1240 360)
+	(pt 1240 312)
+)
+(connector
+	(pt 1224 376)
+	(pt 1224 328)
+)
+(connector
+	(pt 1208 392)
+	(pt 1208 344)
+)
+(connector
+	(pt 1064 312)
+	(pt 1064 440)
+)
+(connector
+	(pt 1064 296)
+	(pt 1064 312)
+)
+(connector
+	(pt 1024 392)
+	(pt 1208 392)
+)
+(connector
+	(pt 1208 392)
+	(pt 1264 392)
+)
+(connector
+	(pt 1040 264)
+	(pt 1208 264)
+)
+(connector
+	(pt 1040 360)
+	(pt 1040 264)
+)
+(connector
+	(pt 1208 264)
+	(pt 1208 288)
+)
+(connector
+	(pt 1208 288)
+	(pt 1208 296)
+)
+(connector
+	(pt 1416 152)
+	(pt 1416 216)
+)
+(connector
+	(pt 1416 216)
+	(pt 1416 256)
+)
+(connector
+	(pt 1016 256)
+	(pt 1416 256)
+)
+(connector
+	(pt 1016 256)
+	(pt 1016 344)
+)
+(connector
+	(pt 1016 344)
+	(pt 1080 344)
 )
 (junction (pt 640 936))
 (junction (pt 640 1128))
@@ -9330,20 +9342,20 @@ agreement for further details.
 (junction (pt 1720 928))
 (junction (pt 1720 752))
 (junction (pt 1624 416))
-(junction (pt 1016 216))
 (junction (pt 1216 560))
 (junction (pt 1216 536))
-(junction (pt 1064 304))
-(junction (pt 1064 432))
-(junction (pt 1064 448))
 (junction (pt 1208 288))
-(junction (pt 1208 384))
-(junction (pt 1208 400))
-(junction (pt 1392 376))
+(junction (pt 1064 440))
+(junction (pt 1064 456))
+(junction (pt 1392 384))
+(junction (pt 1208 408))
+(junction (pt 1208 392))
+(junction (pt 1064 312))
+(junction (pt 1416 216))
 (title_block
 	(rect 1632 1672 2000 1792)
 	(section (rect 0 24 368 48)(text "COMPANY" (rect 2 0 59 14)(font "Arial" ))(text "Production Automation" (rect 56 2 402 23)(font "Arial" (font_size 12)))(border))
-	(section (rect 0 96 240 120)(text "DATE" (rect 2 0 35 14)(font "Arial" ))(text "Sun Aug 07 17:55:08 2016" (rect 56 3 367 21)(font "Arial" (font_size 10)))(date)(border))
+	(section (rect 0 96 240 120)(text "DATE" (rect 2 0 35 14)(font "Arial" ))(text "Tue Aug 09 07:05:59 2016" (rect 56 3 367 21)(font "Arial" (font_size 10)))(date)(border))
 	(section (rect 0 48 368 72)(text "DESIGNER" (rect 2 0 68 14)(font "Arial" ))(text "James Richters" (rect 56 2 287 23)(font "Arial" (font_size 12)))(border))
 	(section (rect 0 72 280 96)(text "NUMBER" (rect 2 0 51 14)(font "Arial" ))(text "1.00" (rect 56 1 107 19)(font "Arial" (font_size 10)))(border))
 	(section (rect 310 96 368 120)(text "OF" (rect 10 0 26 14)(font "Arial" ))(text "1" (rect 34 4 46 22)(font "Arial" (font_size 10))))
