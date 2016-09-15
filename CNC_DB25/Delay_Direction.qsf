@@ -94,15 +94,15 @@ set_location_assignment PIN_61 -to W_Power
 set_location_assignment PIN_83 -to W_Spindlerun
 set_location_assignment PIN_20 -to Z_Spindlerun
 set_location_assignment PIN_1 -to Oscilator
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Z_Step
+set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to Z_Step
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Oscilator
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Enable
+set_instance_assignment -name IO_STANDARD "2.5V SCHMITT TRIGGER INPUT" -to Enable
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to W_Dir_Delay_Neg
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to W_Dir_Delay_Pos
 set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to W_Limit_Neg
 set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to W_Limit_Pos
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to W_Power
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to W_Select
+set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to W_Select
 set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to W_Spindlerun
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to W_Step_Neg
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to W_Step_Pos
@@ -112,33 +112,33 @@ set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to X_Lim
 set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to X_Limit_Pos
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to X_Neg_Limit
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to X_Pos_Limit
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to X_Step
+set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to X_Step
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to X_Step_Neg
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to X_Step_Pos
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Y_Dir_Delay_Neg
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Y_Dir_Delay_Pos
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Y_Direction
+set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to Y_Direction
 set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to Y_Limit_Neg
 set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to Y_Limit_Pos
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Y_Neg_Limit
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Y_Pos_Limit
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Y_Step
+set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to Y_Step
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Y_Step_Neg
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Y_Step_Pos
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Z_Dir_Delay_Neg
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Z_Dir_Delay_Pos
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Z_Direction
+set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to Z_Direction
 set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to Z_Limit_Neg
 set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to Z_Limit_Pos
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Z_Power
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Z_Select
+set_instance_assignment -name IO_STANDARD "2.5V SCHMITT TRIGGER INPUT" -to Z_Select
 set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to Z_Spindlerun
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Z_Step_Neg
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Z_Step_Pos
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ZW_Limit_Neg
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ZW_Limit_Pos
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ZW_Running
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to X_Direction
+set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to X_Direction
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "NO HEAT SINK WITH STILL AIR"
 set_location_assignment PIN_34 -to ZW_Pwr
 set_location_assignment PIN_92 -to ZW_Power
@@ -177,7 +177,7 @@ set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to W_Limit_Neg
 set_instance_assignment -name SLOW_SLEW_RATE ON -to W_Limit_Neg
 set_instance_assignment -name SLOW_SLEW_RATE ON -to Z_Spindlerun
 set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to Z_Spindlerun
-set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to W_Spindlerun
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to W_Spindlerun
 set_instance_assignment -name SLOW_SLEW_RATE ON -to W_Spindlerun
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Internal_Oscilator_Out
 set_global_assignment -name CDF_FILE output_files/Chain14.cdf
@@ -204,3 +204,23 @@ set_location_assignment PIN_19 -to GND_25b
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GND_19b
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GND_18b
 set_global_assignment -name VECTOR_WAVEFORM_FILE Test_SSI.vwf
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to External_Osc_div_10
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Clear
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to load
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to Z_Step
+set_instance_assignment -name SLOW_SLEW_RATE ON -to Z_Step
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to Y_Step
+set_instance_assignment -name SLOW_SLEW_RATE ON -to Y_Step
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to X_Direction
+set_instance_assignment -name SLOW_SLEW_RATE ON -to X_Direction
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to Enable
+set_instance_assignment -name SLOW_SLEW_RATE ON -to Enable
+set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to ZW_Power
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to External_Oscilator
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to SSC
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to W_Select
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to X_Step
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to Y_Direction
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to ZW_Power
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to Z_Direction
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to Z_Select
