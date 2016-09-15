@@ -204,3 +204,7 @@ set_location_assignment PIN_19 -to GND_25b
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GND_19b
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GND_18b
 set_global_assignment -name VECTOR_WAVEFORM_FILE Test_SSI.vwf
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to load
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to External_Osc_div_10
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Clear
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ZW_Pwr_Inv
