@@ -841,7 +841,7 @@ agreement for further details.
 )
 (pin
 	(output)
-	(rect 80 376 332 392)
+	(rect 80 152 332 168)
 	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
 	(text "External_Osc_div_10" (rect 90 0 246 14)(font "Arial" ))
 	(pt 0 8)
@@ -5379,7 +5379,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 1032 112 1136 240)
+	(rect 240 280 344 408)
 	(text "74290" (rect 36 0 100 18)(font "Arial" (font_size 10)))
 	(text "Osc_Div_10" (rect 3 117 85 131)(font "Arial" ))
 	(port
@@ -7125,10 +7125,6 @@ agreement for further details.
 	(pt 136 656)
 )
 (connector
-	(pt 368 552)
-	(pt 368 408)
-)
-(connector
 	(pt 80 456)
 	(pt 72 456)
 )
@@ -7139,18 +7135,6 @@ agreement for further details.
 (connector
 	(pt 72 456)
 	(pt 72 584)
-)
-(connector
-	(pt 368 408)
-	(pt 72 408)
-)
-(connector
-	(pt 72 384)
-	(pt 80 384)
-)
-(connector
-	(pt 72 408)
-	(pt 72 384)
 )
 (connector
 	(pt 536 1448)
@@ -7825,14 +7809,6 @@ agreement for further details.
 	(pt 216 624)
 )
 (connector
-	(pt 352 552)
-	(pt 368 552)
-)
-(connector
-	(pt 368 552)
-	(pt 384 552)
-)
-(connector
 	(pt 368 1640)
 	(pt 368 1656)
 )
@@ -7923,18 +7899,6 @@ agreement for further details.
 (connector
 	(pt 384 88)
 	(pt 384 264)
-)
-(connector
-	(pt 384 264)
-	(pt 384 456)
-)
-(connector
-	(pt 384 456)
-	(pt 384 552)
-)
-(connector
-	(pt 384 552)
-	(pt 384 648)
 )
 (connector
 	(pt 384 648)
@@ -8061,26 +8025,6 @@ agreement for further details.
 	(pt 1144 56)
 )
 (connector
-	(pt 1136 200)
-	(pt 1144 200)
-)
-(connector
-	(pt 1144 200)
-	(pt 1144 248)
-)
-(connector
-	(pt 1024 200)
-	(pt 1032 200)
-)
-(connector
-	(pt 1024 248)
-	(pt 1144 248)
-)
-(connector
-	(pt 1072 56)
-	(pt 1072 88)
-)
-(connector
 	(pt 1288 152)
 	(pt 1272 152)
 )
@@ -8091,10 +8035,6 @@ agreement for further details.
 (connector
 	(pt 1160 216)
 	(pt 1168 216)
-)
-(connector
-	(pt 1032 216)
-	(pt 1016 216)
 )
 (connector
 	(pt 1152 248)
@@ -8221,10 +8161,6 @@ agreement for further details.
 	(pt 1560 248)
 )
 (connector
-	(pt 1024 200)
-	(pt 1024 248)
-)
-(connector
 	(pt 1376 56)
 	(pt 1376 96)
 )
@@ -8233,24 +8169,12 @@ agreement for further details.
 	(pt 1680 88)
 )
 (connector
-	(pt 856 88)
-	(pt 1016 88)
-)
-(connector
-	(pt 1016 88)
-	(pt 1072 88)
-)
-(connector
 	(pt 1552 152)
 	(pt 1552 216)
 )
 (connector
 	(pt 1968 88)
 	(pt 1968 160)
-)
-(connector
-	(pt 1136 152)
-	(pt 1160 152)
 )
 (connector
 	(pt 1288 152)
@@ -8869,10 +8793,6 @@ agreement for further details.
 	(pt 1328 456)
 )
 (connector
-	(pt 1016 88)
-	(pt 1016 216)
-)
-(connector
 	(pt 1656 752)
 	(pt 1656 384)
 )
@@ -9232,6 +9152,98 @@ agreement for further details.
 	(pt 1016 344)
 	(pt 1080 344)
 )
+(connector
+	(pt 856 88)
+	(pt 1072 88)
+)
+(connector
+	(pt 368 184)
+	(pt 72 184)
+)
+(connector
+	(pt 72 160)
+	(pt 80 160)
+)
+(connector
+	(pt 72 184)
+	(pt 72 160)
+)
+(connector
+	(pt 344 368)
+	(pt 352 368)
+)
+(connector
+	(pt 352 368)
+	(pt 352 416)
+)
+(connector
+	(pt 232 368)
+	(pt 240 368)
+)
+(connector
+	(pt 232 416)
+	(pt 352 416)
+)
+(connector
+	(pt 240 384)
+	(pt 224 384)
+)
+(connector
+	(pt 232 368)
+	(pt 232 416)
+)
+(connector
+	(pt 384 456)
+	(pt 384 648)
+)
+(connector
+	(pt 384 264)
+	(pt 384 320)
+)
+(connector
+	(pt 384 320)
+	(pt 384 456)
+)
+(connector
+	(pt 368 320)
+	(pt 368 184)
+)
+(connector
+	(pt 344 320)
+	(pt 368 320)
+)
+(connector
+	(pt 368 320)
+	(pt 384 320)
+)
+(connector
+	(pt 224 384)
+	(pt 224 432)
+)
+(connector
+	(pt 224 432)
+	(pt 368 432)
+)
+(connector
+	(pt 368 432)
+	(pt 368 552)
+)
+(connector
+	(pt 368 552)
+	(pt 352 552)
+)
+(connector
+	(pt 1160 152)
+	(pt 1072 152)
+)
+(connector
+	(pt 1072 56)
+	(pt 1072 88)
+)
+(connector
+	(pt 1072 88)
+	(pt 1072 152)
+)
 (junction (pt 640 936))
 (junction (pt 640 1128))
 (junction (pt 640 1320))
@@ -9301,7 +9313,6 @@ agreement for further details.
 (junction (pt 864 168))
 (junction (pt 632 168))
 (junction (pt 216 616))
-(junction (pt 368 552))
 (junction (pt 368 1656))
 (junction (pt 600 1696))
 (junction (pt 392 1512))
@@ -9315,7 +9326,6 @@ agreement for further details.
 (junction (pt 392 168))
 (junction (pt 384 264))
 (junction (pt 384 456))
-(junction (pt 384 552))
 (junction (pt 384 648))
 (junction (pt 384 840))
 (junction (pt 384 1032))
@@ -9327,7 +9337,6 @@ agreement for further details.
 (junction (pt 1096 1368))
 (junction (pt 1096 1336))
 (junction (pt 856 88))
-(junction (pt 1016 88))
 (junction (pt 1824 112))
 (junction (pt 1656 752))
 (junction (pt 1664 864))
@@ -9352,10 +9361,13 @@ agreement for further details.
 (junction (pt 1208 392))
 (junction (pt 1064 312))
 (junction (pt 1416 216))
+(junction (pt 384 320))
+(junction (pt 368 320))
+(junction (pt 1072 88))
 (title_block
 	(rect 1632 1672 2000 1792)
 	(section (rect 0 24 368 48)(text "COMPANY" (rect 2 0 59 14)(font "Arial" ))(text "Production Automation" (rect 56 2 402 23)(font "Arial" (font_size 12)))(border))
-	(section (rect 0 96 240 120)(text "DATE" (rect 2 0 35 14)(font "Arial" ))(text "Tue Aug 09 07:05:59 2016" (rect 56 3 367 21)(font "Arial" (font_size 10)))(date)(border))
+	(section (rect 0 96 240 120)(text "DATE" (rect 2 0 35 14)(font "Arial" ))(text "Sat Aug 20 15:32:00 2016" (rect 56 3 367 21)(font "Arial" (font_size 10)))(date)(border))
 	(section (rect 0 48 368 72)(text "DESIGNER" (rect 2 0 68 14)(font "Arial" ))(text "James Richters" (rect 56 2 287 23)(font "Arial" (font_size 12)))(border))
 	(section (rect 0 72 280 96)(text "NUMBER" (rect 2 0 51 14)(font "Arial" ))(text "1.00" (rect 56 1 107 19)(font "Arial" (font_size 10)))(border))
 	(section (rect 310 96 368 120)(text "OF" (rect 10 0 26 14)(font "Arial" ))(text "1" (rect 34 4 46 22)(font "Arial" (font_size 10))))

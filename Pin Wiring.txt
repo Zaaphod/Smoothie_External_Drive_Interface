@@ -1,4 +1,4 @@
-Wiring for EPM570T100C5 Board#1
+        Wiring for EPM570T100C5 Board#1
 *Note Pins 37 and 89 are  Ground  on EPM570 and cannot be programmed
 *Note Pins 39 and 87 are 3.3Volts on EPM570 and cannot be programmed
 
@@ -40,8 +40,8 @@ GND - Ground Connection
 LED1- On Board LED1 - Power Indicator01
 LED2- On Board LED2 - Set to OSC/4000000 - blink led to show CPLD is working
 LED3- On Board LED3 - Set to OSC/2000000 - blink led to show CPLD is working
-SSC - Synchronous Serial Clock
-SSD - Synchronous Serial Data
+SSC - Synchronous Serial Clock - DTR
+SSD - Synchronous Serial Data  - DSR
 XOSC- External Crystal Oscillator Monitor (50MHz)
 OSC - Oscillator Used by Shift Registers
 SG  - Smoothie Ground
