@@ -215,7 +215,7 @@ set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to ZW_Po
 set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to External_Oscilator
 set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to SSC
 set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to W_Select
-set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to X_Step
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to X_Step
 set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to Y_Direction
 set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to ZW_Power
 set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to Z_Direction
@@ -232,3 +232,9 @@ set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to SA2
 set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to SSC
 set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to SA1
 set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to SA2
+set_instance_assignment -name SLOW_SLEW_RATE ON -to X_Step
+set_instance_assignment -name SLOW_SLEW_RATE ON -to Y_Direction
+set_instance_assignment -name SLOW_SLEW_RATE ON -to W_Select
+set_instance_assignment -name SLOW_SLEW_RATE ON -to Z_Select
+set_instance_assignment -name SLOW_SLEW_RATE ON -to ZW_Power
+set_instance_assignment -name SLOW_SLEW_RATE ON -to Z_Direction
