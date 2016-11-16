@@ -16734,10 +16734,6 @@ agreement for further details.
 	(pt 2152 248)
 )
 (connector
-	(pt 2296 152)
-	(pt 2296 216)
-)
-(connector
 	(pt 1040 -200)
 	(pt 1072 -200)
 )
@@ -16762,16 +16758,8 @@ agreement for further details.
 	(pt 2456 472)
 )
 (connector
-	(pt 2160 256)
-	(pt 2808 256)
-)
-(connector
 	(pt 2160 152)
 	(pt 2160 216)
-)
-(connector
-	(pt 2160 216)
-	(pt 2160 256)
 )
 (connector
 	(pt 3856 1552)
@@ -16844,6 +16832,18 @@ agreement for further details.
 (connector
 	(pt 3648 1672)
 	(pt 4008 1672)
+)
+(connector
+	(pt 2296 256)
+	(pt 2808 256)
+)
+(connector
+	(pt 2296 152)
+	(pt 2296 216)
+)
+(connector
+	(pt 2296 216)
+	(pt 2296 256)
 )
 (junction (pt 640 936))
 (junction (pt 640 1128))
@@ -17091,12 +17091,12 @@ agreement for further details.
 (junction (pt 1856 184))
 (junction (pt 1344 -8))
 (junction (pt 2288 472))
-(junction (pt 2160 216))
 (junction (pt 4000 1608))
+(junction (pt 2296 216))
 (title_block
 	(rect 3536 1736 3904 1856)
 	(section (rect 0 24 368 48)(text "COMPANY" (rect 2 0 59 14)(font "Arial" ))(text "Production Automation" (rect 56 2 402 23)(font "Arial" (font_size 12)))(border))
-	(section (rect 0 96 240 120)(text "DATE" (rect 2 0 35 14)(font "Arial" ))(text "Tue Nov 01 07:38:49 2016" (rect 56 3 367 21)(font "Arial" (font_size 10)))(date)(border))
+	(section (rect 0 96 240 120)(text "DATE" (rect 2 0 35 14)(font "Arial" ))(text "Mon Nov 07 14:48:18 2016" (rect 56 3 367 21)(font "Arial" (font_size 10)))(date)(border))
 	(section (rect 0 48 368 72)(text "DESIGNER" (rect 2 0 68 14)(font "Arial" ))(text "James Richters" (rect 56 2 287 23)(font "Arial" (font_size 12)))(border))
 	(section (rect 0 72 280 96)(text "NUMBER" (rect 2 0 51 14)(font "Arial" ))(text "1.00" (rect 56 1 107 19)(font "Arial" (font_size 10)))(border))
 	(section (rect 310 96 368 120)(text "OF" (rect 10 0 26 14)(font "Arial" ))(text "1" (rect 34 4 46 22)(font "Arial" (font_size 10))))
