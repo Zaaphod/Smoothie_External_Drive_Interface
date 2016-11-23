@@ -76,7 +76,7 @@ agreement for further details.
 )
 (pin
 	(input)
-	(rect 2904 672 3072 688)
+	(rect 2736 672 2904 688)
 	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
 	(text "Enable" (rect 5 0 54 14)(font "Arial" ))
 	(pt 168 8)
@@ -89,11 +89,11 @@ agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 152 18)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect 2904 648 2984 672))
+	(annotation_block (location)(rect 2736 648 2816 672))
 )
 (pin
 	(input)
-	(rect 2912 1096 3080 1112)
+	(rect 2744 1096 2912 1112)
 	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
 	(text "Z_Select" (rect 5 0 71 14)(font "Arial" ))
 	(pt 168 8)
@@ -106,11 +106,11 @@ agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 152 18)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect 2912 1072 2984 1096))
+	(annotation_block (location)(rect 2744 1072 2816 1096))
 )
 (pin
 	(input)
-	(rect 2912 1296 3080 1312)
+	(rect 2744 1296 2912 1312)
 	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
 	(text "W_Select" (rect 5 0 71 14)(font "Arial" ))
 	(pt 168 8)
@@ -123,11 +123,11 @@ agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 152 18)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect 3128 1296 3200 1320))
+	(annotation_block (location)(rect 2960 1296 3032 1320))
 )
 (pin
 	(input)
-	(rect 3400 736 3584 752)
+	(rect 3232 736 3416 752)
 	(text "INPUT" (rect 141 0 182 11)(font "Arial" (font_size 6)))
 	(text "X_Limit_Pos" (rect 5 0 95 14)(font "Arial" ))
 	(pt 184 8)
@@ -140,11 +140,11 @@ agreement for further details.
 		(line (pt 125 12)(pt 129 8))
 	)
 	(text "VCC" (rect 144 7 168 18)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect 3400 752 3472 776))
+	(annotation_block (location)(rect 3232 752 3304 776))
 )
 (pin
 	(input)
-	(rect 3400 832 3592 848)
+	(rect 3232 832 3424 848)
 	(text "INPUT" (rect 149 0 190 11)(font "Arial" (font_size 6)))
 	(text "X_Limit_Neg" (rect 5 0 95 14)(font "Arial" ))
 	(pt 192 8)
@@ -157,11 +157,11 @@ agreement for further details.
 		(line (pt 133 12)(pt 137 8))
 	)
 	(text "VCC" (rect 152 7 176 18)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect 3520 848 3592 872))
+	(annotation_block (location)(rect 3352 848 3424 872))
 )
 (pin
 	(input)
-	(rect 3416 1088 3600 1104)
+	(rect 3248 1088 3432 1104)
 	(text "INPUT" (rect 141 0 182 11)(font "Arial" (font_size 6)))
 	(text "Z_Limit_Pos" (rect 5 0 95 14)(font "Arial" ))
 	(pt 184 8)
@@ -174,11 +174,11 @@ agreement for further details.
 		(line (pt 125 12)(pt 129 8))
 	)
 	(text "VCC" (rect 144 7 168 18)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect 3416 1064 3488 1088))
+	(annotation_block (location)(rect 3248 1064 3320 1088))
 )
 (pin
 	(input)
-	(rect 3416 1152 3600 1168)
+	(rect 3248 1160 3432 1176)
 	(text "INPUT" (rect 141 0 182 11)(font "Arial" (font_size 6)))
 	(text "W_Limit_Pos" (rect 5 0 95 14)(font "Arial" ))
 	(pt 184 8)
@@ -191,11 +191,11 @@ agreement for further details.
 		(line (pt 125 12)(pt 129 8))
 	)
 	(text "VCC" (rect 144 7 168 18)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect 3528 1168 3600 1192))
+	(annotation_block (location)(rect 3360 1176 3432 1200))
 )
 (pin
 	(input)
-	(rect 3416 1200 3608 1216)
+	(rect 3248 1208 3440 1224)
 	(text "INPUT" (rect 149 0 190 11)(font "Arial" (font_size 6)))
 	(text "Z_Limit_Neg" (rect 5 0 95 14)(font "Arial" ))
 	(pt 192 8)
@@ -208,11 +208,11 @@ agreement for further details.
 		(line (pt 133 12)(pt 137 8))
 	)
 	(text "VCC" (rect 152 7 176 18)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect 3416 1176 3488 1200))
+	(annotation_block (location)(rect 3248 1184 3320 1208))
 )
 (pin
 	(input)
-	(rect 3416 1264 3608 1280)
+	(rect 3248 1264 3440 1280)
 	(text "INPUT" (rect 149 0 190 11)(font "Arial" (font_size 6)))
 	(text "W_Limit_Neg" (rect 5 0 95 14)(font "Arial" ))
 	(pt 192 8)
@@ -225,11 +225,11 @@ agreement for further details.
 		(line (pt 133 12)(pt 137 8))
 	)
 	(text "VCC" (rect 152 7 176 18)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect 3416 1280 3488 1304))
+	(annotation_block (location)(rect 3248 1280 3320 1304))
 )
 (pin
 	(input)
-	(rect 3408 912 3600 928)
+	(rect 3240 912 3432 928)
 	(text "INPUT" (rect 149 0 190 11)(font "Arial" (font_size 6)))
 	(text "Y_Limit_Pos" (rect 5 0 95 14)(font "Arial" ))
 	(pt 192 8)
@@ -242,11 +242,11 @@ agreement for further details.
 		(line (pt 133 12)(pt 137 8))
 	)
 	(text "VCC" (rect 152 7 176 18)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect 3408 928 3480 952))
+	(annotation_block (location)(rect 3240 928 3312 952))
 )
 (pin
 	(input)
-	(rect 3408 1008 3600 1024)
+	(rect 3240 1008 3432 1024)
 	(text "INPUT" (rect 149 0 190 11)(font "Arial" (font_size 6)))
 	(text "Y_Limit_Neg" (rect 5 0 95 14)(font "Arial" ))
 	(pt 192 8)
@@ -259,11 +259,11 @@ agreement for further details.
 		(line (pt 133 12)(pt 137 8))
 	)
 	(text "VCC" (rect 152 7 176 18)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect 3528 1024 3600 1048))
+	(annotation_block (location)(rect 3360 1024 3432 1048))
 )
 (pin
 	(input)
-	(rect 3392 1608 3560 1624)
+	(rect 2048 1592 2216 1608)
 	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
 	(text "ZW_Power" (rect 5 0 71 14)(font "Arial" ))
 	(pt 168 8)
@@ -276,7 +276,7 @@ agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 152 18)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect 3392 1584 3472 1608))
+	(annotation_block (location)(rect 2048 1568 2128 1592))
 )
 (pin
 	(input)
@@ -297,7 +297,7 @@ agreement for further details.
 )
 (pin
 	(input)
-	(rect 3192 160 3360 176)
+	(rect 3024 160 3192 176)
 	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
 	(text "SSC" (rect 5 0 29 14)(font "Arial" ))
 	(pt 168 8)
@@ -310,11 +310,11 @@ agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 152 18)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect 3192 176 3264 200))
+	(annotation_block (location)(rect 3024 176 3096 200))
 )
 (pin
 	(input)
-	(rect 3296 56 3464 72)
+	(rect 1448 1664 1616 1680)
 	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
 	(text "SA2" (rect 5 0 29 14)(font "Arial" ))
 	(pt 168 8)
@@ -327,11 +327,11 @@ agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 152 18)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect 3216 56 3296 80))
+	(annotation_block (location)(rect 1368 1664 1448 1688))
 )
 (pin
 	(input)
-	(rect 3296 32 3464 48)
+	(rect 1448 1640 1616 1656)
 	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
 	(text "SA1" (rect 5 0 29 14)(font "Arial" ))
 	(pt 168 8)
@@ -344,7 +344,7 @@ agreement for further details.
 		(line (pt 109 12)(pt 113 8))
 	)
 	(text "VCC" (rect 128 7 152 18)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect 3216 24 3296 48))
+	(annotation_block (location)(rect 1368 1632 1448 1656))
 )
 (pin
 	(input)
@@ -501,7 +501,7 @@ agreement for further details.
 )
 (pin
 	(output)
-	(rect 2928 824 3106 840)
+	(rect 2760 824 2938 840)
 	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
 	(text "X_Step_Neg" (rect 90 0 172 14)(font "Arial" ))
 	(pt 0 8)
@@ -514,11 +514,11 @@ agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 3120 808 3192 832))
+	(annotation_block (location)(rect 2952 808 3024 832))
 )
 (pin
 	(output)
-	(rect 2928 848 3106 864)
+	(rect 2760 848 2938 864)
 	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
 	(text "X_Step_Pos" (rect 90 0 172 14)(font "Arial" ))
 	(pt 0 8)
@@ -531,11 +531,11 @@ agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 3128 848 3200 872))
+	(annotation_block (location)(rect 2960 848 3032 872))
 )
 (pin
 	(output)
-	(rect 2928 1000 3106 1016)
+	(rect 2760 1000 2938 1016)
 	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
 	(text "Y_Step_Neg" (rect 90 0 172 14)(font "Arial" ))
 	(pt 0 8)
@@ -548,11 +548,11 @@ agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 3120 992 3192 1016))
+	(annotation_block (location)(rect 2952 992 3024 1016))
 )
 (pin
 	(output)
-	(rect 2928 1024 3106 1040)
+	(rect 2760 1024 2938 1040)
 	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
 	(text "Y_Step_Pos" (rect 90 0 172 14)(font "Arial" ))
 	(pt 0 8)
@@ -565,11 +565,11 @@ agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 3128 1024 3200 1048))
+	(annotation_block (location)(rect 2960 1024 3032 1048))
 )
 (pin
 	(output)
-	(rect 2928 1256 3106 1272)
+	(rect 2760 1256 2938 1272)
 	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
 	(text "Z_Step_Pos" (rect 90 0 172 14)(font "Arial" ))
 	(pt 0 8)
@@ -582,11 +582,11 @@ agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 3128 1256 3200 1280))
+	(annotation_block (location)(rect 2960 1256 3032 1280))
 )
 (pin
 	(output)
-	(rect 2928 1232 3106 1248)
+	(rect 2760 1232 2938 1248)
 	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
 	(text "Z_Step_Neg" (rect 90 0 172 14)(font "Arial" ))
 	(pt 0 8)
@@ -599,11 +599,11 @@ agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 3120 1224 3192 1248))
+	(annotation_block (location)(rect 2952 1224 3024 1248))
 )
 (pin
 	(output)
-	(rect 2928 1448 3106 1464)
+	(rect 2760 1448 2938 1464)
 	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
 	(text "W_Step_Neg" (rect 90 0 172 14)(font "Arial" ))
 	(pt 0 8)
@@ -616,11 +616,11 @@ agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 3120 1440 3192 1464))
+	(annotation_block (location)(rect 2952 1440 3024 1464))
 )
 (pin
 	(output)
-	(rect 2928 1472 3106 1488)
+	(rect 2760 1472 2938 1488)
 	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
 	(text "W_Step_Pos" (rect 90 0 172 14)(font "Arial" ))
 	(pt 0 8)
@@ -633,7 +633,7 @@ agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 3128 1472 3200 1496))
+	(annotation_block (location)(rect 2960 1472 3032 1496))
 )
 (pin
 	(output)
@@ -671,7 +671,7 @@ agreement for further details.
 )
 (pin
 	(output)
-	(rect 4008 752 4194 768)
+	(rect 3840 752 4026 768)
 	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
 	(text "X_Pos_Limit" (rect 90 0 180 14)(font "Arial" ))
 	(pt 0 8)
@@ -684,11 +684,11 @@ agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 4200 752 4272 776))
+	(annotation_block (location)(rect 4032 752 4104 776))
 )
 (pin
 	(output)
-	(rect 4008 848 4194 864)
+	(rect 3840 848 4026 864)
 	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
 	(text "X_Neg_Limit" (rect 90 0 180 14)(font "Arial" ))
 	(pt 0 8)
@@ -701,11 +701,11 @@ agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 4200 848 4272 872))
+	(annotation_block (location)(rect 4032 848 4104 872))
 )
 (pin
 	(output)
-	(rect 4024 1120 4219 1136)
+	(rect 3856 1120 4051 1136)
 	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
 	(text "ZW_Limit_Pos" (rect 90 0 189 14)(font "Arial" ))
 	(pt 0 8)
@@ -718,11 +718,11 @@ agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 4224 1120 4296 1144))
+	(annotation_block (location)(rect 4056 1120 4128 1144))
 )
 (pin
 	(output)
-	(rect 4024 1232 4219 1248)
+	(rect 3856 1232 4051 1248)
 	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
 	(text "ZW_Limit_Neg" (rect 90 0 189 14)(font "Arial" ))
 	(pt 0 8)
@@ -735,11 +735,11 @@ agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 4224 1232 4296 1256))
+	(annotation_block (location)(rect 4056 1232 4128 1256))
 )
 (pin
 	(output)
-	(rect 4000 928 4186 944)
+	(rect 3832 928 4018 944)
 	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
 	(text "Y_Pos_Limit" (rect 90 0 180 14)(font "Arial" ))
 	(pt 0 8)
@@ -752,11 +752,11 @@ agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 4200 928 4272 952))
+	(annotation_block (location)(rect 4032 928 4104 952))
 )
 (pin
 	(output)
-	(rect 4000 1024 4186 1040)
+	(rect 3832 1024 4018 1040)
 	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
 	(text "Y_Neg_Limit" (rect 90 0 180 14)(font "Arial" ))
 	(pt 0 8)
@@ -769,11 +769,11 @@ agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 4200 1024 4272 1048))
+	(annotation_block (location)(rect 4032 1024 4104 1048))
 )
 (pin
 	(output)
-	(rect 3656 1568 3832 1584)
+	(rect 2312 1552 2488 1568)
 	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
 	(text "ZW_Pwr" (rect 90 0 139 14)(font "Arial" ))
 	(pt 0 8)
@@ -786,7 +786,7 @@ agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 3840 1568 3920 1592))
+	(annotation_block (location)(rect 2496 1552 2576 1576))
 )
 (pin
 	(output)
@@ -807,7 +807,7 @@ agreement for further details.
 )
 (pin
 	(output)
-	(rect 2120 48 2339 64)
+	(rect 1968 48 2187 64)
 	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
 	(text "Osc_div_4000000" (rect 90 0 213 14)(font "Arial" ))
 	(pt 0 8)
@@ -820,11 +820,11 @@ agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 2120 24 2192 48))
+	(annotation_block (location)(rect 1968 24 2040 48))
 )
 (pin
 	(output)
-	(rect 2936 48 3155 64)
+	(rect 2768 48 2987 64)
 	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
 	(text "Osc_div_2000000" (rect 90 0 213 14)(font "Arial" ))
 	(pt 0 8)
@@ -837,11 +837,11 @@ agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 2936 24 3008 48))
+	(annotation_block (location)(rect 2768 24 2840 48))
 )
 (pin
 	(output)
-	(rect 4040 488 4216 504)
+	(rect 3872 488 4048 504)
 	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
 	(text "SSD" (rect 90 0 114 14)(font "Arial" ))
 	(pt 0 8)
@@ -854,7 +854,7 @@ agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 4144 504 4216 528))
+	(annotation_block (location)(rect 3976 504 4048 528))
 )
 (pin
 	(output)
@@ -1096,7 +1096,7 @@ agreement for further details.
 )
 (pin
 	(output)
-	(rect 3656 1640 3832 1656)
+	(rect 2312 1624 2488 1640)
 	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
 	(text "Z_Power" (rect 90 0 147 14)(font "Arial" ))
 	(pt 0 8)
@@ -1109,11 +1109,11 @@ agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 3840 1640 3912 1664))
+	(annotation_block (location)(rect 2496 1624 2568 1648))
 )
 (pin
 	(output)
-	(rect 3656 1672 3832 1688)
+	(rect 2312 1656 2488 1672)
 	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
 	(text "W_Power" (rect 90 0 147 14)(font "Arial" ))
 	(pt 0 8)
@@ -1126,11 +1126,11 @@ agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 3840 1688 3912 1712))
+	(annotation_block (location)(rect 2496 1672 2568 1696))
 )
 (pin
 	(output)
-	(rect 3648 1608 3826 1624)
+	(rect 2304 1592 2482 1608)
 	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
 	(text "ZW_Pwr_Inv" (rect 90 0 172 14)(font "Arial" ))
 	(pt 0 8)
@@ -1147,7 +1147,7 @@ agreement for further details.
 )
 (pin
 	(output)
-	(rect 3512 56 3688 72)
+	(rect 1664 1664 1840 1680)
 	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
 	(text "Air_2a" (rect 90 0 139 14)(font "Arial" ))
 	(pt 0 8)
@@ -1160,11 +1160,11 @@ agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 3688 48 3760 72))
+	(annotation_block (location)(rect 1840 1656 1912 1680))
 )
 (pin
 	(output)
-	(rect 3512 80 3688 96)
+	(rect 1664 1688 1840 1704)
 	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
 	(text "Air_2b" (rect 90 0 139 14)(font "Arial" ))
 	(pt 0 8)
@@ -1177,11 +1177,11 @@ agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 3688 72 3760 96))
+	(annotation_block (location)(rect 1840 1680 1912 1704))
 )
 (pin
 	(output)
-	(rect 3512 104 3688 120)
+	(rect 1664 1712 1840 1728)
 	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
 	(text "Air_2c" (rect 90 0 139 14)(font "Arial" ))
 	(pt 0 8)
@@ -1194,11 +1194,11 @@ agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 3688 96 3760 120))
+	(annotation_block (location)(rect 1840 1704 1912 1728))
 )
 (pin
 	(output)
-	(rect 3512 32 3688 48)
+	(rect 1664 1640 1840 1656)
 	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
 	(text "Air_1" (rect 90 0 131 14)(font "Arial" ))
 	(pt 0 8)
@@ -1211,7 +1211,7 @@ agreement for further details.
 		(line (pt 82 8)(pt 78 12))
 		(line (pt 78 12)(pt 82 8))
 	)
-	(annotation_block (location)(rect 3688 24 3760 48))
+	(annotation_block (location)(rect 1840 1632 1912 1656))
 )
 (symbol
 	(rect 544 1600 592 1632)
@@ -1289,7 +1289,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3048 776 3096 808)
+	(rect 2880 776 2928 808)
 	(text "7404" (rect 1 -1 34 10)(font "Arial" (font_size 6)))
 	(text "XS" (rect 3 20 19 34)(font "Arial" ))
 	(port
@@ -1314,7 +1314,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3048 952 3096 984)
+	(rect 2880 952 2928 984)
 	(text "7404" (rect 1 -1 34 10)(font "Arial" (font_size 6)))
 	(text "YS" (rect 3 20 19 34)(font "Arial" ))
 	(port
@@ -1339,7 +1339,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3048 1184 3096 1216)
+	(rect 2880 1184 2928 1216)
 	(text "7404" (rect 1 -1 34 10)(font "Arial" (font_size 6)))
 	(text "ZS" (rect 3 20 19 34)(font "Arial" ))
 	(port
@@ -1364,7 +1364,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3048 1400 3096 1432)
+	(rect 2880 1400 2928 1432)
 	(text "7404" (rect 1 -1 34 10)(font "Arial" (font_size 6)))
 	(text "WS" (rect 3 20 19 34)(font "Arial" ))
 	(port
@@ -1389,7 +1389,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3080 664 3128 696)
+	(rect 2912 664 2960 696)
 	(text "7404" (rect 1 -1 34 10)(font "Arial" (font_size 6)))
 	(text "E" (rect 3 20 11 34)(font "Arial" ))
 	(port
@@ -1509,7 +1509,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 2976 744 3040 784)
+	(rect 2808 744 2872 784)
 	(text "7411" (rect 1 0 34 11)(font "Arial" (font_size 6)))
 	(text "X" (rect 3 29 11 43)(font "Arial" ))
 	(port
@@ -1549,7 +1549,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 2976 920 3040 960)
+	(rect 2808 920 2872 960)
 	(text "7411" (rect 1 0 34 11)(font "Arial" (font_size 6)))
 	(text "X36" (rect 3 29 27 43)(font "Arial" ))
 	(port
@@ -1589,7 +1589,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 2976 1360 3040 1432)
+	(rect 2808 1360 2872 1432)
 	(text "7421" (rect 1 0 34 11)(font "Arial" (font_size 6)))
 	(text "W" (rect 3 61 11 75)(font "Arial" ))
 	(port
@@ -1636,7 +1636,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 2976 1144 3040 1216)
+	(rect 2808 1144 2872 1216)
 	(text "7421" (rect 1 0 34 11)(font "Arial" (font_size 6)))
 	(text "Z" (rect 3 61 11 75)(font "Arial" ))
 	(port
@@ -1683,7 +1683,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3664 768 3728 808)
+	(rect 3496 768 3560 808)
 	(text "7408" (rect 1 0 34 11)(font "Arial" (font_size 6)))
 	(text "XLP" (rect 3 29 27 43)(font "Arial" ))
 	(port
@@ -1718,7 +1718,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3664 808 3728 848)
+	(rect 3496 808 3560 848)
 	(text "7408" (rect 1 0 34 11)(font "Arial" (font_size 6)))
 	(text "XLN" (rect 3 29 27 43)(font "Arial" ))
 	(port
@@ -1753,7 +1753,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3664 944 3728 984)
+	(rect 3496 944 3560 984)
 	(text "7408" (rect 1 0 34 11)(font "Arial" (font_size 6)))
 	(text "YLP" (rect 3 29 27 43)(font "Arial" ))
 	(port
@@ -1788,7 +1788,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3664 984 3728 1024)
+	(rect 3496 984 3560 1024)
 	(text "7408" (rect 1 0 34 11)(font "Arial" (font_size 6)))
 	(text "YLN" (rect 3 29 27 43)(font "Arial" ))
 	(port
@@ -1823,7 +1823,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3696 1368 3760 1408)
+	(rect 3528 1368 3592 1408)
 	(text "7408" (rect 1 0 34 11)(font "Arial" (font_size 6)))
 	(text "ZNL" (rect 3 29 27 43)(font "Arial" ))
 	(port
@@ -1858,7 +1858,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3696 1328 3760 1368)
+	(rect 3528 1328 3592 1368)
 	(text "7408" (rect 1 0 34 11)(font "Arial" (font_size 6)))
 	(text "ZPL" (rect 3 29 27 43)(font "Arial" ))
 	(port
@@ -1893,7 +1893,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3696 1416 3760 1456)
+	(rect 3528 1416 3592 1456)
 	(text "7408" (rect 1 0 34 11)(font "Arial" (font_size 6)))
 	(text "WPL" (rect 3 29 27 43)(font "Arial" ))
 	(port
@@ -1928,7 +1928,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3696 1456 3760 1496)
+	(rect 3528 1456 3592 1496)
 	(text "7408" (rect 1 0 34 11)(font "Arial" (font_size 6)))
 	(text "WNL" (rect 3 29 27 43)(font "Arial" ))
 	(port
@@ -1980,7 +1980,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3584 1600 3632 1632)
+	(rect 2240 1584 2288 1616)
 	(text "7404" (rect 1 -1 34 10)(font "Arial" (font_size 6)))
 	(text "ZWP" (rect 3 20 27 34)(font "Arial" ))
 	(port
@@ -2005,7 +2005,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3816 784 3880 824)
+	(rect 3648 784 3712 824)
 	(text "7432" (rect 1 0 34 11)(font "Arial" (font_size 6)))
 	(text "XI" (rect 3 29 19 43)(font "Arial" ))
 	(port
@@ -2044,7 +2044,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3816 960 3880 1000)
+	(rect 3648 960 3712 1000)
 	(text "7432" (rect 1 0 34 11)(font "Arial" (font_size 6)))
 	(text "YI" (rect 3 29 19 43)(font "Arial" ))
 	(port
@@ -2083,7 +2083,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3776 1344 3840 1384)
+	(rect 3608 1344 3672 1384)
 	(text "7432" (rect 1 0 34 11)(font "Arial" (font_size 6)))
 	(text "ZI" (rect 3 29 19 43)(font "Arial" ))
 	(port
@@ -2122,7 +2122,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3776 1432 3840 1472)
+	(rect 3608 1432 3672 1472)
 	(text "7432" (rect 1 0 34 11)(font "Arial" (font_size 6)))
 	(text "WI" (rect 3 29 19 43)(font "Arial" ))
 	(port
@@ -2267,7 +2267,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 2176 112 2280 240)
+	(rect 2024 112 2128 240)
 	(text "74290" (rect 36 0 100 18)(font "Arial" (font_size 10)))
 	(text "Osc_Div_1000" (rect 3 117 102 131)(font "Arial" ))
 	(port
@@ -2349,7 +2349,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 2312 112 2416 240)
+	(rect 2160 112 2264 240)
 	(text "74290" (rect 36 0 100 18)(font "Arial" (font_size 10)))
 	(text "Osc_Div_10000" (rect 3 117 110 131)(font "Arial" ))
 	(port
@@ -2431,7 +2431,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 2448 112 2552 240)
+	(rect 2296 112 2400 240)
 	(text "74290" (rect 36 0 100 18)(font "Arial" (font_size 10)))
 	(text "Osc_Div_100000" (rect 3 117 118 131)(font "Arial" ))
 	(port
@@ -2513,7 +2513,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3024 120 3144 232)
+	(rect 2856 120 2976 232)
 	(text "7493" (rect 45 1 96 19)(font "Arial" (font_size 10)))
 	(text "Osc_Div_16000000" (rect 3 101 135 115)(font "Arial" ))
 	(port
@@ -2663,7 +2663,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 2040 112 2144 240)
+	(rect 1888 112 1992 240)
 	(text "74290" (rect 36 0 100 18)(font "Arial" (font_size 10)))
 	(text "Osc_Div_100" (rect 3 117 93 131)(font "Arial" ))
 	(port
@@ -2745,7 +2745,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 2064 40 2112 72)
+	(rect 1912 40 1960 72)
 	(text "7404" (rect 1 -1 34 10)(font "Arial" (font_size 6)))
 	(text "Inv1" (rect 3 20 36 34)(font "Arial" ))
 	(port
@@ -2770,7 +2770,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 2880 40 2928 72)
+	(rect 2712 40 2760 72)
 	(text "7404" (rect 1 -1 34 10)(font "Arial" (font_size 6)))
 	(text "Inv2" (rect 3 20 36 34)(font "Arial" ))
 	(port
@@ -2795,7 +2795,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 2896 112 3000 240)
+	(rect 2728 112 2832 240)
 	(text "74290" (rect 36 0 100 18)(font "Arial" (font_size 10)))
 	(text "Osc_Div_1000000" (rect 3 117 126 131)(font "Arial" ))
 	(port
@@ -2877,7 +2877,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3888 120 4008 360)
+	(rect 3720 120 3840 360)
 	(text "74166" (rect 42 0 106 18)(font "Arial" (font_size 10)))
 	(text "inst9" (rect 3 229 44 243)(font "Arial" ))
 	(port
@@ -2988,7 +2988,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3232 224 3352 384)
+	(rect 3064 224 3184 384)
 	(text "74193" (rect 42 0 106 18)(font "Arial" (font_size 10)))
 	(text "inst14" (rect 3 149 52 163)(font "Arial" ))
 	(port
@@ -3101,7 +3101,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3168 312 3216 344)
+	(rect 3000 312 3048 344)
 	(text "7404" (rect 1 -1 34 10)(font "Arial" (font_size 6)))
 	(text "inst15" (rect 3 20 52 34)(font "Arial" ))
 	(port
@@ -3126,7 +3126,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3840 128 3872 144)
+	(rect 3672 128 3704 144)
 	(text "VCC" (rect 7 0 31 11)(font "Arial" (font_size 6)))
 	(text "inst17" (rect 3 5 52 19)(font "Arial" )(invisible))
 	(port
@@ -3141,7 +3141,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3368 248 3432 320)
+	(rect 3200 248 3264 320)
 	(text "7420" (rect 1 0 34 11)(font "Arial" (font_size 6)))
 	(text "inst20" (rect 3 61 52 75)(font "Arial" ))
 	(port
@@ -3190,7 +3190,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3864 632 3896 664)
+	(rect 3696 632 3728 664)
 	(text "GND" (rect 8 16 32 27)(font "Arial" (font_size 6)))
 	(text "inst21" (rect 3 21 52 35)(font "Arial" )(invisible))
 	(port
@@ -3207,7 +3207,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 2880 272 3000 384)
+	(rect 2712 272 2832 384)
 	(text "7493" (rect 45 1 96 19)(font "Arial" (font_size 10)))
 	(text "inst22" (rect 3 101 52 115)(font "Arial" ))
 	(port
@@ -3275,7 +3275,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 2880 416 3000 528)
+	(rect 2712 416 2832 528)
 	(text "7493" (rect 45 1 96 19)(font "Arial" (font_size 10)))
 	(text "inst24" (rect 3 101 52 115)(font "Arial" ))
 	(port
@@ -3343,7 +3343,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3064 328 3128 440)
+	(rect 2896 328 2960 440)
 	(text "AND6" (rect 1 0 34 11)(font "Arial" (font_size 6)))
 	(text "inst4" (rect 3 101 44 115)(font "Arial" ))
 	(port
@@ -7231,7 +7231,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 2840 1144 2888 1176)
+	(rect 2672 1144 2720 1176)
 	(text "7404" (rect 1 -1 34 10)(font "Arial" (font_size 6)))
 	(text "ZI2" (rect 3 20 27 34)(font "Arial" ))
 	(port
@@ -7256,7 +7256,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 2840 920 2888 952)
+	(rect 2672 920 2720 952)
 	(text "7404" (rect 1 -1 34 10)(font "Arial" (font_size 6)))
 	(text "YI2" (rect 3 20 27 34)(font "Arial" ))
 	(port
@@ -7281,7 +7281,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 2840 744 2888 776)
+	(rect 2672 744 2720 776)
 	(text "7404" (rect 1 -1 34 10)(font "Arial" (font_size 6)))
 	(text "XI2" (rect 3 20 27 34)(font "Arial" ))
 	(port
@@ -7306,7 +7306,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3952 1216 4016 1256)
+	(rect 3784 1216 3848 1256)
 	(text "7402" (rect 1 0 34 11)(font "Arial" (font_size 6)))
 	(text "ZWLN" (rect 3 29 36 43)(font "Arial" ))
 	(port
@@ -7344,7 +7344,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3952 1104 4016 1144)
+	(rect 3784 1104 3848 1144)
 	(text "7402" (rect 1 0 34 11)(font "Arial" (font_size 6)))
 	(text "ZWLP" (rect 3 29 36 43)(font "Arial" ))
 	(port
@@ -7382,7 +7382,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3680 1064 3728 1096)
+	(rect 3512 1080 3560 1112)
 	(text "7404" (rect 1 -1 34 10)(font "Arial" (font_size 6)))
 	(text "ZLPI" (rect 3 20 36 34)(font "Arial" ))
 	(port
@@ -7407,7 +7407,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3672 1152 3720 1184)
+	(rect 3504 1152 3552 1184)
 	(text "7404" (rect 1 -1 34 10)(font "Arial" (font_size 6)))
 	(text "WLPI" (rect 3 20 36 34)(font "Arial" ))
 	(port
@@ -7432,7 +7432,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3672 1184 3720 1216)
+	(rect 3504 1200 3552 1232)
 	(text "7404" (rect 1 -1 34 10)(font "Arial" (font_size 6)))
 	(text "ZLNI" (rect 3 20 36 34)(font "Arial" ))
 	(port
@@ -7457,7 +7457,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3672 1280 3720 1312)
+	(rect 3504 1280 3552 1312)
 	(text "7404" (rect 1 -1 34 10)(font "Arial" (font_size 6)))
 	(text "WLNI" (rect 3 20 36 34)(font "Arial" ))
 	(port
@@ -7482,7 +7482,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3888 376 4008 616)
+	(rect 3720 376 3840 616)
 	(text "74166" (rect 42 0 106 18)(font "Arial" (font_size 10)))
 	(text "inst" (rect 3 229 36 240)(font "Arial" (font_size 6)))
 	(port
@@ -7593,7 +7593,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3152 536 3216 576)
+	(rect 2984 536 3048 576)
 	(text "7408" (rect 1 0 34 11)(font "Arial" (font_size 6)))
 	(text "ZSM" (rect 3 29 27 43)(font "Arial" ))
 	(port
@@ -7628,7 +7628,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3152 592 3216 632)
+	(rect 2984 592 3048 632)
 	(text "7408" (rect 1 0 34 11)(font "Arial" (font_size 6)))
 	(text "WSM" (rect 3 29 27 43)(font "Arial" ))
 	(port
@@ -7663,7 +7663,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 2024 632 2088 856)
+	(rect 1864 552 1928 776)
 	(text "74134" (rect 16 0 80 18)(font "Arial" (font_size 10)))
 	(text "inst1" (rect 3 213 44 227)(font "Arial" ))
 	(port
@@ -7776,7 +7776,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 2032 576 2064 608)
+	(rect 1872 496 1904 528)
 	(text "GND" (rect 8 16 32 27)(font "Arial" (font_size 6)))
 	(text "inst2" (rect 3 21 44 35)(font "Arial" )(invisible))
 	(port
@@ -7793,7 +7793,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3816 912 3880 952)
+	(rect 3648 912 3712 952)
 	(text "7432" (rect 1 0 34 11)(font "Arial" (font_size 6)))
 	(text "XI7" (rect 3 29 27 43)(font "Arial" ))
 	(port
@@ -7832,7 +7832,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3816 1008 3880 1048)
+	(rect 3648 1008 3712 1048)
 	(text "7432" (rect 1 0 34 11)(font "Arial" (font_size 6)))
 	(text "XI8" (rect 3 29 27 43)(font "Arial" ))
 	(port
@@ -7871,7 +7871,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 1816 480 1880 520)
+	(rect 1656 400 1720 440)
 	(text "7408" (rect 1 0 34 11)(font "Arial" (font_size 6)))
 	(text "WSM9" (rect 3 29 36 43)(font "Arial" ))
 	(port
@@ -7906,7 +7906,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 1808 992 1856 1024)
+	(rect 1648 912 1696 944)
 	(text "7404" (rect 1 -1 34 10)(font "Arial" (font_size 6)))
 	(text "E11" (rect 3 20 27 34)(font "Arial" ))
 	(port
@@ -7931,7 +7931,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 1848 568 1952 680)
+	(rect 1688 488 1792 600)
 	(text "74293" (rect 34 0 98 18)(font "Arial" (font_size 10)))
 	(text "inst19" (rect 3 101 52 115)(font "Arial" ))
 	(port
@@ -7999,7 +7999,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 1848 712 1952 824)
+	(rect 1688 632 1792 744)
 	(text "74293" (rect 34 0 98 18)(font "Arial" (font_size 10)))
 	(text "inst23" (rect 3 101 52 115)(font "Arial" ))
 	(port
@@ -8067,7 +8067,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 1848 856 1952 968)
+	(rect 1688 776 1792 888)
 	(text "74293" (rect 34 0 98 18)(font "Arial" (font_size 10)))
 	(text "inst25" (rect 3 101 52 115)(font "Arial" ))
 	(port
@@ -8135,7 +8135,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 2360 632 2424 856)
+	(rect 2200 552 2264 776)
 	(text "74134" (rect 16 0 80 18)(font "Arial" (font_size 10)))
 	(text "inst3" (rect 3 213 44 227)(font "Arial" ))
 	(port
@@ -8248,7 +8248,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 2368 576 2400 608)
+	(rect 2208 496 2240 528)
 	(text "GND" (rect 8 16 32 27)(font "Arial" (font_size 6)))
 	(text "inst8" (rect 3 21 44 35)(font "Arial" )(invisible))
 	(port
@@ -8265,7 +8265,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 2152 480 2216 520)
+	(rect 1992 400 2056 440)
 	(text "7408" (rect 1 0 34 11)(font "Arial" (font_size 6)))
 	(text "WSM10" (rect 3 29 44 43)(font "Arial" ))
 	(port
@@ -8300,7 +8300,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 2144 992 2192 1024)
+	(rect 1984 912 2032 944)
 	(text "7404" (rect 1 -1 34 10)(font "Arial" (font_size 6)))
 	(text "E12" (rect 3 20 27 34)(font "Arial" ))
 	(port
@@ -8325,7 +8325,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 2184 568 2288 680)
+	(rect 2024 488 2128 600)
 	(text "74293" (rect 34 0 98 18)(font "Arial" (font_size 10)))
 	(text "inst26" (rect 3 101 52 115)(font "Arial" ))
 	(port
@@ -8393,7 +8393,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 2184 712 2288 824)
+	(rect 2024 632 2128 744)
 	(text "74293" (rect 34 0 98 18)(font "Arial" (font_size 10)))
 	(text "inst27" (rect 3 101 52 115)(font "Arial" ))
 	(port
@@ -8461,7 +8461,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 2184 856 2288 968)
+	(rect 2024 776 2128 888)
 	(text "74293" (rect 34 0 98 18)(font "Arial" (font_size 10)))
 	(text "inst28" (rect 3 101 52 115)(font "Arial" ))
 	(port
@@ -8529,7 +8529,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 2696 632 2760 856)
+	(rect 2536 552 2600 776)
 	(text "74134" (rect 16 0 80 18)(font "Arial" (font_size 10)))
 	(text "inst10" (rect 3 213 52 227)(font "Arial" ))
 	(port
@@ -8642,7 +8642,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 2704 576 2736 608)
+	(rect 2544 496 2576 528)
 	(text "GND" (rect 8 16 32 27)(font "Arial" (font_size 6)))
 	(text "inst11" (rect 3 21 52 35)(font "Arial" )(invisible))
 	(port
@@ -8659,7 +8659,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 2488 480 2552 520)
+	(rect 2328 400 2392 440)
 	(text "7408" (rect 1 0 34 11)(font "Arial" (font_size 6)))
 	(text "WSM11" (rect 3 29 44 43)(font "Arial" ))
 	(port
@@ -8694,7 +8694,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 2480 992 2528 1024)
+	(rect 2320 912 2368 944)
 	(text "7404" (rect 1 -1 34 10)(font "Arial" (font_size 6)))
 	(text "E13" (rect 3 20 27 34)(font "Arial" ))
 	(port
@@ -8719,7 +8719,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 2520 568 2624 680)
+	(rect 2360 488 2464 600)
 	(text "74293" (rect 34 0 98 18)(font "Arial" (font_size 10)))
 	(text "inst29" (rect 3 101 52 115)(font "Arial" ))
 	(port
@@ -8787,7 +8787,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 2520 712 2624 824)
+	(rect 2360 632 2464 744)
 	(text "74293" (rect 34 0 98 18)(font "Arial" (font_size 10)))
 	(text "inst30" (rect 3 101 52 115)(font "Arial" ))
 	(port
@@ -8855,7 +8855,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 2520 856 2624 968)
+	(rect 2360 776 2464 888)
 	(text "74293" (rect 34 0 98 18)(font "Arial" (font_size 10)))
 	(text "inst31" (rect 3 101 52 115)(font "Arial" ))
 	(port
@@ -8923,7 +8923,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3816 736 3880 776)
+	(rect 3648 736 3712 776)
 	(text "7432" (rect 1 0 34 11)(font "Arial" (font_size 6)))
 	(text "XI9" (rect 3 29 27 43)(font "Arial" ))
 	(port
@@ -8962,7 +8962,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3816 832 3880 872)
+	(rect 3648 832 3712 872)
 	(text "7432" (rect 1 0 34 11)(font "Arial" (font_size 6)))
 	(text "XI10" (rect 3 29 36 43)(font "Arial" ))
 	(port
@@ -9001,7 +9001,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3264 432 3328 472)
+	(rect 3096 432 3160 472)
 	(text "7400" (rect 1 0 34 11)(font "Arial" (font_size 6)))
 	(text "inst32" (rect 3 29 52 43)(font "Arial" ))
 	(port
@@ -9036,7 +9036,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3376 408 3440 448)
+	(rect 3208 408 3272 448)
 	(text "7400" (rect 1 0 34 11)(font "Arial" (font_size 6)))
 	(text "inst33" (rect 3 29 52 43)(font "Arial" ))
 	(port
@@ -9071,7 +9071,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3264 488 3328 528)
+	(rect 3096 488 3160 528)
 	(text "7400" (rect 1 0 34 11)(font "Arial" (font_size 6)))
 	(text "inst34" (rect 3 29 52 43)(font "Arial" ))
 	(port
@@ -9106,7 +9106,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3376 464 3440 504)
+	(rect 3208 464 3272 504)
 	(text "7400" (rect 1 0 34 11)(font "Arial" (font_size 6)))
 	(text "inst35" (rect 3 29 52 43)(font "Arial" ))
 	(port
@@ -9141,7 +9141,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3376 520 3440 560)
+	(rect 3208 520 3272 560)
 	(text "7400" (rect 1 0 34 11)(font "Arial" (font_size 6)))
 	(text "inst36" (rect 3 29 52 43)(font "Arial" ))
 	(port
@@ -9176,7 +9176,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3376 576 3440 616)
+	(rect 3208 576 3272 616)
 	(text "7400" (rect 1 0 34 11)(font "Arial" (font_size 6)))
 	(text "inst37" (rect 3 29 52 43)(font "Arial" ))
 	(port
@@ -9211,7 +9211,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3264 600 3328 640)
+	(rect 3096 600 3160 640)
 	(text "7400" (rect 1 0 34 11)(font "Arial" (font_size 6)))
 	(text "inst38" (rect 3 29 52 43)(font "Arial" ))
 	(port
@@ -9246,7 +9246,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3264 544 3328 584)
+	(rect 3096 544 3160 584)
 	(text "7400" (rect 1 0 34 11)(font "Arial" (font_size 6)))
 	(text "inst39" (rect 3 29 52 43)(font "Arial" ))
 	(port
@@ -9281,7 +9281,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3872 1080 3936 1120)
+	(rect 3704 1080 3768 1120)
 	(text "7411" (rect 1 0 34 11)(font "Arial" (font_size 6)))
 	(text "ZLP" (rect 3 29 27 43)(font "Arial" ))
 	(port
@@ -9321,7 +9321,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3872 1136 3936 1176)
+	(rect 3704 1136 3768 1176)
 	(text "7411" (rect 1 0 34 11)(font "Arial" (font_size 6)))
 	(text "WLP" (rect 3 29 27 43)(font "Arial" ))
 	(port
@@ -9361,7 +9361,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3872 1192 3936 1232)
+	(rect 3704 1192 3768 1232)
 	(text "7411" (rect 1 0 34 11)(font "Arial" (font_size 6)))
 	(text "ZLN" (rect 3 29 27 43)(font "Arial" ))
 	(port
@@ -9401,7 +9401,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3872 1248 3936 1288)
+	(rect 3704 1248 3768 1288)
 	(text "7411" (rect 1 0 34 11)(font "Arial" (font_size 6)))
 	(text "WLN" (rect 3 29 27 43)(font "Arial" ))
 	(port
@@ -9441,7 +9441,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3792 1256 3840 1288)
+	(rect 3624 1256 3672 1288)
 	(text "7404" (rect 1 -1 34 10)(font "Arial" (font_size 6)))
 	(text "ZLPI15" (rect 3 20 52 34)(font "Arial" ))
 	(port
@@ -9466,7 +9466,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3792 1200 3840 1232)
+	(rect 3624 1200 3672 1232)
 	(text "7404" (rect 1 -1 34 10)(font "Arial" (font_size 6)))
 	(text "ZLPI16" (rect 3 20 52 34)(font "Arial" ))
 	(port
@@ -9491,7 +9491,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3792 1144 3840 1176)
+	(rect 3624 1144 3672 1176)
 	(text "7404" (rect 1 -1 34 10)(font "Arial" (font_size 6)))
 	(text "ZLPI17" (rect 3 20 52 34)(font "Arial" ))
 	(port
@@ -9516,7 +9516,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3792 1088 3840 1120)
+	(rect 3624 1088 3672 1120)
 	(text "7404" (rect 1 -1 34 10)(font "Arial" (font_size 6)))
 	(text "ZLPI22" (rect 3 20 52 34)(font "Arial" ))
 	(port
@@ -10402,7 +10402,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3584 1632 3632 1664)
+	(rect 2240 1616 2288 1648)
 	(text "7404" (rect 1 -1 34 10)(font "Arial" (font_size 6)))
 	(text "ZPI" (rect 3 20 27 34)(font "Arial" ))
 	(port
@@ -10427,7 +10427,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 3584 1664 3632 1696)
+	(rect 2240 1648 2288 1680)
 	(text "7404" (rect 1 -1 34 10)(font "Arial" (font_size 6)))
 	(text "WPI" (rect 3 20 27 34)(font "Arial" ))
 	(port
@@ -10449,6 +10449,86 @@ agreement for further details.
 		(line (pt 13 7)(pt 31 16))
 		(line (pt 13 25)(pt 31 16))
 		(circle (rect 30 12 38 20))
+	)
+)
+(symbol
+	(rect 1736 1528 1800 1568)
+	(text "7411" (rect 1 0 34 11)(font "Arial" (font_size 6)))
+	(text "inst13" (rect 3 29 52 43)(font "Arial" ))
+	(port
+		(pt 0 16)
+		(input)
+		(text "2" (rect 7 7 12 21)(font "Courier New" (bold))(invisible))
+		(text "2" (rect 7 7 12 21)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 16 16))
+	)
+	(port
+		(pt 0 24)
+		(input)
+		(text "3" (rect 7 16 12 30)(font "Courier New" (bold))(invisible))
+		(text "3" (rect 7 16 12 30)(font "Courier New" (bold))(invisible))
+		(line (pt 0 24)(pt 16 24))
+	)
+	(port
+		(pt 0 32)
+		(input)
+		(text "4" (rect 7 24 12 38)(font "Courier New" (bold))(invisible))
+		(text "4" (rect 7 24 12 38)(font "Courier New" (bold))(invisible))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 64 24)
+		(output)
+		(text "1" (rect 52 15 57 29)(font "Courier New" (bold))(invisible))
+		(text "1" (rect 52 15 57 29)(font "Courier New" (bold))(invisible))
+		(line (pt 48 24)(pt 64 24))
+	)
+	(drawing
+		(line (pt 16 12)(pt 32 12))
+		(line (pt 16 36)(pt 32 36))
+		(line (pt 16 36)(pt 16 12))
+		(line (pt 44 24)(pt 49 24))
+		(arc (pt 32 36)(pt 32 12)(rect 20 12 45 37))
+	)
+)
+(symbol
+	(rect 1736 1576 1800 1616)
+	(text "7411" (rect 1 0 34 11)(font "Arial" (font_size 6)))
+	(text "inst18" (rect 3 29 52 43)(font "Arial" ))
+	(port
+		(pt 0 16)
+		(input)
+		(text "2" (rect 7 7 12 21)(font "Courier New" (bold))(invisible))
+		(text "2" (rect 7 7 12 21)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 16 16))
+	)
+	(port
+		(pt 0 24)
+		(input)
+		(text "3" (rect 7 16 12 30)(font "Courier New" (bold))(invisible))
+		(text "3" (rect 7 16 12 30)(font "Courier New" (bold))(invisible))
+		(line (pt 0 24)(pt 16 24))
+	)
+	(port
+		(pt 0 32)
+		(input)
+		(text "4" (rect 7 24 12 38)(font "Courier New" (bold))(invisible))
+		(text "4" (rect 7 24 12 38)(font "Courier New" (bold))(invisible))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 64 24)
+		(output)
+		(text "1" (rect 52 15 57 29)(font "Courier New" (bold))(invisible))
+		(text "1" (rect 52 15 57 29)(font "Courier New" (bold))(invisible))
+		(line (pt 48 24)(pt 64 24))
+	)
+	(drawing
+		(line (pt 16 12)(pt 32 12))
+		(line (pt 16 36)(pt 32 36))
+		(line (pt 16 36)(pt 16 12))
+		(line (pt 44 24)(pt 49 24))
+		(arc (pt 32 36)(pt 32 12)(rect 20 12 45 37))
 	)
 )
 (connector
@@ -11320,56 +11400,8 @@ agreement for further details.
 	(pt 1272 1616)
 )
 (connector
-	(pt 608 1640)
-	(pt 608 1656)
-)
-(connector
-	(pt 608 1656)
-	(pt 608 1776)
-)
-(connector
-	(pt 840 1592)
-	(pt 840 1696)
-)
-(connector
-	(pt 840 1696)
-	(pt 840 1768)
-)
-(connector
-	(pt 848 1640)
-	(pt 848 1656)
-)
-(connector
-	(pt 848 1656)
-	(pt 848 1760)
-)
-(connector
 	(pt 1088 1560)
 	(pt 1088 1592)
-)
-(connector
-	(pt 1088 1592)
-	(pt 1088 1696)
-)
-(connector
-	(pt 1088 1696)
-	(pt 1088 1752)
-)
-(connector
-	(pt 1096 1640)
-	(pt 1096 1656)
-)
-(connector
-	(pt 1096 1656)
-	(pt 1096 1744)
-)
-(connector
-	(pt 1336 1592)
-	(pt 1336 1696)
-)
-(connector
-	(pt 1336 1696)
-	(pt 1336 1736)
 )
 (connector
 	(pt 184 896)
@@ -11532,22 +11564,6 @@ agreement for further details.
 	(pt 632 184)
 )
 (connector
-	(pt 368 1640)
-	(pt 368 1656)
-)
-(connector
-	(pt 368 1656)
-	(pt 368 1792)
-)
-(connector
-	(pt 600 1592)
-	(pt 600 1696)
-)
-(connector
-	(pt 600 1696)
-	(pt 600 1784)
-)
-(connector
 	(pt 392 1448)
 	(pt 392 1512)
 )
@@ -11680,14 +11696,6 @@ agreement for further details.
 	(pt 352 552)
 )
 (connector
-	(pt 1024 1528)
-	(pt 1024 1552)
-)
-(connector
-	(pt 1024 1512)
-	(pt 1024 1528)
-)
-(connector
 	(pt 384 368)
 	(pt 384 456)
 )
@@ -11764,2040 +11772,8 @@ agreement for further details.
 	(pt 184 1376)
 )
 (connector
-	(pt 1120 1528)
-	(pt 1120 1544)
-)
-(connector
-	(pt 3144 144)
-	(pt 3152 144)
-)
-(connector
-	(pt 3144 160)
-	(pt 3160 160)
-)
-(connector
-	(pt 2936 56)
-	(pt 2928 56)
-)
-(connector
-	(pt 2880 56)
-	(pt 2872 56)
-)
-(connector
-	(pt 3152 112)
-	(pt 3152 144)
-)
-(connector
-	(pt 2872 56)
-	(pt 2872 88)
-)
-(connector
-	(pt 3160 88)
-	(pt 3160 160)
-)
-(connector
-	(pt 3024 208)
-	(pt 3016 208)
-)
-(connector
-	(pt 3016 112)
-	(pt 3152 112)
-)
-(connector
-	(pt 3000 200)
-	(pt 3008 200)
-)
-(connector
-	(pt 3008 200)
-	(pt 3008 248)
-)
-(connector
-	(pt 2896 216)
-	(pt 2880 216)
-)
-(connector
-	(pt 2896 200)
-	(pt 2888 200)
-)
-(connector
-	(pt 2888 200)
-	(pt 2888 248)
-)
-(connector
-	(pt 3024 192)
-	(pt 3008 192)
-)
-(connector
-	(pt 3008 192)
-	(pt 3008 152)
-)
-(connector
-	(pt 3008 152)
-	(pt 3000 152)
-)
-(connector
-	(pt 3008 288)
-	(pt 3048 288)
-)
-(connector
-	(pt 2864 440)
-	(pt 2880 440)
-)
-(connector
-	(pt 2864 456)
-	(pt 2880 456)
-)
-(connector
-	(pt 2824 488)
-	(pt 2880 488)
-)
-(connector
-	(pt 3008 440)
-	(pt 3000 440)
-)
-(connector
-	(pt 2848 504)
-	(pt 2880 504)
-)
-(connector
-	(pt 3048 344)
-	(pt 3064 344)
-)
-(connector
-	(pt 3048 288)
-	(pt 3048 344)
-)
-(connector
-	(pt 3040 360)
-	(pt 3064 360)
-)
-(connector
-	(pt 3024 376)
-	(pt 3064 376)
-)
-(connector
-	(pt 3016 424)
-	(pt 3064 424)
-)
-(connector
-	(pt 3016 456)
-	(pt 3016 424)
-)
-(connector
-	(pt 3008 408)
-	(pt 3008 440)
-)
-(connector
-	(pt 2848 504)
-	(pt 2848 408)
-)
-(connector
-	(pt 2824 488)
-	(pt 2824 392)
-)
-(connector
-	(pt 2864 296)
-	(pt 2880 296)
-)
-(connector
-	(pt 2864 312)
-	(pt 2880 312)
-)
-(connector
-	(pt 2840 360)
-	(pt 2880 360)
-)
-(connector
-	(pt 3008 344)
-	(pt 3000 344)
-)
-(connector
-	(pt 3008 296)
-	(pt 3000 296)
-)
-(connector
-	(pt 3024 328)
-	(pt 3000 328)
-)
-(connector
-	(pt 3040 360)
-	(pt 3040 312)
-)
-(connector
-	(pt 3024 376)
-	(pt 3024 328)
-)
-(connector
-	(pt 2840 360)
-	(pt 2840 264)
-)
-(connector
-	(pt 3104 792)
-	(pt 3096 792)
-)
-(connector
-	(pt 3104 816)
-	(pt 3104 792)
-)
-(connector
-	(pt 3112 872)
-	(pt 3112 768)
-)
-(connector
-	(pt 3048 768)
-	(pt 3048 792)
-)
-(connector
-	(pt 2920 816)
-	(pt 2920 832)
-)
-(connector
-	(pt 2928 832)
-	(pt 2920 832)
-)
-(connector
-	(pt 2920 872)
-	(pt 2920 856)
-)
-(connector
-	(pt 2928 856)
-	(pt 2920 856)
-)
-(connector
-	(pt 3104 968)
-	(pt 3096 968)
-)
-(connector
-	(pt 3104 992)
-	(pt 3104 968)
-)
-(connector
-	(pt 3112 1048)
-	(pt 3112 944)
-)
-(connector
-	(pt 3048 944)
-	(pt 3048 968)
-)
-(connector
-	(pt 3072 680)
-	(pt 3080 680)
-)
-(connector
-	(pt 3128 696)
-	(pt 3128 680)
-)
-(connector
-	(pt 2920 992)
-	(pt 2920 1008)
-)
-(connector
-	(pt 2928 1008)
-	(pt 2920 1008)
-)
-(connector
-	(pt 2920 1048)
-	(pt 2920 1032)
-)
-(connector
-	(pt 2928 1032)
-	(pt 2920 1032)
-)
-(connector
-	(pt 3104 1200)
-	(pt 3096 1200)
-)
-(connector
-	(pt 3112 1280)
-	(pt 3112 1176)
-)
-(connector
-	(pt 2920 1280)
-	(pt 2920 1264)
-)
-(connector
-	(pt 2928 1264)
-	(pt 2920 1264)
-)
-(connector
-	(pt 2920 1224)
-	(pt 2920 1240)
-)
-(connector
-	(pt 2928 1240)
-	(pt 2920 1240)
-)
-(connector
-	(pt 2976 768)
-	(pt 2904 768)
-)
-(connector
-	(pt 2976 776)
-	(pt 2912 776)
-)
-(connector
-	(pt 2912 952)
-	(pt 2976 952)
-)
-(connector
-	(pt 3104 1416)
-	(pt 3096 1416)
-)
-(connector
-	(pt 3112 1496)
-	(pt 3112 1392)
-)
-(connector
-	(pt 2904 1440)
-	(pt 2904 1456)
-)
-(connector
-	(pt 2904 1496)
-	(pt 2904 1480)
-)
-(connector
-	(pt 2904 1496)
-	(pt 3112 1496)
-)
-(connector
-	(pt 2904 1456)
-	(pt 2928 1456)
-)
-(connector
-	(pt 2904 1480)
-	(pt 2928 1480)
-)
-(connector
-	(pt 2960 1392)
-	(pt 2976 1392)
-)
-(connector
-	(pt 2960 1368)
-	(pt 2960 1392)
-)
-(connector
-	(pt 3080 1304)
-	(pt 3096 1304)
-)
-(connector
-	(pt 3120 1144)
-	(pt 3120 1360)
-)
-(connector
-	(pt 3040 1400)
-	(pt 3048 1400)
-)
-(connector
-	(pt 2968 1376)
-	(pt 2976 1376)
-)
-(connector
-	(pt 2904 1408)
-	(pt 2976 1408)
-)
-(connector
-	(pt 2968 1160)
-	(pt 2968 1144)
-)
-(connector
-	(pt 2976 1192)
-	(pt 2904 1192)
-)
-(connector
-	(pt 2912 1288)
-	(pt 2912 1208)
-)
-(connector
-	(pt 3048 1184)
-	(pt 3040 1184)
-)
-(connector
-	(pt 2912 1176)
-	(pt 2976 1176)
-)
-(connector
-	(pt 2904 944)
-	(pt 2976 944)
-)
-(connector
-	(pt 2920 1280)
-	(pt 3112 1280)
-)
-(connector
-	(pt 2920 1048)
-	(pt 3112 1048)
-)
-(connector
-	(pt 2904 696)
-	(pt 3128 696)
-)
-(connector
-	(pt 2920 872)
-	(pt 3112 872)
-)
-(connector
-	(pt 3224 1288)
-	(pt 2912 1288)
-)
-(connector
-	(pt 2896 1512)
-	(pt 2896 1424)
-)
-(connector
-	(pt 2976 1424)
-	(pt 2896 1424)
-)
-(connector
-	(pt 1104 1520)
-	(pt 2888 1520)
-)
-(connector
-	(pt 1024 1512)
-	(pt 2880 1512)
-)
-(connector
-	(pt 2968 1144)
-	(pt 3120 1144)
-)
-(connector
-	(pt 2808 344)
-	(pt 2880 344)
-)
-(connector
-	(pt 3104 1416)
-	(pt 3104 1440)
-)
-(connector
-	(pt 3048 1392)
-	(pt 3112 1392)
-)
-(connector
-	(pt 3104 1200)
-	(pt 3104 1224)
-)
-(connector
-	(pt 3048 1176)
-	(pt 3112 1176)
-)
-(connector
-	(pt 3000 312)
-	(pt 3040 312)
-)
-(connector
-	(pt 3008 344)
-	(pt 3008 392)
-)
-(connector
-	(pt 3000 456)
-	(pt 3016 456)
-)
-(connector
-	(pt 2880 1360)
-	(pt 2896 1360)
-)
-(connector
-	(pt 2880 1512)
-	(pt 2880 1360)
-)
-(connector
-	(pt 2840 1160)
-	(pt 2808 1160)
-)
-(connector
-	(pt 2976 936)
-	(pt 2888 936)
-)
-(connector
-	(pt 2816 936)
-	(pt 2840 936)
-)
-(connector
-	(pt 2976 760)
-	(pt 2888 760)
-)
-(connector
-	(pt 2824 760)
-	(pt 2840 760)
-)
-(connector
-	(pt 3096 1104)
-	(pt 3080 1104)
-)
-(connector
-	(pt 3096 1120)
-	(pt 3096 1104)
-)
-(connector
-	(pt 2896 1360)
-	(pt 2896 1120)
-)
-(connector
-	(pt 2912 1120)
-	(pt 2912 1176)
-)
-(connector
-	(pt 3464 40)
-	(pt 3512 40)
-)
-(connector
-	(pt 3512 112)
-	(pt 3488 112)
-)
-(connector
-	(pt 3512 88)
-	(pt 3488 88)
-)
-(connector
-	(pt 3128 384)
-	(pt 3208 384)
-)
-(connector
-	(pt 3376 168)
-	(pt 3360 168)
-)
-(connector
-	(pt 3376 168)
-	(pt 3376 216)
-)
-(connector
-	(pt 2904 1440)
-	(pt 3104 1440)
-)
-(connector
-	(pt 2888 1520)
-	(pt 2888 1368)
-)
-(connector
-	(pt 2920 816)
-	(pt 3104 816)
-)
-(connector
-	(pt 2920 992)
-	(pt 3104 992)
-)
-(connector
-	(pt 2968 1360)
-	(pt 2968 1376)
-)
-(connector
-	(pt 2968 1360)
-	(pt 3120 1360)
-)
-(connector
-	(pt 2840 264)
-	(pt 3008 264)
-)
-(connector
-	(pt 2888 248)
-	(pt 3008 248)
-)
-(connector
-	(pt 2920 1224)
-	(pt 3104 1224)
-)
-(connector
-	(pt 2912 1208)
-	(pt 2976 1208)
-)
-(connector
-	(pt 2912 776)
-	(pt 2912 880)
-)
-(connector
-	(pt 2912 952)
-	(pt 2912 1056)
-)
-(connector
-	(pt 3136 400)
-	(pt 3136 456)
-)
-(connector
-	(pt 3136 456)
-	(pt 3024 456)
-)
-(connector
-	(pt 3024 456)
-	(pt 3024 536)
-)
-(connector
-	(pt 2864 536)
-	(pt 3024 536)
-)
-(connector
-	(pt 3040 464)
-	(pt 3152 464)
-)
-(connector
-	(pt 3152 464)
-	(pt 3152 448)
-)
-(connector
-	(pt 3152 624)
-	(pt 3144 624)
-)
-(connector
-	(pt 3144 624)
-	(pt 3144 648)
-)
-(connector
-	(pt 3208 1120)
-	(pt 3208 656)
-)
-(connector
-	(pt 3136 656)
-	(pt 3208 656)
-)
-(connector
-	(pt 2912 1368)
-	(pt 2912 1328)
-)
-(connector
-	(pt 3096 1304)
-	(pt 3096 1328)
-)
-(connector
-	(pt 3144 648)
-	(pt 3216 648)
-)
-(connector
-	(pt 3808 800)
-	(pt 3816 800)
-)
-(connector
-	(pt 3816 816)
-	(pt 3808 816)
-)
-(connector
-	(pt 3808 976)
-	(pt 3816 976)
-)
-(connector
-	(pt 3816 992)
-	(pt 3808 992)
-)
-(connector
-	(pt 3952 1056)
-	(pt 3952 984)
-)
-(connector
-	(pt 3952 880)
-	(pt 3952 808)
-)
-(connector
-	(pt 3880 808)
-	(pt 3952 808)
-)
-(connector
-	(pt 3880 984)
-	(pt 3952 984)
-)
-(connector
-	(pt 2912 1056)
-	(pt 3952 1056)
-)
-(connector
-	(pt 2912 880)
-	(pt 3952 880)
-)
-(connector
-	(pt 4000 1032)
-	(pt 3880 1032)
-)
-(connector
-	(pt 3880 936)
-	(pt 4000 936)
-)
-(connector
-	(pt 4008 856)
-	(pt 3880 856)
-)
-(connector
-	(pt 3880 760)
-	(pt 4008 760)
-)
-(connector
-	(pt 3760 1440)
-	(pt 3768 1440)
-)
-(connector
-	(pt 3760 1480)
-	(pt 3768 1480)
-)
-(connector
-	(pt 3768 1440)
-	(pt 3768 1448)
-)
-(connector
-	(pt 3768 1448)
-	(pt 3776 1448)
-)
-(connector
-	(pt 3768 1464)
-	(pt 3776 1464)
-)
-(connector
-	(pt 3768 1480)
-	(pt 3768 1464)
-)
-(connector
-	(pt 2896 1512)
-	(pt 3848 1512)
-)
-(connector
-	(pt 3848 1512)
-	(pt 3848 1456)
-)
-(connector
-	(pt 3840 1456)
-	(pt 3848 1456)
-)
-(connector
-	(pt 3696 1488)
-	(pt 3656 1488)
-)
-(connector
-	(pt 3696 1432)
-	(pt 3648 1432)
-)
-(connector
-	(pt 600 1784)
-	(pt 3344 1784)
-)
-(connector
-	(pt 3456 432)
-	(pt 3440 432)
-)
-(connector
-	(pt 3440 488)
-	(pt 3472 488)
-)
-(connector
-	(pt 3440 544)
-	(pt 3488 544)
-)
-(connector
-	(pt 3440 600)
-	(pt 3504 600)
-)
-(connector
-	(pt 3456 416)
-	(pt 3456 432)
-)
-(connector
-	(pt 3472 448)
-	(pt 3472 488)
-)
-(connector
-	(pt 3136 656)
-	(pt 3136 568)
-)
-(connector
-	(pt 3136 568)
-	(pt 3152 568)
-)
-(connector
-	(pt 3256 616)
-	(pt 3256 592)
-)
-(connector
-	(pt 3256 560)
-	(pt 3256 536)
-)
-(connector
-	(pt 3376 536)
-	(pt 3256 536)
-)
-(connector
-	(pt 3256 504)
-	(pt 3256 480)
-)
-(connector
-	(pt 3256 448)
-	(pt 3256 424)
-)
-(connector
-	(pt 3376 424)
-	(pt 3256 424)
-)
-(connector
-	(pt 3464 432)
-	(pt 3464 456)
-)
-(connector
-	(pt 3328 456)
-	(pt 3464 456)
-)
-(connector
-	(pt 3480 464)
-	(pt 3480 512)
-)
-(connector
-	(pt 3328 512)
-	(pt 3480 512)
-)
-(connector
-	(pt 3328 568)
-	(pt 3496 568)
-)
-(connector
-	(pt 3328 624)
-	(pt 3512 624)
-)
-(connector
-	(pt 3376 440)
-	(pt 3344 440)
-)
-(connector
-	(pt 3224 824)
-	(pt 3224 464)
-)
-(connector
-	(pt 3224 464)
-	(pt 3264 464)
-)
-(connector
-	(pt 3232 1000)
-	(pt 3232 520)
-)
-(connector
-	(pt 3232 520)
-	(pt 3264 520)
-)
-(connector
-	(pt 3376 496)
-	(pt 3352 496)
-)
-(connector
-	(pt 840 1768)
-	(pt 3352 1768)
-)
-(connector
-	(pt 3376 552)
-	(pt 3360 552)
-)
-(connector
-	(pt 3368 608)
-	(pt 3376 608)
-)
-(connector
-	(pt 3368 1448)
-	(pt 3696 1448)
-)
-(connector
-	(pt 1088 1752)
-	(pt 3360 1752)
-)
-(connector
-	(pt 1336 1736)
-	(pt 3368 1736)
-)
-(connector
-	(pt 3264 576)
-	(pt 3240 576)
-)
-(connector
-	(pt 3248 632)
-	(pt 3264 632)
-)
-(connector
-	(pt 3248 632)
-	(pt 3248 1472)
-)
-(connector
-	(pt 1096 1744)
-	(pt 3336 1744)
-)
-(connector
-	(pt 848 1760)
-	(pt 3328 1760)
-)
-(connector
-	(pt 608 1776)
-	(pt 3320 1776)
-)
-(connector
-	(pt 368 1792)
-	(pt 3312 1792)
-)
-(connector
-	(pt 3312 1792)
-	(pt 3312 824)
-)
-(connector
-	(pt 3152 552)
-	(pt 3128 552)
-)
-(connector
-	(pt 2848 408)
-	(pt 3008 408)
-)
-(connector
-	(pt 3008 408)
-	(pt 3064 408)
-)
-(connector
-	(pt 2864 296)
-	(pt 2864 312)
-)
-(connector
-	(pt 2864 312)
-	(pt 2864 440)
-)
-(connector
-	(pt 2864 440)
-	(pt 2864 456)
-)
-(connector
-	(pt 2864 456)
-	(pt 2864 536)
-)
-(connector
-	(pt 3008 264)
-	(pt 3008 288)
-)
-(connector
-	(pt 3008 288)
-	(pt 3008 296)
-)
-(connector
-	(pt 3048 1392)
-	(pt 3048 1400)
-)
-(connector
-	(pt 3048 1400)
-	(pt 3048 1416)
-)
-(connector
-	(pt 3048 1176)
-	(pt 3048 1184)
-)
-(connector
-	(pt 3048 1184)
-	(pt 3048 1200)
-)
-(connector
-	(pt 2904 696)
-	(pt 2904 768)
-)
-(connector
-	(pt 3040 768)
-	(pt 3048 768)
-)
-(connector
-	(pt 3048 768)
-	(pt 3112 768)
-)
-(connector
-	(pt 3040 944)
-	(pt 3048 944)
-)
-(connector
-	(pt 3048 944)
-	(pt 3112 944)
-)
-(connector
-	(pt 2824 392)
-	(pt 3008 392)
-)
-(connector
-	(pt 3008 392)
-	(pt 3064 392)
-)
-(connector
-	(pt 3464 64)
-	(pt 3488 64)
-)
-(connector
-	(pt 3488 64)
-	(pt 3512 64)
-)
-(connector
-	(pt 3488 64)
-	(pt 3488 88)
-)
-(connector
-	(pt 3488 88)
-	(pt 3488 112)
-)
-(connector
-	(pt 2896 1120)
-	(pt 2912 1120)
-)
-(connector
-	(pt 2888 1160)
-	(pt 2968 1160)
-)
-(connector
-	(pt 2968 1160)
-	(pt 2976 1160)
-)
-(connector
-	(pt 2904 768)
-	(pt 2904 944)
-)
-(connector
-	(pt 2904 944)
-	(pt 2904 1192)
-)
-(connector
-	(pt 2904 1192)
-	(pt 2904 1408)
-)
-(connector
-	(pt 2912 1120)
-	(pt 3096 1120)
-)
-(connector
-	(pt 2912 1328)
-	(pt 3096 1328)
-)
-(connector
-	(pt 3096 1328)
-	(pt 3216 1328)
-)
-(connector
-	(pt 2888 1368)
-	(pt 2912 1368)
-)
-(connector
-	(pt 2912 1368)
-	(pt 2960 1368)
-)
-(connector
-	(pt 3136 400)
-	(pt 3160 400)
-)
-(connector
-	(pt 3096 1120)
-	(pt 3208 1120)
-)
-(connector
-	(pt 3600 920)
-	(pt 3616 920)
-)
-(connector
-	(pt 3600 1160)
-	(pt 3648 1160)
-)
-(connector
-	(pt 3608 1208)
-	(pt 3640 1208)
-)
-(connector
-	(pt 3048 504)
-	(pt 3256 504)
-)
-(connector
-	(pt 3256 504)
-	(pt 3264 504)
-)
-(connector
-	(pt 3216 560)
-	(pt 3256 560)
-)
-(connector
-	(pt 3256 560)
-	(pt 3264 560)
-)
-(connector
-	(pt 3216 616)
-	(pt 3256 616)
-)
-(connector
-	(pt 3256 616)
-	(pt 3264 616)
-)
-(connector
-	(pt 3208 1120)
-	(pt 3224 1120)
-)
-(connector
-	(pt 3368 608)
-	(pt 3368 1448)
-)
-(connector
-	(pt 3368 1448)
-	(pt 3368 1736)
-)
-(connector
-	(pt 3248 1472)
-	(pt 3336 1472)
-)
-(connector
-	(pt 3336 1472)
-	(pt 3696 1472)
-)
-(connector
-	(pt 3336 1472)
-	(pt 3336 1744)
-)
-(connector
-	(pt 3320 1000)
-	(pt 3320 1776)
-)
-(connector
-	(pt 3160 216)
-	(pt 3376 216)
-)
-(connector
-	(pt 3256 480)
-	(pt 3376 480)
-)
-(connector
-	(pt 3256 592)
-	(pt 3376 592)
-)
-(connector
-	(pt 2872 88)
-	(pt 3160 88)
-)
-(connector
-	(pt 3256 448)
-	(pt 3264 448)
-)
-(connector
-	(pt 3152 448)
-	(pt 3256 448)
-)
-(connector
-	(pt 3128 608)
-	(pt 3152 608)
-)
-(connector
-	(pt 3040 464)
-	(pt 3040 560)
-)
-(connector
-	(pt 3048 504)
-	(pt 3048 584)
-)
-(connector
-	(pt 3128 552)
-	(pt 3128 608)
-)
-(connector
-	(pt 3128 608)
-	(pt 3128 616)
-)
-(connector
-	(pt 3584 744)
-	(pt 3600 744)
-)
-(connector
-	(pt 3344 800)
-	(pt 3664 800)
-)
-(connector
-	(pt 3600 784)
-	(pt 3664 784)
-)
-(connector
-	(pt 3808 792)
-	(pt 3808 800)
-)
-(connector
-	(pt 3344 440)
-	(pt 3344 800)
-)
-(connector
-	(pt 3344 800)
-	(pt 3344 1784)
-)
-(connector
-	(pt 3728 792)
-	(pt 3808 792)
-)
-(connector
-	(pt 3224 824)
-	(pt 3312 824)
-)
-(connector
-	(pt 3312 824)
-	(pt 3664 824)
-)
-(connector
-	(pt 3808 816)
-	(pt 3808 832)
-)
-(connector
-	(pt 3728 832)
-	(pt 3808 832)
-)
-(connector
-	(pt 3352 976)
-	(pt 3664 976)
-)
-(connector
-	(pt 3616 960)
-	(pt 3664 960)
-)
-(connector
-	(pt 3352 496)
-	(pt 3352 976)
-)
-(connector
-	(pt 3352 976)
-	(pt 3352 1768)
-)
-(connector
-	(pt 3808 968)
-	(pt 3808 976)
-)
-(connector
-	(pt 3728 968)
-	(pt 3808 968)
-)
-(connector
-	(pt 3232 1000)
-	(pt 3320 1000)
-)
-(connector
-	(pt 3320 1000)
-	(pt 3664 1000)
-)
-(connector
-	(pt 3808 992)
-	(pt 3808 1008)
-)
-(connector
-	(pt 3728 1008)
-	(pt 3808 1008)
-)
-(connector
-	(pt 3856 560)
-	(pt 3888 560)
-)
-(connector
-	(pt 3864 592)
-	(pt 3888 592)
-)
-(connector
-	(pt 3888 544)
-	(pt 3872 544)
-)
-(connector
-	(pt 3488 544)
-	(pt 3488 480)
-)
-(connector
-	(pt 3504 600)
-	(pt 3504 512)
-)
-(connector
-	(pt 3496 568)
-	(pt 3496 496)
-)
-(connector
-	(pt 3512 624)
-	(pt 3512 528)
-)
-(connector
-	(pt 3880 576)
-	(pt 3880 632)
-)
-(connector
-	(pt 3600 1016)
-	(pt 3624 1016)
-)
-(connector
-	(pt 3624 1016)
-	(pt 3664 1016)
-)
-(connector
-	(pt 3592 840)
-	(pt 3608 840)
-)
-(connector
-	(pt 3608 840)
-	(pt 3664 840)
-)
-(connector
-	(pt 3848 576)
-	(pt 3880 576)
-)
-(connector
-	(pt 3880 576)
-	(pt 3888 576)
-)
-(connector
-	(pt 3160 400)
-	(pt 3864 400)
-)
-(connector
-	(pt 3816 752)
-	(pt 3808 752)
-)
-(connector
-	(pt 3816 928)
-	(pt 3792 928)
-)
-(connector
-	(pt 3816 1040)
-	(pt 3784 1040)
-)
-(connector
-	(pt 2800 560)
-	(pt 3040 560)
-)
-(connector
-	(pt 2792 584)
-	(pt 3048 584)
-)
-(connector
-	(pt 3128 616)
-	(pt 2784 616)
-)
-(connector
-	(pt 3816 864)
-	(pt 3800 864)
-)
-(connector
-	(pt 3600 768)
-	(pt 3816 768)
-)
-(connector
-	(pt 3600 768)
-	(pt 3600 784)
-)
-(connector
-	(pt 3608 848)
-	(pt 3816 848)
-)
-(connector
-	(pt 3616 944)
-	(pt 3616 960)
-)
-(connector
-	(pt 3624 1024)
-	(pt 3816 1024)
-)
-(connector
-	(pt 3616 944)
-	(pt 3816 944)
-)
-(connector
-	(pt 3808 416)
-	(pt 3808 752)
-)
-(connector
-	(pt 3808 416)
-	(pt 3888 416)
-)
-(connector
-	(pt 3456 416)
-	(pt 3808 416)
-)
-(connector
-	(pt 3800 864)
-	(pt 3800 432)
-)
-(connector
-	(pt 3464 432)
-	(pt 3800 432)
-)
-(connector
-	(pt 3800 432)
-	(pt 3888 432)
-)
-(connector
-	(pt 3792 928)
-	(pt 3792 448)
-)
-(connector
-	(pt 3792 448)
-	(pt 3888 448)
-)
-(connector
-	(pt 3472 448)
-	(pt 3792 448)
-)
-(connector
-	(pt 3784 1040)
-	(pt 3784 464)
-)
-(connector
-	(pt 3480 464)
-	(pt 3784 464)
-)
-(connector
-	(pt 3784 464)
-	(pt 3888 464)
-)
-(connector
-	(pt 3608 1272)
-	(pt 3656 1272)
-)
-(connector
-	(pt 3600 1096)
-	(pt 3632 1096)
-)
-(connector
-	(pt 4024 1128)
-	(pt 4016 1128)
-)
-(connector
-	(pt 3944 1104)
-	(pt 3936 1104)
-)
-(connector
-	(pt 3944 1160)
-	(pt 3936 1160)
-)
-(connector
-	(pt 3776 480)
-	(pt 3776 1104)
-)
-(connector
-	(pt 3760 512)
-	(pt 3760 1160)
-)
-(connector
-	(pt 3944 1104)
-	(pt 3944 1120)
-)
-(connector
-	(pt 3944 1160)
-	(pt 3944 1136)
-)
-(connector
-	(pt 3952 1120)
-	(pt 3944 1120)
-)
-(connector
-	(pt 3952 1136)
-	(pt 3944 1136)
-)
-(connector
-	(pt 3488 480)
-	(pt 3776 480)
-)
-(connector
-	(pt 3776 480)
-	(pt 3888 480)
-)
-(connector
-	(pt 3504 512)
-	(pt 3760 512)
-)
-(connector
-	(pt 3760 512)
-	(pt 3888 512)
-)
-(connector
-	(pt 3776 1104)
-	(pt 3792 1104)
-)
-(connector
-	(pt 3840 1104)
-	(pt 3872 1104)
-)
-(connector
-	(pt 3872 1096)
-	(pt 3864 1096)
-)
-(connector
-	(pt 3864 1112)
-	(pt 3864 1128)
-)
-(connector
-	(pt 3872 1112)
-	(pt 3864 1112)
-)
-(connector
-	(pt 3864 1128)
-	(pt 3224 1128)
-)
-(connector
-	(pt 3864 1152)
-	(pt 3864 1136)
-)
-(connector
-	(pt 3872 1152)
-	(pt 3864 1152)
-)
-(connector
-	(pt 3216 1136)
-	(pt 3864 1136)
-)
-(connector
-	(pt 3216 648)
-	(pt 3216 1136)
-)
-(connector
-	(pt 3760 1160)
-	(pt 3792 1160)
-)
-(connector
-	(pt 3840 1160)
-	(pt 3872 1160)
-)
-(connector
-	(pt 4024 1240)
-	(pt 4016 1240)
-)
-(connector
-	(pt 3944 1272)
-	(pt 3936 1272)
-)
-(connector
-	(pt 3944 1216)
-	(pt 3936 1216)
-)
-(connector
-	(pt 3768 496)
-	(pt 3768 1216)
-)
-(connector
-	(pt 3944 1272)
-	(pt 3944 1248)
-)
-(connector
-	(pt 3944 1216)
-	(pt 3944 1232)
-)
-(connector
-	(pt 3952 1232)
-	(pt 3944 1232)
-)
-(connector
-	(pt 3952 1248)
-	(pt 3944 1248)
-)
-(connector
-	(pt 3864 1264)
-	(pt 3864 1248)
-)
-(connector
-	(pt 3872 1264)
-	(pt 3864 1264)
-)
-(connector
-	(pt 3216 1248)
-	(pt 3864 1248)
-)
-(connector
-	(pt 3864 1224)
-	(pt 3864 1240)
-)
-(connector
-	(pt 3872 1224)
-	(pt 3864 1224)
-)
-(connector
-	(pt 3224 1240)
-	(pt 3864 1240)
-)
-(connector
-	(pt 3872 1280)
-	(pt 3864 1280)
-)
-(connector
-	(pt 3752 1272)
-	(pt 3792 1272)
-)
-(connector
-	(pt 3840 1272)
-	(pt 3872 1272)
-)
-(connector
-	(pt 3872 1208)
-	(pt 3864 1208)
-)
-(connector
-	(pt 3864 1208)
-	(pt 3864 1192)
-)
-(connector
-	(pt 3864 1192)
-	(pt 3760 1192)
-)
-(connector
-	(pt 3768 1216)
-	(pt 3792 1216)
-)
-(connector
-	(pt 3840 1216)
-	(pt 3872 1216)
-)
-(connector
-	(pt 3496 496)
-	(pt 3768 496)
-)
-(connector
-	(pt 3768 496)
-	(pt 3888 496)
-)
-(connector
-	(pt 3216 1136)
-	(pt 3216 1248)
-)
-(connector
-	(pt 3216 1248)
-	(pt 3216 1328)
-)
-(connector
-	(pt 3224 1120)
-	(pt 3224 1128)
-)
-(connector
-	(pt 3224 1128)
-	(pt 3224 1240)
-)
-(connector
-	(pt 3872 1168)
-	(pt 3864 1168)
-)
-(connector
-	(pt 3864 1168)
-	(pt 3864 1184)
-)
-(connector
-	(pt 3864 1184)
-	(pt 3776 1184)
-)
-(connector
-	(pt 3768 1392)
-	(pt 3760 1392)
-)
-(connector
-	(pt 3640 1400)
-	(pt 3696 1400)
-)
-(connector
-	(pt 3328 1384)
-	(pt 3328 1760)
-)
-(connector
-	(pt 3640 1208)
-	(pt 3640 1400)
-)
-(connector
-	(pt 3632 1344)
-	(pt 3696 1344)
-)
-(connector
-	(pt 3360 1360)
-	(pt 3696 1360)
-)
-(connector
-	(pt 3360 552)
-	(pt 3360 1360)
-)
-(connector
-	(pt 3360 1360)
-	(pt 3360 1752)
-)
-(connector
-	(pt 3632 1096)
-	(pt 3632 1344)
-)
-(connector
-	(pt 3768 1376)
-	(pt 3776 1376)
-)
-(connector
-	(pt 3848 1368)
-	(pt 3840 1368)
-)
-(connector
-	(pt 3768 1392)
-	(pt 3768 1376)
-)
-(connector
-	(pt 3768 1352)
-	(pt 3768 1360)
-)
-(connector
-	(pt 3760 1352)
-	(pt 3768 1352)
-)
-(connector
-	(pt 3768 1360)
-	(pt 3776 1360)
-)
-(connector
-	(pt 3224 1288)
-	(pt 3224 1320)
-)
-(connector
-	(pt 3224 1320)
-	(pt 3848 1320)
-)
-(connector
-	(pt 3848 1368)
-	(pt 3848 1320)
-)
-(connector
-	(pt 3240 576)
-	(pt 3240 1384)
-)
-(connector
-	(pt 3240 1384)
-	(pt 3328 1384)
-)
-(connector
-	(pt 3328 1384)
-	(pt 3696 1384)
-)
-(connector
-	(pt 3632 1080)
-	(pt 3680 1080)
-)
-(connector
-	(pt 3864 1096)
-	(pt 3864 1080)
-)
-(connector
-	(pt 3728 1080)
-	(pt 3864 1080)
-)
-(connector
-	(pt 3648 1168)
-	(pt 3672 1168)
-)
-(connector
-	(pt 3776 1184)
-	(pt 3776 1168)
-)
-(connector
-	(pt 3648 1168)
-	(pt 3648 1432)
-)
-(connector
-	(pt 3720 1168)
-	(pt 3776 1168)
-)
-(connector
-	(pt 3640 1200)
-	(pt 3672 1200)
-)
-(connector
-	(pt 3760 1192)
-	(pt 3760 1200)
-)
-(connector
-	(pt 3720 1200)
-	(pt 3760 1200)
-)
-(connector
-	(pt 3864 1280)
-	(pt 3864 1296)
-)
-(connector
-	(pt 3656 1296)
-	(pt 3672 1296)
-)
-(connector
-	(pt 3656 1296)
-	(pt 3656 1488)
-)
-(connector
-	(pt 3720 1296)
-	(pt 3864 1296)
-)
-(connector
-	(pt 3752 1272)
-	(pt 3752 528)
-)
-(connector
-	(pt 3512 528)
-	(pt 3752 528)
-)
-(connector
-	(pt 3752 528)
-	(pt 3888 528)
-)
-(connector
-	(pt 4008 496)
-	(pt 4040 496)
-)
-(connector
-	(pt 3848 320)
-	(pt 3888 320)
-)
-(connector
-	(pt 3864 336)
-	(pt 3888 336)
-)
-(connector
-	(pt 3856 304)
-	(pt 3888 304)
-)
-(connector
-	(pt 3848 576)
-	(pt 3848 320)
-)
-(connector
-	(pt 3600 160)
-	(pt 3888 160)
-)
-(connector
-	(pt 3616 192)
-	(pt 3888 192)
-)
-(connector
-	(pt 3624 208)
-	(pt 3888 208)
-)
-(connector
-	(pt 3632 224)
-	(pt 3888 224)
-)
-(connector
-	(pt 3608 176)
-	(pt 3888 176)
-)
-(connector
-	(pt 3656 272)
-	(pt 3888 272)
-)
-(connector
-	(pt 3648 256)
-	(pt 3888 256)
-)
-(connector
-	(pt 3640 240)
-	(pt 3888 240)
-)
-(connector
-	(pt 3856 144)
-	(pt 3856 304)
-)
-(connector
-	(pt 3856 304)
-	(pt 3856 560)
-)
-(connector
-	(pt 3864 336)
-	(pt 3864 400)
-)
-(connector
-	(pt 3864 400)
-	(pt 3864 592)
-)
-(connector
-	(pt 3648 256)
-	(pt 3648 1160)
-)
-(connector
-	(pt 3648 1160)
-	(pt 3648 1168)
-)
-(connector
-	(pt 3600 160)
-	(pt 3600 744)
-)
-(connector
-	(pt 3600 744)
-	(pt 3600 768)
-)
-(connector
-	(pt 3616 192)
-	(pt 3616 920)
-)
-(connector
-	(pt 3616 920)
-	(pt 3616 944)
-)
-(connector
-	(pt 3608 176)
-	(pt 3608 840)
-)
-(connector
-	(pt 3608 840)
-	(pt 3608 848)
-)
-(connector
-	(pt 3624 208)
-	(pt 3624 1016)
-)
-(connector
-	(pt 3624 1016)
-	(pt 3624 1024)
-)
-(connector
-	(pt 3656 272)
-	(pt 3656 1272)
-)
-(connector
-	(pt 3656 1272)
-	(pt 3656 1296)
-)
-(connector
-	(pt 3632 224)
-	(pt 3632 1080)
-)
-(connector
-	(pt 3632 1080)
-	(pt 3632 1096)
-)
-(connector
-	(pt 3640 240)
-	(pt 3640 1200)
-)
-(connector
-	(pt 3640 1200)
-	(pt 3640 1208)
-)
-(connector
-	(pt 4008 240)
-	(pt 4016 240)
-)
-(connector
-	(pt 4016 240)
-	(pt 4016 368)
-)
-(connector
-	(pt 4016 368)
-	(pt 3880 368)
-)
-(connector
-	(pt 3888 400)
-	(pt 3880 400)
-)
-(connector
-	(pt 3880 400)
-	(pt 3880 368)
-)
-(connector
-	(pt 3872 288)
-	(pt 3872 544)
-)
-(connector
-	(pt 3872 288)
-	(pt 3888 288)
-)
-(connector
-	(pt 3432 288)
-	(pt 3872 288)
-)
-(connector
-	(pt 3208 360)
-	(pt 3232 360)
-)
-(connector
-	(pt 3208 384)
-	(pt 3208 360)
-)
-(connector
-	(pt 3352 264)
-	(pt 3368 264)
-)
-(connector
-	(pt 3352 280)
-	(pt 3368 280)
-)
-(connector
-	(pt 3352 296)
-	(pt 3368 296)
-)
-(connector
-	(pt 3352 312)
-	(pt 3368 312)
-)
-(connector
-	(pt 3160 328)
-	(pt 3168 328)
-)
-(connector
-	(pt 3160 216)
-	(pt 3160 328)
-)
-(connector
-	(pt 3160 328)
-	(pt 3160 400)
-)
-(connector
-	(pt 3216 328)
-	(pt 3232 328)
-)
-(connector
-	(pt 2064 56)
-	(pt 2056 56)
-)
-(connector
-	(pt 2112 56)
-	(pt 2120 56)
-)
-(connector
-	(pt 2416 200)
-	(pt 2424 200)
-)
-(connector
-	(pt 2424 248)
-	(pt 2304 248)
-)
-(connector
-	(pt 2304 200)
-	(pt 2312 200)
-)
-(connector
-	(pt 2056 56)
-	(pt 2056 96)
-)
-(connector
-	(pt 3016 96)
-	(pt 2056 96)
-)
-(connector
-	(pt 2808 344)
-	(pt 2808 256)
-)
-(connector
-	(pt 2424 200)
-	(pt 2424 248)
-)
-(connector
-	(pt 2416 152)
-	(pt 2432 152)
-)
-(connector
-	(pt 2880 216)
-	(pt 2880 152)
-)
-(connector
-	(pt 2432 216)
-	(pt 2448 216)
-)
-(connector
-	(pt 2440 248)
-	(pt 2440 200)
-)
-(connector
-	(pt 2440 200)
-	(pt 2448 200)
-)
-(connector
-	(pt 2880 152)
-	(pt 2552 152)
-)
-(connector
-	(pt 2440 248)
-	(pt 2560 248)
-)
-(connector
-	(pt 2560 248)
-	(pt 2560 200)
-)
-(connector
-	(pt 2552 200)
-	(pt 2560 200)
-)
-(connector
-	(pt 2432 152)
-	(pt 2432 216)
-)
-(connector
 	(pt 384 88)
 	(pt 624 88)
-)
-(connector
-	(pt 3016 96)
-	(pt 3016 112)
-)
-(connector
-	(pt 3016 112)
-	(pt 3016 208)
 )
 (connector
 	(pt 1392 1248)
@@ -14166,30 +12142,6 @@ agreement for further details.
 (connector
 	(pt 1600 1440)
 	(pt 1608 1440)
-)
-(connector
-	(pt 1208 1504)
-	(pt 1208 1440)
-)
-(connector
-	(pt 2824 1504)
-	(pt 1208 1504)
-)
-(connector
-	(pt 1408 1496)
-	(pt 1408 1440)
-)
-(connector
-	(pt 2816 1496)
-	(pt 1408 1496)
-)
-(connector
-	(pt 1608 1488)
-	(pt 1608 1440)
-)
-(connector
-	(pt 2808 1488)
-	(pt 1608 1488)
 )
 (connector
 	(pt 1272 1296)
@@ -14704,14 +12656,6 @@ agreement for further details.
 	(pt 1048 672)
 )
 (connector
-	(pt 2296 216)
-	(pt 2312 216)
-)
-(connector
-	(pt 2304 200)
-	(pt 2304 248)
-)
-(connector
 	(pt 352 600)
 	(pt 360 600)
 )
@@ -15004,1150 +12948,6 @@ agreement for further details.
 	(pt 1408 8)
 )
 (connector
-	(pt 2808 1056)
-	(pt 2808 1160)
-)
-(connector
-	(pt 2808 1160)
-	(pt 2808 1488)
-)
-(connector
-	(pt 2800 560)
-	(pt 2800 1048)
-)
-(connector
-	(pt 2792 584)
-	(pt 2792 1040)
-)
-(connector
-	(pt 2784 616)
-	(pt 2784 1032)
-)
-(connector
-	(pt 1816 496)
-	(pt 1784 496)
-)
-(connector
-	(pt 1880 504)
-	(pt 1896 504)
-)
-(connector
-	(pt 1816 512)
-	(pt 1808 512)
-)
-(connector
-	(pt 1896 504)
-	(pt 1896 528)
-)
-(connector
-	(pt 1896 528)
-	(pt 1776 528)
-)
-(connector
-	(pt 1808 512)
-	(pt 1808 544)
-)
-(connector
-	(pt 2048 568)
-	(pt 2048 576)
-)
-(connector
-	(pt 2016 568)
-	(pt 2048 568)
-)
-(connector
-	(pt 1984 720)
-	(pt 2024 720)
-)
-(connector
-	(pt 2000 688)
-	(pt 2024 688)
-)
-(connector
-	(pt 1992 704)
-	(pt 2024 704)
-)
-(connector
-	(pt 2016 656)
-	(pt 2024 656)
-)
-(connector
-	(pt 2016 568)
-	(pt 2016 656)
-)
-(connector
-	(pt 1952 752)
-	(pt 2024 752)
-)
-(connector
-	(pt 1952 768)
-	(pt 2024 768)
-)
-(connector
-	(pt 2024 800)
-	(pt 1984 800)
-)
-(connector
-	(pt 2024 816)
-	(pt 1992 816)
-)
-(connector
-	(pt 2024 832)
-	(pt 2000 832)
-)
-(connector
-	(pt 2024 848)
-	(pt 2008 848)
-)
-(connector
-	(pt 2096 760)
-	(pt 2088 760)
-)
-(connector
-	(pt 1960 696)
-	(pt 1960 736)
-)
-(connector
-	(pt 1840 696)
-	(pt 1840 800)
-)
-(connector
-	(pt 1840 800)
-	(pt 1848 800)
-)
-(connector
-	(pt 1848 736)
-	(pt 1824 736)
-)
-(connector
-	(pt 1824 736)
-	(pt 1824 752)
-)
-(connector
-	(pt 1968 784)
-	(pt 1968 832)
-)
-(connector
-	(pt 1848 784)
-	(pt 1816 784)
-)
-(connector
-	(pt 1984 800)
-	(pt 1984 880)
-)
-(connector
-	(pt 1992 816)
-	(pt 1992 896)
-)
-(connector
-	(pt 1992 896)
-	(pt 1952 896)
-)
-(connector
-	(pt 2000 832)
-	(pt 2000 912)
-)
-(connector
-	(pt 2000 912)
-	(pt 1952 912)
-)
-(connector
-	(pt 2008 848)
-	(pt 2008 928)
-)
-(connector
-	(pt 1960 840)
-	(pt 1960 880)
-)
-(connector
-	(pt 1840 840)
-	(pt 1840 944)
-)
-(connector
-	(pt 1840 944)
-	(pt 1848 944)
-)
-(connector
-	(pt 1848 880)
-	(pt 1824 880)
-)
-(connector
-	(pt 1824 880)
-	(pt 1824 896)
-)
-(connector
-	(pt 2008 928)
-	(pt 1952 928)
-)
-(connector
-	(pt 1816 928)
-	(pt 1848 928)
-)
-(connector
-	(pt 1816 832)
-	(pt 1816 928)
-)
-(connector
-	(pt 2000 608)
-	(pt 1952 608)
-)
-(connector
-	(pt 1992 624)
-	(pt 1952 624)
-)
-(connector
-	(pt 2000 688)
-	(pt 2000 608)
-)
-(connector
-	(pt 1992 704)
-	(pt 1992 624)
-)
-(connector
-	(pt 1984 720)
-	(pt 1984 640)
-)
-(connector
-	(pt 2008 672)
-	(pt 2008 592)
-)
-(connector
-	(pt 2024 672)
-	(pt 2008 672)
-)
-(connector
-	(pt 1776 528)
-	(pt 1776 640)
-)
-(connector
-	(pt 1960 552)
-	(pt 1960 592)
-)
-(connector
-	(pt 1840 552)
-	(pt 1840 656)
-)
-(connector
-	(pt 1840 656)
-	(pt 1848 656)
-)
-(connector
-	(pt 1848 592)
-	(pt 1824 592)
-)
-(connector
-	(pt 1824 592)
-	(pt 1824 608)
-)
-(connector
-	(pt 1968 640)
-	(pt 1968 688)
-)
-(connector
-	(pt 1816 784)
-	(pt 1816 688)
-)
-(connector
-	(pt 1792 976)
-	(pt 1864 976)
-)
-(connector
-	(pt 1792 1008)
-	(pt 1808 1008)
-)
-(connector
-	(pt 1864 1008)
-	(pt 1856 1008)
-)
-(connector
-	(pt 1864 976)
-	(pt 1864 1008)
-)
-(connector
-	(pt 2152 496)
-	(pt 2120 496)
-)
-(connector
-	(pt 2216 504)
-	(pt 2232 504)
-)
-(connector
-	(pt 2152 512)
-	(pt 2144 512)
-)
-(connector
-	(pt 2232 504)
-	(pt 2232 528)
-)
-(connector
-	(pt 2232 528)
-	(pt 2112 528)
-)
-(connector
-	(pt 2144 512)
-	(pt 2144 544)
-)
-(connector
-	(pt 2120 496)
-	(pt 2120 472)
-)
-(connector
-	(pt 2384 568)
-	(pt 2384 576)
-)
-(connector
-	(pt 2352 568)
-	(pt 2384 568)
-)
-(connector
-	(pt 2320 720)
-	(pt 2360 720)
-)
-(connector
-	(pt 2336 688)
-	(pt 2360 688)
-)
-(connector
-	(pt 2328 704)
-	(pt 2360 704)
-)
-(connector
-	(pt 2352 656)
-	(pt 2360 656)
-)
-(connector
-	(pt 2352 568)
-	(pt 2352 656)
-)
-(connector
-	(pt 2288 752)
-	(pt 2360 752)
-)
-(connector
-	(pt 2360 800)
-	(pt 2320 800)
-)
-(connector
-	(pt 2360 816)
-	(pt 2328 816)
-)
-(connector
-	(pt 2360 832)
-	(pt 2336 832)
-)
-(connector
-	(pt 2360 848)
-	(pt 2344 848)
-)
-(connector
-	(pt 2432 760)
-	(pt 2424 760)
-)
-(connector
-	(pt 2296 696)
-	(pt 2296 736)
-)
-(connector
-	(pt 2176 696)
-	(pt 2176 800)
-)
-(connector
-	(pt 2176 800)
-	(pt 2184 800)
-)
-(connector
-	(pt 2184 736)
-	(pt 2160 736)
-)
-(connector
-	(pt 2160 736)
-	(pt 2160 752)
-)
-(connector
-	(pt 2304 784)
-	(pt 2304 832)
-)
-(connector
-	(pt 2184 784)
-	(pt 2152 784)
-)
-(connector
-	(pt 2320 800)
-	(pt 2320 880)
-)
-(connector
-	(pt 2328 816)
-	(pt 2328 896)
-)
-(connector
-	(pt 2328 896)
-	(pt 2288 896)
-)
-(connector
-	(pt 2336 832)
-	(pt 2336 912)
-)
-(connector
-	(pt 2344 848)
-	(pt 2344 928)
-)
-(connector
-	(pt 2296 840)
-	(pt 2296 880)
-)
-(connector
-	(pt 2176 840)
-	(pt 2176 944)
-)
-(connector
-	(pt 2176 944)
-	(pt 2184 944)
-)
-(connector
-	(pt 2184 880)
-	(pt 2160 880)
-)
-(connector
-	(pt 2160 880)
-	(pt 2160 896)
-)
-(connector
-	(pt 2152 928)
-	(pt 2184 928)
-)
-(connector
-	(pt 2152 832)
-	(pt 2152 928)
-)
-(connector
-	(pt 2336 608)
-	(pt 2288 608)
-)
-(connector
-	(pt 2336 688)
-	(pt 2336 608)
-)
-(connector
-	(pt 2328 704)
-	(pt 2328 624)
-)
-(connector
-	(pt 2320 720)
-	(pt 2320 640)
-)
-(connector
-	(pt 2344 672)
-	(pt 2344 592)
-)
-(connector
-	(pt 2360 672)
-	(pt 2344 672)
-)
-(connector
-	(pt 2112 528)
-	(pt 2112 640)
-)
-(connector
-	(pt 2296 552)
-	(pt 2296 592)
-)
-(connector
-	(pt 2176 552)
-	(pt 2176 656)
-)
-(connector
-	(pt 2176 656)
-	(pt 2184 656)
-)
-(connector
-	(pt 2184 592)
-	(pt 2160 592)
-)
-(connector
-	(pt 2160 592)
-	(pt 2160 608)
-)
-(connector
-	(pt 2304 640)
-	(pt 2304 688)
-)
-(connector
-	(pt 2152 784)
-	(pt 2152 688)
-)
-(connector
-	(pt 2128 976)
-	(pt 2200 976)
-)
-(connector
-	(pt 2128 1008)
-	(pt 2144 1008)
-)
-(connector
-	(pt 2200 1008)
-	(pt 2192 1008)
-)
-(connector
-	(pt 2200 976)
-	(pt 2200 1008)
-)
-(connector
-	(pt 2288 624)
-	(pt 2328 624)
-)
-(connector
-	(pt 2288 768)
-	(pt 2360 768)
-)
-(connector
-	(pt 2288 928)
-	(pt 2344 928)
-)
-(connector
-	(pt 2288 912)
-	(pt 2336 912)
-)
-(connector
-	(pt 2488 496)
-	(pt 2456 496)
-)
-(connector
-	(pt 2552 504)
-	(pt 2568 504)
-)
-(connector
-	(pt 2488 512)
-	(pt 2480 512)
-)
-(connector
-	(pt 2568 504)
-	(pt 2568 528)
-)
-(connector
-	(pt 2480 512)
-	(pt 2480 544)
-)
-(connector
-	(pt 2456 496)
-	(pt 2456 472)
-)
-(connector
-	(pt 2720 568)
-	(pt 2720 576)
-)
-(connector
-	(pt 2688 568)
-	(pt 2720 568)
-)
-(connector
-	(pt 2656 720)
-	(pt 2696 720)
-)
-(connector
-	(pt 2672 688)
-	(pt 2696 688)
-)
-(connector
-	(pt 2664 704)
-	(pt 2696 704)
-)
-(connector
-	(pt 2688 656)
-	(pt 2696 656)
-)
-(connector
-	(pt 2688 568)
-	(pt 2688 656)
-)
-(connector
-	(pt 2696 816)
-	(pt 2664 816)
-)
-(connector
-	(pt 2696 832)
-	(pt 2672 832)
-)
-(connector
-	(pt 2696 848)
-	(pt 2680 848)
-)
-(connector
-	(pt 2768 760)
-	(pt 2760 760)
-)
-(connector
-	(pt 2632 696)
-	(pt 2632 736)
-)
-(connector
-	(pt 2512 696)
-	(pt 2512 800)
-)
-(connector
-	(pt 2512 800)
-	(pt 2520 800)
-)
-(connector
-	(pt 2520 736)
-	(pt 2496 736)
-)
-(connector
-	(pt 2496 736)
-	(pt 2496 752)
-)
-(connector
-	(pt 2640 784)
-	(pt 2640 832)
-)
-(connector
-	(pt 2520 784)
-	(pt 2488 784)
-)
-(connector
-	(pt 2656 800)
-	(pt 2656 880)
-)
-(connector
-	(pt 2664 816)
-	(pt 2664 896)
-)
-(connector
-	(pt 2664 896)
-	(pt 2624 896)
-)
-(connector
-	(pt 2672 832)
-	(pt 2672 912)
-)
-(connector
-	(pt 2680 848)
-	(pt 2680 928)
-)
-(connector
-	(pt 2632 840)
-	(pt 2632 880)
-)
-(connector
-	(pt 2512 840)
-	(pt 2512 944)
-)
-(connector
-	(pt 2512 944)
-	(pt 2520 944)
-)
-(connector
-	(pt 2520 880)
-	(pt 2496 880)
-)
-(connector
-	(pt 2496 880)
-	(pt 2496 896)
-)
-(connector
-	(pt 2488 928)
-	(pt 2520 928)
-)
-(connector
-	(pt 2488 832)
-	(pt 2488 928)
-)
-(connector
-	(pt 2664 624)
-	(pt 2624 624)
-)
-(connector
-	(pt 2672 688)
-	(pt 2672 608)
-)
-(connector
-	(pt 2656 720)
-	(pt 2656 640)
-)
-(connector
-	(pt 2680 672)
-	(pt 2680 592)
-)
-(connector
-	(pt 2696 672)
-	(pt 2680 672)
-)
-(connector
-	(pt 2448 528)
-	(pt 2448 640)
-)
-(connector
-	(pt 2632 552)
-	(pt 2632 592)
-)
-(connector
-	(pt 2512 552)
-	(pt 2512 656)
-)
-(connector
-	(pt 2512 656)
-	(pt 2520 656)
-)
-(connector
-	(pt 2520 592)
-	(pt 2496 592)
-)
-(connector
-	(pt 2496 592)
-	(pt 2496 608)
-)
-(connector
-	(pt 2640 640)
-	(pt 2640 688)
-)
-(connector
-	(pt 2488 784)
-	(pt 2488 688)
-)
-(connector
-	(pt 2464 976)
-	(pt 2536 976)
-)
-(connector
-	(pt 2464 1008)
-	(pt 2480 1008)
-)
-(connector
-	(pt 2536 1008)
-	(pt 2528 1008)
-)
-(connector
-	(pt 2536 976)
-	(pt 2536 1008)
-)
-(connector
-	(pt 2448 528)
-	(pt 2568 528)
-)
-(connector
-	(pt 2664 624)
-	(pt 2664 704)
-)
-(connector
-	(pt 2624 608)
-	(pt 2672 608)
-)
-(connector
-	(pt 2624 768)
-	(pt 2696 768)
-)
-(connector
-	(pt 2656 800)
-	(pt 2696 800)
-)
-(connector
-	(pt 2624 752)
-	(pt 2696 752)
-)
-(connector
-	(pt 2624 912)
-	(pt 2672 912)
-)
-(connector
-	(pt 2624 928)
-	(pt 2680 928)
-)
-(connector
-	(pt 1784 472)
-	(pt 1784 496)
-)
-(connector
-	(pt 1816 832)
-	(pt 1968 832)
-)
-(connector
-	(pt 1816 688)
-	(pt 1968 688)
-)
-(connector
-	(pt 1776 640)
-	(pt 1848 640)
-)
-(connector
-	(pt 2152 832)
-	(pt 2304 832)
-)
-(connector
-	(pt 2152 688)
-	(pt 2304 688)
-)
-(connector
-	(pt 2112 640)
-	(pt 2184 640)
-)
-(connector
-	(pt 2488 832)
-	(pt 2640 832)
-)
-(connector
-	(pt 2488 688)
-	(pt 2640 688)
-)
-(connector
-	(pt 2448 640)
-	(pt 2520 640)
-)
-(connector
-	(pt 1808 544)
-	(pt 2096 544)
-)
-(connector
-	(pt 2144 544)
-	(pt 2432 544)
-)
-(connector
-	(pt 2480 544)
-	(pt 2768 544)
-)
-(connector
-	(pt 2824 1072)
-	(pt 1792 1072)
-)
-(connector
-	(pt 1792 1072)
-	(pt 1792 1008)
-)
-(connector
-	(pt 2816 1064)
-	(pt 2128 1064)
-)
-(connector
-	(pt 2128 1064)
-	(pt 2128 1008)
-)
-(connector
-	(pt 2808 1056)
-	(pt 2464 1056)
-)
-(connector
-	(pt 2464 1056)
-	(pt 2464 1008)
-)
-(connector
-	(pt 2800 1048)
-	(pt 2096 1048)
-)
-(connector
-	(pt 2792 1040)
-	(pt 2432 1040)
-)
-(connector
-	(pt 2784 1032)
-	(pt 2768 1032)
-)
-(connector
-	(pt 1952 736)
-	(pt 1960 736)
-)
-(connector
-	(pt 1960 736)
-	(pt 2024 736)
-)
-(connector
-	(pt 1952 784)
-	(pt 1968 784)
-)
-(connector
-	(pt 1968 784)
-	(pt 2024 784)
-)
-(connector
-	(pt 1952 880)
-	(pt 1960 880)
-)
-(connector
-	(pt 1960 880)
-	(pt 1984 880)
-)
-(connector
-	(pt 1952 592)
-	(pt 1960 592)
-)
-(connector
-	(pt 1960 592)
-	(pt 2008 592)
-)
-(connector
-	(pt 1952 640)
-	(pt 1968 640)
-)
-(connector
-	(pt 1968 640)
-	(pt 1984 640)
-)
-(connector
-	(pt 2288 736)
-	(pt 2296 736)
-)
-(connector
-	(pt 2296 736)
-	(pt 2360 736)
-)
-(connector
-	(pt 2288 880)
-	(pt 2296 880)
-)
-(connector
-	(pt 2296 880)
-	(pt 2320 880)
-)
-(connector
-	(pt 2288 592)
-	(pt 2296 592)
-)
-(connector
-	(pt 2296 592)
-	(pt 2344 592)
-)
-(connector
-	(pt 2288 640)
-	(pt 2304 640)
-)
-(connector
-	(pt 2304 640)
-	(pt 2320 640)
-)
-(connector
-	(pt 2288 784)
-	(pt 2304 784)
-)
-(connector
-	(pt 2304 784)
-	(pt 2360 784)
-)
-(connector
-	(pt 2624 736)
-	(pt 2632 736)
-)
-(connector
-	(pt 2632 736)
-	(pt 2696 736)
-)
-(connector
-	(pt 2624 880)
-	(pt 2632 880)
-)
-(connector
-	(pt 2632 880)
-	(pt 2656 880)
-)
-(connector
-	(pt 2624 592)
-	(pt 2632 592)
-)
-(connector
-	(pt 2632 592)
-	(pt 2680 592)
-)
-(connector
-	(pt 2624 640)
-	(pt 2640 640)
-)
-(connector
-	(pt 2640 640)
-	(pt 2656 640)
-)
-(connector
-	(pt 2624 784)
-	(pt 2640 784)
-)
-(connector
-	(pt 2640 784)
-	(pt 2696 784)
-)
-(connector
-	(pt 1792 608)
-	(pt 1824 608)
-)
-(connector
-	(pt 1824 608)
-	(pt 1848 608)
-)
-(connector
-	(pt 1792 752)
-	(pt 1824 752)
-)
-(connector
-	(pt 1824 752)
-	(pt 1848 752)
-)
-(connector
-	(pt 1792 608)
-	(pt 1792 752)
-)
-(connector
-	(pt 1792 752)
-	(pt 1792 896)
-)
-(connector
-	(pt 1792 896)
-	(pt 1792 976)
-)
-(connector
-	(pt 1792 896)
-	(pt 1824 896)
-)
-(connector
-	(pt 1824 896)
-	(pt 1848 896)
-)
-(connector
-	(pt 2128 608)
-	(pt 2160 608)
-)
-(connector
-	(pt 2160 608)
-	(pt 2184 608)
-)
-(connector
-	(pt 2128 752)
-	(pt 2160 752)
-)
-(connector
-	(pt 2160 752)
-	(pt 2184 752)
-)
-(connector
-	(pt 2128 608)
-	(pt 2128 752)
-)
-(connector
-	(pt 2128 752)
-	(pt 2128 896)
-)
-(connector
-	(pt 2128 896)
-	(pt 2128 976)
-)
-(connector
-	(pt 2128 896)
-	(pt 2160 896)
-)
-(connector
-	(pt 2160 896)
-	(pt 2184 896)
-)
-(connector
-	(pt 2464 608)
-	(pt 2496 608)
-)
-(connector
-	(pt 2496 608)
-	(pt 2520 608)
-)
-(connector
-	(pt 2464 752)
-	(pt 2496 752)
-)
-(connector
-	(pt 2496 752)
-	(pt 2520 752)
-)
-(connector
-	(pt 2464 608)
-	(pt 2464 752)
-)
-(connector
-	(pt 2464 752)
-	(pt 2464 896)
-)
-(connector
-	(pt 2464 896)
-	(pt 2464 976)
-)
-(connector
-	(pt 2464 896)
-	(pt 2496 896)
-)
-(connector
-	(pt 2496 896)
-	(pt 2520 896)
-)
-(connector
-	(pt 1784 472)
-	(pt 2120 472)
-)
-(connector
-	(pt 2824 760)
-	(pt 2824 1072)
-)
-(connector
-	(pt 2824 1072)
-	(pt 2824 1504)
-)
-(connector
-	(pt 2816 936)
-	(pt 2816 1064)
-)
-(connector
-	(pt 2816 1064)
-	(pt 2816 1496)
-)
-(connector
-	(pt 2096 544)
-	(pt 2096 760)
-)
-(connector
-	(pt 2096 760)
-	(pt 2096 1048)
-)
-(connector
-	(pt 2432 544)
-	(pt 2432 760)
-)
-(connector
-	(pt 2432 760)
-	(pt 2432 1040)
-)
-(connector
-	(pt 2768 544)
-	(pt 2768 760)
-)
-(connector
-	(pt 2768 760)
-	(pt 2768 1032)
-)
-(connector
-	(pt 1840 552)
-	(pt 1960 552)
-)
-(connector
-	(pt 1840 696)
-	(pt 1960 696)
-)
-(connector
-	(pt 1840 840)
-	(pt 1960 840)
-)
-(connector
-	(pt 2176 552)
-	(pt 2296 552)
-)
-(connector
-	(pt 2176 696)
-	(pt 2296 696)
-)
-(connector
-	(pt 2176 840)
-	(pt 2296 840)
-)
-(connector
-	(pt 2512 552)
-	(pt 2632 552)
-)
-(connector
-	(pt 2512 696)
-	(pt 2632 696)
-)
-(connector
-	(pt 2512 840)
-	(pt 2632 840)
-)
-(connector
 	(pt 1312 264)
 	(pt 1232 264)
 )
@@ -16428,60 +13228,1172 @@ agreement for further details.
 	(pt 1776 352)
 )
 (connector
-	(pt 2032 216)
-	(pt 2040 216)
+	(pt 1104 1584)
+	(pt 1360 1584)
 )
 (connector
-	(pt 2024 248)
+	(pt 1656 416)
+	(pt 1624 416)
+)
+(connector
+	(pt 1720 424)
+	(pt 1736 424)
+)
+(connector
+	(pt 1656 432)
+	(pt 1648 432)
+)
+(connector
+	(pt 1736 424)
+	(pt 1736 448)
+)
+(connector
+	(pt 1736 448)
+	(pt 1616 448)
+)
+(connector
+	(pt 1648 432)
+	(pt 1648 464)
+)
+(connector
+	(pt 1888 488)
+	(pt 1888 496)
+)
+(connector
+	(pt 1856 488)
+	(pt 1888 488)
+)
+(connector
+	(pt 1824 640)
+	(pt 1864 640)
+)
+(connector
+	(pt 1840 608)
+	(pt 1864 608)
+)
+(connector
+	(pt 1832 624)
+	(pt 1864 624)
+)
+(connector
+	(pt 1856 576)
+	(pt 1864 576)
+)
+(connector
+	(pt 1856 488)
+	(pt 1856 576)
+)
+(connector
+	(pt 1792 672)
+	(pt 1864 672)
+)
+(connector
+	(pt 1792 688)
+	(pt 1864 688)
+)
+(connector
+	(pt 1864 720)
+	(pt 1824 720)
+)
+(connector
+	(pt 1864 736)
+	(pt 1832 736)
+)
+(connector
+	(pt 1864 752)
+	(pt 1840 752)
+)
+(connector
+	(pt 1864 768)
+	(pt 1848 768)
+)
+(connector
+	(pt 1936 680)
+	(pt 1928 680)
+)
+(connector
+	(pt 1800 616)
+	(pt 1800 656)
+)
+(connector
+	(pt 1680 616)
+	(pt 1680 720)
+)
+(connector
+	(pt 1680 720)
+	(pt 1688 720)
+)
+(connector
+	(pt 1688 656)
+	(pt 1664 656)
+)
+(connector
+	(pt 1664 656)
+	(pt 1664 672)
+)
+(connector
+	(pt 1808 704)
+	(pt 1808 752)
+)
+(connector
+	(pt 1688 704)
+	(pt 1656 704)
+)
+(connector
+	(pt 1824 720)
+	(pt 1824 800)
+)
+(connector
+	(pt 1832 736)
+	(pt 1832 816)
+)
+(connector
+	(pt 1832 816)
+	(pt 1792 816)
+)
+(connector
+	(pt 1840 752)
+	(pt 1840 832)
+)
+(connector
+	(pt 1840 832)
+	(pt 1792 832)
+)
+(connector
+	(pt 1800 760)
+	(pt 1800 800)
+)
+(connector
+	(pt 1680 760)
+	(pt 1680 864)
+)
+(connector
+	(pt 1680 864)
+	(pt 1688 864)
+)
+(connector
+	(pt 1688 800)
+	(pt 1664 800)
+)
+(connector
+	(pt 1664 800)
+	(pt 1664 816)
+)
+(connector
+	(pt 1848 848)
+	(pt 1792 848)
+)
+(connector
+	(pt 1656 848)
+	(pt 1688 848)
+)
+(connector
+	(pt 1656 752)
+	(pt 1656 848)
+)
+(connector
+	(pt 1840 528)
+	(pt 1792 528)
+)
+(connector
+	(pt 1832 544)
+	(pt 1792 544)
+)
+(connector
+	(pt 1840 608)
+	(pt 1840 528)
+)
+(connector
+	(pt 1832 624)
+	(pt 1832 544)
+)
+(connector
+	(pt 1824 640)
+	(pt 1824 560)
+)
+(connector
+	(pt 1864 592)
+	(pt 1848 592)
+)
+(connector
+	(pt 1616 448)
+	(pt 1616 560)
+)
+(connector
+	(pt 1800 472)
+	(pt 1800 512)
+)
+(connector
+	(pt 1680 472)
+	(pt 1680 576)
+)
+(connector
+	(pt 1680 576)
+	(pt 1688 576)
+)
+(connector
+	(pt 1688 512)
+	(pt 1664 512)
+)
+(connector
+	(pt 1664 512)
+	(pt 1664 528)
+)
+(connector
+	(pt 1808 560)
+	(pt 1808 608)
+)
+(connector
+	(pt 1656 704)
+	(pt 1656 608)
+)
+(connector
+	(pt 1632 896)
+	(pt 1704 896)
+)
+(connector
+	(pt 1632 928)
+	(pt 1648 928)
+)
+(connector
+	(pt 1704 928)
+	(pt 1696 928)
+)
+(connector
+	(pt 1704 896)
+	(pt 1704 928)
+)
+(connector
+	(pt 1992 416)
+	(pt 1960 416)
+)
+(connector
+	(pt 2056 424)
+	(pt 2072 424)
+)
+(connector
+	(pt 1992 432)
+	(pt 1984 432)
+)
+(connector
+	(pt 2072 424)
+	(pt 2072 448)
+)
+(connector
+	(pt 2072 448)
+	(pt 1952 448)
+)
+(connector
+	(pt 1984 432)
+	(pt 1984 464)
+)
+(connector
+	(pt 1960 416)
+	(pt 1960 392)
+)
+(connector
+	(pt 2224 488)
+	(pt 2224 496)
+)
+(connector
+	(pt 2192 488)
+	(pt 2224 488)
+)
+(connector
+	(pt 2160 640)
+	(pt 2200 640)
+)
+(connector
+	(pt 2176 608)
+	(pt 2200 608)
+)
+(connector
+	(pt 2168 624)
+	(pt 2200 624)
+)
+(connector
+	(pt 2192 576)
+	(pt 2200 576)
+)
+(connector
+	(pt 2192 488)
+	(pt 2192 576)
+)
+(connector
+	(pt 2128 672)
+	(pt 2200 672)
+)
+(connector
+	(pt 2200 720)
+	(pt 2160 720)
+)
+(connector
+	(pt 2200 736)
+	(pt 2168 736)
+)
+(connector
+	(pt 2200 752)
+	(pt 2176 752)
+)
+(connector
+	(pt 2200 768)
+	(pt 2184 768)
+)
+(connector
+	(pt 2272 680)
+	(pt 2264 680)
+)
+(connector
+	(pt 2136 616)
+	(pt 2136 656)
+)
+(connector
+	(pt 2016 616)
+	(pt 2016 720)
+)
+(connector
+	(pt 2016 720)
+	(pt 2024 720)
+)
+(connector
+	(pt 2024 656)
+	(pt 2000 656)
+)
+(connector
+	(pt 2000 656)
+	(pt 2000 672)
+)
+(connector
+	(pt 2144 704)
+	(pt 2144 752)
+)
+(connector
+	(pt 2024 704)
+	(pt 1992 704)
+)
+(connector
+	(pt 2160 720)
+	(pt 2160 800)
+)
+(connector
+	(pt 2168 736)
+	(pt 2168 816)
+)
+(connector
+	(pt 2168 816)
+	(pt 2128 816)
+)
+(connector
+	(pt 2176 752)
+	(pt 2176 832)
+)
+(connector
+	(pt 2136 760)
+	(pt 2136 800)
+)
+(connector
+	(pt 2016 760)
+	(pt 2016 864)
+)
+(connector
+	(pt 2016 864)
+	(pt 2024 864)
+)
+(connector
+	(pt 2024 800)
+	(pt 2000 800)
+)
+(connector
+	(pt 2000 800)
+	(pt 2000 816)
+)
+(connector
+	(pt 1992 848)
+	(pt 2024 848)
+)
+(connector
+	(pt 1992 752)
+	(pt 1992 848)
+)
+(connector
+	(pt 2176 528)
+	(pt 2128 528)
+)
+(connector
+	(pt 2176 608)
+	(pt 2176 528)
+)
+(connector
+	(pt 2168 624)
+	(pt 2168 544)
+)
+(connector
+	(pt 2160 640)
+	(pt 2160 560)
+)
+(connector
+	(pt 2200 592)
+	(pt 2184 592)
+)
+(connector
+	(pt 2136 472)
+	(pt 2136 512)
+)
+(connector
+	(pt 2016 472)
+	(pt 2016 576)
+)
+(connector
+	(pt 2016 576)
+	(pt 2024 576)
+)
+(connector
+	(pt 2024 512)
+	(pt 2000 512)
+)
+(connector
+	(pt 2000 512)
+	(pt 2000 528)
+)
+(connector
+	(pt 2144 560)
+	(pt 2144 608)
+)
+(connector
+	(pt 1992 704)
+	(pt 1992 608)
+)
+(connector
+	(pt 1968 896)
+	(pt 2040 896)
+)
+(connector
+	(pt 1968 928)
+	(pt 1984 928)
+)
+(connector
+	(pt 2040 928)
+	(pt 2032 928)
+)
+(connector
+	(pt 2040 896)
+	(pt 2040 928)
+)
+(connector
+	(pt 2128 544)
+	(pt 2168 544)
+)
+(connector
+	(pt 2128 688)
+	(pt 2200 688)
+)
+(connector
+	(pt 2128 848)
+	(pt 2184 848)
+)
+(connector
+	(pt 2128 832)
+	(pt 2176 832)
+)
+(connector
+	(pt 2392 424)
+	(pt 2408 424)
+)
+(connector
+	(pt 2328 432)
+	(pt 2320 432)
+)
+(connector
+	(pt 2408 424)
+	(pt 2408 448)
+)
+(connector
+	(pt 2320 432)
+	(pt 2320 464)
+)
+(connector
+	(pt 2560 488)
+	(pt 2560 496)
+)
+(connector
+	(pt 2528 488)
+	(pt 2560 488)
+)
+(connector
+	(pt 2496 640)
+	(pt 2536 640)
+)
+(connector
+	(pt 2512 608)
+	(pt 2536 608)
+)
+(connector
+	(pt 2504 624)
+	(pt 2536 624)
+)
+(connector
+	(pt 2528 576)
+	(pt 2536 576)
+)
+(connector
+	(pt 2528 488)
+	(pt 2528 576)
+)
+(connector
+	(pt 2536 736)
+	(pt 2504 736)
+)
+(connector
+	(pt 2536 752)
+	(pt 2512 752)
+)
+(connector
+	(pt 2536 768)
+	(pt 2520 768)
+)
+(connector
+	(pt 2472 616)
+	(pt 2472 656)
+)
+(connector
+	(pt 2352 616)
+	(pt 2352 720)
+)
+(connector
+	(pt 2352 720)
+	(pt 2360 720)
+)
+(connector
+	(pt 2360 656)
+	(pt 2336 656)
+)
+(connector
+	(pt 2336 656)
+	(pt 2336 672)
+)
+(connector
+	(pt 2480 704)
+	(pt 2480 752)
+)
+(connector
+	(pt 2360 704)
+	(pt 2328 704)
+)
+(connector
+	(pt 2496 720)
+	(pt 2496 800)
+)
+(connector
+	(pt 2504 736)
+	(pt 2504 816)
+)
+(connector
+	(pt 2504 816)
+	(pt 2464 816)
+)
+(connector
+	(pt 2512 752)
+	(pt 2512 832)
+)
+(connector
+	(pt 2472 760)
+	(pt 2472 800)
+)
+(connector
+	(pt 2352 760)
+	(pt 2352 864)
+)
+(connector
+	(pt 2352 864)
+	(pt 2360 864)
+)
+(connector
+	(pt 2360 800)
+	(pt 2336 800)
+)
+(connector
+	(pt 2336 800)
+	(pt 2336 816)
+)
+(connector
+	(pt 2328 848)
+	(pt 2360 848)
+)
+(connector
+	(pt 2328 752)
+	(pt 2328 848)
+)
+(connector
+	(pt 2504 544)
+	(pt 2464 544)
+)
+(connector
+	(pt 2512 608)
+	(pt 2512 528)
+)
+(connector
+	(pt 2496 640)
+	(pt 2496 560)
+)
+(connector
+	(pt 2536 592)
+	(pt 2520 592)
+)
+(connector
+	(pt 2472 472)
+	(pt 2472 512)
+)
+(connector
+	(pt 2352 472)
+	(pt 2352 576)
+)
+(connector
+	(pt 2352 576)
+	(pt 2360 576)
+)
+(connector
+	(pt 2360 512)
+	(pt 2336 512)
+)
+(connector
+	(pt 2336 512)
+	(pt 2336 528)
+)
+(connector
+	(pt 2480 560)
+	(pt 2480 608)
+)
+(connector
+	(pt 2328 704)
+	(pt 2328 608)
+)
+(connector
+	(pt 2304 896)
+	(pt 2376 896)
+)
+(connector
+	(pt 2304 928)
+	(pt 2320 928)
+)
+(connector
+	(pt 2376 928)
+	(pt 2368 928)
+)
+(connector
+	(pt 2376 896)
+	(pt 2376 928)
+)
+(connector
+	(pt 2288 448)
+	(pt 2408 448)
+)
+(connector
+	(pt 2504 544)
+	(pt 2504 624)
+)
+(connector
+	(pt 2464 528)
+	(pt 2512 528)
+)
+(connector
+	(pt 2464 688)
+	(pt 2536 688)
+)
+(connector
+	(pt 2496 720)
+	(pt 2536 720)
+)
+(connector
+	(pt 2464 672)
+	(pt 2536 672)
+)
+(connector
+	(pt 2464 832)
+	(pt 2512 832)
+)
+(connector
+	(pt 2464 848)
+	(pt 2520 848)
+)
+(connector
+	(pt 1624 392)
+	(pt 1624 416)
+)
+(connector
+	(pt 1656 752)
+	(pt 1808 752)
+)
+(connector
+	(pt 1656 608)
+	(pt 1808 608)
+)
+(connector
+	(pt 1616 560)
+	(pt 1688 560)
+)
+(connector
+	(pt 1992 752)
+	(pt 2144 752)
+)
+(connector
+	(pt 1992 608)
+	(pt 2144 608)
+)
+(connector
+	(pt 1952 560)
+	(pt 2024 560)
+)
+(connector
+	(pt 2328 752)
+	(pt 2480 752)
+)
+(connector
+	(pt 2328 608)
+	(pt 2480 608)
+)
+(connector
+	(pt 2288 560)
+	(pt 2360 560)
+)
+(connector
+	(pt 1648 464)
+	(pt 1936 464)
+)
+(connector
+	(pt 1984 464)
+	(pt 2272 464)
+)
+(connector
+	(pt 2320 464)
+	(pt 2608 464)
+)
+(connector
+	(pt 1680 472)
+	(pt 1800 472)
+)
+(connector
+	(pt 2016 472)
+	(pt 2136 472)
+)
+(connector
+	(pt 2352 472)
+	(pt 2472 472)
+)
+(connector
+	(pt 1680 616)
+	(pt 1800 616)
+)
+(connector
+	(pt 1680 760)
+	(pt 1800 760)
+)
+(connector
+	(pt 1792 656)
+	(pt 1800 656)
+)
+(connector
+	(pt 1800 656)
+	(pt 1864 656)
+)
+(connector
+	(pt 1792 704)
+	(pt 1808 704)
+)
+(connector
+	(pt 1808 704)
+	(pt 1864 704)
+)
+(connector
+	(pt 1792 800)
+	(pt 1800 800)
+)
+(connector
+	(pt 1800 800)
+	(pt 1824 800)
+)
+(connector
+	(pt 1792 512)
+	(pt 1800 512)
+)
+(connector
+	(pt 1800 512)
+	(pt 1848 512)
+)
+(connector
+	(pt 1792 560)
+	(pt 1808 560)
+)
+(connector
+	(pt 1808 560)
+	(pt 1824 560)
+)
+(connector
+	(pt 2128 656)
+	(pt 2136 656)
+)
+(connector
+	(pt 2136 656)
+	(pt 2200 656)
+)
+(connector
+	(pt 2128 800)
+	(pt 2136 800)
+)
+(connector
+	(pt 2136 800)
+	(pt 2160 800)
+)
+(connector
+	(pt 2128 512)
+	(pt 2136 512)
+)
+(connector
+	(pt 2136 512)
+	(pt 2184 512)
+)
+(connector
+	(pt 2128 560)
+	(pt 2144 560)
+)
+(connector
+	(pt 2144 560)
+	(pt 2160 560)
+)
+(connector
+	(pt 2128 704)
+	(pt 2144 704)
+)
+(connector
+	(pt 2144 704)
+	(pt 2200 704)
+)
+(connector
+	(pt 2464 656)
+	(pt 2472 656)
+)
+(connector
+	(pt 2472 656)
+	(pt 2536 656)
+)
+(connector
+	(pt 2464 800)
+	(pt 2472 800)
+)
+(connector
+	(pt 2472 800)
+	(pt 2496 800)
+)
+(connector
+	(pt 2464 512)
+	(pt 2472 512)
+)
+(connector
+	(pt 2472 512)
+	(pt 2520 512)
+)
+(connector
+	(pt 2464 560)
+	(pt 2480 560)
+)
+(connector
+	(pt 2480 560)
+	(pt 2496 560)
+)
+(connector
+	(pt 2464 704)
+	(pt 2480 704)
+)
+(connector
+	(pt 2480 704)
+	(pt 2536 704)
+)
+(connector
+	(pt 1632 528)
+	(pt 1664 528)
+)
+(connector
+	(pt 1664 528)
+	(pt 1688 528)
+)
+(connector
+	(pt 1632 672)
+	(pt 1664 672)
+)
+(connector
+	(pt 1664 672)
+	(pt 1688 672)
+)
+(connector
+	(pt 1632 528)
+	(pt 1632 672)
+)
+(connector
+	(pt 1632 672)
+	(pt 1632 816)
+)
+(connector
+	(pt 1632 816)
+	(pt 1632 896)
+)
+(connector
+	(pt 1632 816)
+	(pt 1664 816)
+)
+(connector
+	(pt 1664 816)
+	(pt 1688 816)
+)
+(connector
+	(pt 1968 528)
+	(pt 2000 528)
+)
+(connector
+	(pt 2000 528)
+	(pt 2024 528)
+)
+(connector
+	(pt 1968 672)
+	(pt 2000 672)
+)
+(connector
+	(pt 2000 672)
+	(pt 2024 672)
+)
+(connector
+	(pt 1968 528)
+	(pt 1968 672)
+)
+(connector
+	(pt 1968 672)
+	(pt 1968 816)
+)
+(connector
+	(pt 1968 816)
+	(pt 1968 896)
+)
+(connector
+	(pt 1968 816)
+	(pt 2000 816)
+)
+(connector
+	(pt 2000 816)
+	(pt 2024 816)
+)
+(connector
+	(pt 2304 528)
+	(pt 2336 528)
+)
+(connector
+	(pt 2336 528)
+	(pt 2360 528)
+)
+(connector
+	(pt 2304 672)
+	(pt 2336 672)
+)
+(connector
+	(pt 2336 672)
+	(pt 2360 672)
+)
+(connector
+	(pt 2304 528)
+	(pt 2304 672)
+)
+(connector
+	(pt 2304 672)
+	(pt 2304 816)
+)
+(connector
+	(pt 2304 816)
+	(pt 2304 896)
+)
+(connector
+	(pt 2304 816)
+	(pt 2336 816)
+)
+(connector
+	(pt 2336 816)
+	(pt 2360 816)
+)
+(connector
+	(pt 1624 392)
+	(pt 1960 392)
+)
+(connector
+	(pt 2016 760)
+	(pt 2136 760)
+)
+(connector
+	(pt 2016 616)
+	(pt 2136 616)
+)
+(connector
+	(pt 1848 512)
+	(pt 1848 592)
+)
+(connector
+	(pt 1952 448)
+	(pt 1952 560)
+)
+(connector
+	(pt 1848 768)
+	(pt 1848 848)
+)
+(connector
+	(pt 2352 760)
+	(pt 2472 760)
+)
+(connector
+	(pt 2352 616)
+	(pt 2472 616)
+)
+(connector
+	(pt 2184 512)
+	(pt 2184 592)
+)
+(connector
+	(pt 2288 448)
+	(pt 2288 560)
+)
+(connector
+	(pt 2184 768)
+	(pt 2184 848)
+)
+(connector
+	(pt 2520 512)
+	(pt 2520 592)
+)
+(connector
+	(pt 2520 768)
+	(pt 2520 848)
+)
+(connector
+	(pt 1912 56)
+	(pt 1904 56)
+)
+(connector
+	(pt 1960 56)
+	(pt 1968 56)
+)
+(connector
+	(pt 2264 200)
+	(pt 2272 200)
+)
+(connector
+	(pt 2272 248)
 	(pt 2152 248)
 )
 (connector
-	(pt 2144 200)
 	(pt 2152 200)
+	(pt 2160 200)
 )
 (connector
-	(pt 2280 248)
-	(pt 2168 248)
+	(pt 2272 200)
+	(pt 2272 248)
 )
 (connector
-	(pt 2176 200)
-	(pt 2168 200)
-)
-(connector
-	(pt 2176 216)
-	(pt 2160 216)
-)
-(connector
-	(pt 2296 152)
+	(pt 2264 152)
 	(pt 2280 152)
 )
 (connector
-	(pt 2168 200)
-	(pt 2168 248)
+	(pt 2280 216)
+	(pt 2296 216)
 )
 (connector
-	(pt 2024 200)
-	(pt 2024 248)
+	(pt 2288 248)
+	(pt 2288 200)
 )
 (connector
-	(pt 2144 152)
-	(pt 2160 152)
+	(pt 2288 200)
+	(pt 2296 200)
 )
 (connector
-	(pt 2024 200)
-	(pt 2040 200)
+	(pt 2288 248)
+	(pt 2408 248)
 )
 (connector
-	(pt 2032 -200)
-	(pt 2032 216)
+	(pt 2408 248)
+	(pt 2408 200)
 )
 (connector
-	(pt 2280 200)
-	(pt 2280 248)
+	(pt 2400 200)
+	(pt 2408 200)
+)
+(connector
+	(pt 2144 216)
+	(pt 2160 216)
 )
 (connector
 	(pt 2152 200)
 	(pt 2152 248)
+)
+(connector
+	(pt 1880 216)
+	(pt 1888 216)
+)
+(connector
+	(pt 1872 248)
+	(pt 2000 248)
+)
+(connector
+	(pt 1992 200)
+	(pt 2000 200)
+)
+(connector
+	(pt 2128 248)
+	(pt 2016 248)
+)
+(connector
+	(pt 2024 200)
+	(pt 2016 200)
+)
+(connector
+	(pt 2024 216)
+	(pt 2008 216)
+)
+(connector
+	(pt 2144 152)
+	(pt 2128 152)
+)
+(connector
+	(pt 2016 200)
+	(pt 2016 248)
+)
+(connector
+	(pt 1872 200)
+	(pt 1872 248)
+)
+(connector
+	(pt 1992 152)
+	(pt 2008 152)
+)
+(connector
+	(pt 1872 200)
+	(pt 1888 200)
+)
+(connector
+	(pt 1880 -200)
+	(pt 1880 216)
+)
+(connector
+	(pt 2128 200)
+	(pt 2128 248)
+)
+(connector
+	(pt 2000 200)
+	(pt 2000 248)
+)
+(connector
+	(pt 2008 152)
+	(pt 2008 216)
+)
+(connector
+	(pt 2128 184)
+	(pt 2136 184)
+)
+(connector
+	(pt 2136 392)
+	(pt 2136 184)
 )
 (connector
 	(pt 1040 -200)
@@ -16489,99 +14401,2335 @@ agreement for further details.
 )
 (connector
 	(pt 1072 -200)
-	(pt 2032 -200)
+	(pt 1880 -200)
 )
 (connector
-	(pt 2280 184)
-	(pt 2288 184)
+	(pt 2280 152)
+	(pt 2280 216)
 )
 (connector
-	(pt 2288 184)
-	(pt 2288 472)
+	(pt 2328 416)
+	(pt 2296 416)
 )
 (connector
-	(pt 2120 472)
-	(pt 2288 472)
+	(pt 2296 392)
+	(pt 2296 416)
 )
 (connector
-	(pt 2288 472)
-	(pt 2456 472)
+	(pt 1960 392)
+	(pt 2136 392)
 )
 (connector
-	(pt 2160 152)
-	(pt 2160 216)
+	(pt 2136 392)
+	(pt 2296 392)
 )
 (connector
-	(pt 2296 256)
-	(pt 2808 256)
+	(pt 2304 1600)
+	(pt 2288 1600)
 )
 (connector
-	(pt 2296 152)
-	(pt 2296 216)
+	(pt 2232 1560)
+	(pt 2312 1560)
 )
 (connector
-	(pt 2296 216)
-	(pt 2296 256)
+	(pt 2288 1632)
+	(pt 2312 1632)
 )
 (connector
-	(pt 3648 1616)
-	(pt 3632 1616)
+	(pt 2288 1664)
+	(pt 2312 1664)
 )
 (connector
-	(pt 3576 1616)
-	(pt 3576 1576)
+	(pt 2232 1560)
+	(pt 2232 1600)
 )
 (connector
-	(pt 3576 1576)
-	(pt 3656 1576)
+	(pt 1936 1664)
+	(pt 2240 1664)
 )
 (connector
-	(pt 3632 1648)
-	(pt 3656 1648)
+	(pt 1952 1632)
+	(pt 2240 1632)
 )
 (connector
-	(pt 3632 1680)
-	(pt 3656 1680)
-)
-(connector
-	(pt 3384 1544)
-	(pt 3384 1648)
+	(pt 1120 1528)
+	(pt 1120 1544)
 )
 (connector
 	(pt 1120 1544)
-	(pt 3384 1544)
+	(pt 1736 1544)
 )
 (connector
-	(pt 3584 1648)
-	(pt 3384 1648)
+	(pt 1664 1720)
+	(pt 1640 1720)
 )
 (connector
-	(pt 3376 1568)
-	(pt 3376 1680)
+	(pt 1664 1696)
+	(pt 1640 1696)
 )
 (connector
-	(pt 1104 1568)
-	(pt 3376 1568)
+	(pt 1952 1552)
+	(pt 1952 1632)
 )
 (connector
-	(pt 3584 1680)
-	(pt 3376 1680)
+	(pt 1936 1600)
+	(pt 1936 1664)
 )
 (connector
-	(pt 3560 1616)
-	(pt 3576 1616)
+	(pt 1360 1584)
+	(pt 1360 1608)
 )
 (connector
-	(pt 3576 1616)
-	(pt 3584 1616)
+	(pt 1360 1608)
+	(pt 1736 1608)
+)
+(connector
+	(pt 1736 1560)
+	(pt 1728 1560)
+)
+(connector
+	(pt 1728 1560)
+	(pt 1728 1592)
+)
+(connector
+	(pt 1736 1600)
+	(pt 1720 1600)
+)
+(connector
+	(pt 1720 1600)
+	(pt 1720 1552)
+)
+(connector
+	(pt 1648 1592)
+	(pt 1648 1648)
+)
+(connector
+	(pt 2216 1600)
+	(pt 2232 1600)
+)
+(connector
+	(pt 2232 1600)
+	(pt 2240 1600)
+)
+(connector
+	(pt 1616 1672)
+	(pt 1640 1672)
+)
+(connector
+	(pt 1640 1672)
+	(pt 1664 1672)
+)
+(connector
+	(pt 1640 1552)
+	(pt 1640 1672)
+)
+(connector
+	(pt 1640 1672)
+	(pt 1640 1696)
+)
+(connector
+	(pt 1640 1696)
+	(pt 1640 1720)
+)
+(connector
+	(pt 1640 1552)
+	(pt 1720 1552)
+)
+(connector
+	(pt 1720 1552)
+	(pt 1736 1552)
+)
+(connector
+	(pt 1648 1592)
+	(pt 1728 1592)
+)
+(connector
+	(pt 1728 1592)
+	(pt 1736 1592)
+)
+(connector
+	(pt 1616 1648)
+	(pt 1648 1648)
+)
+(connector
+	(pt 1648 1648)
+	(pt 1664 1648)
+)
+(connector
+	(pt 1800 1552)
+	(pt 1952 1552)
+)
+(connector
+	(pt 1800 1600)
+	(pt 1936 1600)
+)
+(connector
+	(pt 2976 144)
+	(pt 2984 144)
+)
+(connector
+	(pt 2976 160)
+	(pt 2992 160)
+)
+(connector
+	(pt 2768 56)
+	(pt 2760 56)
+)
+(connector
+	(pt 2712 56)
+	(pt 2704 56)
+)
+(connector
+	(pt 2984 112)
+	(pt 2984 144)
+)
+(connector
+	(pt 2704 56)
+	(pt 2704 88)
+)
+(connector
+	(pt 2992 88)
+	(pt 2992 160)
+)
+(connector
+	(pt 2856 208)
+	(pt 2848 208)
+)
+(connector
+	(pt 2848 112)
+	(pt 2984 112)
+)
+(connector
+	(pt 2832 200)
+	(pt 2840 200)
+)
+(connector
+	(pt 2840 200)
+	(pt 2840 248)
+)
+(connector
+	(pt 2728 216)
+	(pt 2712 216)
+)
+(connector
+	(pt 2728 200)
+	(pt 2720 200)
+)
+(connector
+	(pt 2720 200)
+	(pt 2720 248)
+)
+(connector
+	(pt 2856 192)
+	(pt 2840 192)
+)
+(connector
+	(pt 2840 192)
+	(pt 2840 152)
+)
+(connector
+	(pt 2840 152)
+	(pt 2832 152)
+)
+(connector
+	(pt 2840 288)
+	(pt 2880 288)
+)
+(connector
+	(pt 2696 440)
+	(pt 2712 440)
+)
+(connector
+	(pt 2696 456)
+	(pt 2712 456)
+)
+(connector
+	(pt 2656 488)
+	(pt 2712 488)
+)
+(connector
+	(pt 2840 440)
+	(pt 2832 440)
+)
+(connector
+	(pt 2680 504)
+	(pt 2712 504)
+)
+(connector
+	(pt 2880 344)
+	(pt 2896 344)
+)
+(connector
+	(pt 2856 376)
+	(pt 2896 376)
+)
+(connector
+	(pt 2848 424)
+	(pt 2896 424)
+)
+(connector
+	(pt 2848 456)
+	(pt 2848 424)
+)
+(connector
+	(pt 2840 408)
+	(pt 2840 440)
+)
+(connector
+	(pt 2680 504)
+	(pt 2680 408)
+)
+(connector
+	(pt 2656 488)
+	(pt 2656 392)
+)
+(connector
+	(pt 2696 296)
+	(pt 2712 296)
+)
+(connector
+	(pt 2696 312)
+	(pt 2712 312)
+)
+(connector
+	(pt 2672 360)
+	(pt 2712 360)
+)
+(connector
+	(pt 2840 344)
+	(pt 2832 344)
+)
+(connector
+	(pt 2840 296)
+	(pt 2832 296)
+)
+(connector
+	(pt 2856 328)
+	(pt 2832 328)
+)
+(connector
+	(pt 2872 360)
+	(pt 2872 312)
+)
+(connector
+	(pt 2856 376)
+	(pt 2856 328)
+)
+(connector
+	(pt 2672 360)
+	(pt 2672 264)
+)
+(connector
+	(pt 2936 792)
+	(pt 2928 792)
+)
+(connector
+	(pt 2936 816)
+	(pt 2936 792)
+)
+(connector
+	(pt 2944 872)
+	(pt 2944 768)
+)
+(connector
+	(pt 2880 768)
+	(pt 2880 792)
+)
+(connector
+	(pt 2752 816)
+	(pt 2752 832)
+)
+(connector
+	(pt 2760 832)
+	(pt 2752 832)
+)
+(connector
+	(pt 2752 872)
+	(pt 2752 856)
+)
+(connector
+	(pt 2760 856)
+	(pt 2752 856)
+)
+(connector
+	(pt 2936 968)
+	(pt 2928 968)
+)
+(connector
+	(pt 2936 992)
+	(pt 2936 968)
+)
+(connector
+	(pt 2944 1048)
+	(pt 2944 944)
+)
+(connector
+	(pt 2880 944)
+	(pt 2880 968)
+)
+(connector
+	(pt 2904 680)
+	(pt 2912 680)
+)
+(connector
+	(pt 2960 696)
+	(pt 2960 680)
+)
+(connector
+	(pt 2752 992)
+	(pt 2752 1008)
+)
+(connector
+	(pt 2760 1008)
+	(pt 2752 1008)
+)
+(connector
+	(pt 2752 1048)
+	(pt 2752 1032)
+)
+(connector
+	(pt 2760 1032)
+	(pt 2752 1032)
+)
+(connector
+	(pt 2936 1200)
+	(pt 2928 1200)
+)
+(connector
+	(pt 2944 1280)
+	(pt 2944 1176)
+)
+(connector
+	(pt 2752 1280)
+	(pt 2752 1264)
+)
+(connector
+	(pt 2760 1264)
+	(pt 2752 1264)
+)
+(connector
+	(pt 2752 1224)
+	(pt 2752 1240)
+)
+(connector
+	(pt 2760 1240)
+	(pt 2752 1240)
+)
+(connector
+	(pt 2808 768)
+	(pt 2736 768)
+)
+(connector
+	(pt 2808 776)
+	(pt 2744 776)
+)
+(connector
+	(pt 2744 952)
+	(pt 2808 952)
+)
+(connector
+	(pt 2936 1416)
+	(pt 2928 1416)
+)
+(connector
+	(pt 2944 1496)
+	(pt 2944 1392)
+)
+(connector
+	(pt 2736 1440)
+	(pt 2736 1456)
+)
+(connector
+	(pt 2736 1496)
+	(pt 2736 1480)
+)
+(connector
+	(pt 2736 1496)
+	(pt 2944 1496)
+)
+(connector
+	(pt 2736 1456)
+	(pt 2760 1456)
+)
+(connector
+	(pt 2736 1480)
+	(pt 2760 1480)
+)
+(connector
+	(pt 2792 1392)
+	(pt 2808 1392)
+)
+(connector
+	(pt 2792 1368)
+	(pt 2792 1392)
+)
+(connector
+	(pt 2912 1304)
+	(pt 2928 1304)
+)
+(connector
+	(pt 2952 1144)
+	(pt 2952 1360)
+)
+(connector
+	(pt 2872 1400)
+	(pt 2880 1400)
+)
+(connector
+	(pt 2800 1376)
+	(pt 2808 1376)
+)
+(connector
+	(pt 2736 1408)
+	(pt 2808 1408)
+)
+(connector
+	(pt 2800 1160)
+	(pt 2800 1144)
+)
+(connector
+	(pt 2808 1192)
+	(pt 2736 1192)
+)
+(connector
+	(pt 2744 1288)
+	(pt 2744 1208)
+)
+(connector
+	(pt 2880 1184)
+	(pt 2872 1184)
+)
+(connector
+	(pt 2744 1176)
+	(pt 2808 1176)
+)
+(connector
+	(pt 2736 944)
+	(pt 2808 944)
+)
+(connector
+	(pt 2752 1280)
+	(pt 2944 1280)
+)
+(connector
+	(pt 2752 1048)
+	(pt 2944 1048)
+)
+(connector
+	(pt 2736 696)
+	(pt 2960 696)
+)
+(connector
+	(pt 2752 872)
+	(pt 2944 872)
+)
+(connector
+	(pt 3056 1288)
+	(pt 2744 1288)
+)
+(connector
+	(pt 2728 1512)
+	(pt 2728 1424)
+)
+(connector
+	(pt 2808 1424)
+	(pt 2728 1424)
 )
 (connector
 	(pt 1104 1520)
-	(pt 1104 1568)
+	(pt 2720 1520)
 )
 (connector
-	(pt 1104 1568)
+	(pt 1024 1512)
+	(pt 2712 1512)
+)
+(connector
+	(pt 2800 1144)
+	(pt 2952 1144)
+)
+(connector
+	(pt 2640 344)
+	(pt 2712 344)
+)
+(connector
+	(pt 2936 1416)
+	(pt 2936 1440)
+)
+(connector
+	(pt 2880 1392)
+	(pt 2944 1392)
+)
+(connector
+	(pt 2936 1200)
+	(pt 2936 1224)
+)
+(connector
+	(pt 2880 1176)
+	(pt 2944 1176)
+)
+(connector
+	(pt 2832 312)
+	(pt 2872 312)
+)
+(connector
+	(pt 2840 344)
+	(pt 2840 392)
+)
+(connector
+	(pt 2832 456)
+	(pt 2848 456)
+)
+(connector
+	(pt 2712 1360)
+	(pt 2728 1360)
+)
+(connector
+	(pt 2712 1512)
+	(pt 2712 1360)
+)
+(connector
+	(pt 2672 1160)
+	(pt 2640 1160)
+)
+(connector
+	(pt 2808 936)
+	(pt 2720 936)
+)
+(connector
+	(pt 2648 936)
+	(pt 2672 936)
+)
+(connector
+	(pt 2808 760)
+	(pt 2720 760)
+)
+(connector
+	(pt 2656 760)
+	(pt 2672 760)
+)
+(connector
+	(pt 2928 1104)
+	(pt 2912 1104)
+)
+(connector
+	(pt 2928 1120)
+	(pt 2928 1104)
+)
+(connector
+	(pt 2728 1360)
+	(pt 2728 1120)
+)
+(connector
+	(pt 2744 1120)
+	(pt 2744 1176)
+)
+(connector
+	(pt 2960 384)
+	(pt 3040 384)
+)
+(connector
+	(pt 3208 168)
+	(pt 3192 168)
+)
+(connector
+	(pt 3208 168)
+	(pt 3208 216)
+)
+(connector
+	(pt 2736 1440)
+	(pt 2936 1440)
+)
+(connector
+	(pt 2720 1520)
+	(pt 2720 1368)
+)
+(connector
+	(pt 2752 816)
+	(pt 2936 816)
+)
+(connector
+	(pt 2752 992)
+	(pt 2936 992)
+)
+(connector
+	(pt 2800 1360)
+	(pt 2800 1376)
+)
+(connector
+	(pt 2800 1360)
+	(pt 2952 1360)
+)
+(connector
+	(pt 2672 264)
+	(pt 2840 264)
+)
+(connector
+	(pt 2720 248)
+	(pt 2840 248)
+)
+(connector
+	(pt 2752 1224)
+	(pt 2936 1224)
+)
+(connector
+	(pt 2744 1208)
+	(pt 2808 1208)
+)
+(connector
+	(pt 2744 776)
+	(pt 2744 880)
+)
+(connector
+	(pt 2744 952)
+	(pt 2744 1056)
+)
+(connector
+	(pt 2968 400)
+	(pt 2968 456)
+)
+(connector
+	(pt 2856 456)
+	(pt 2856 536)
+)
+(connector
+	(pt 2696 536)
+	(pt 2856 536)
+)
+(connector
+	(pt 2984 624)
+	(pt 2976 624)
+)
+(connector
+	(pt 2976 624)
+	(pt 2976 648)
+)
+(connector
+	(pt 2968 656)
+	(pt 3040 656)
+)
+(connector
+	(pt 2744 1368)
+	(pt 2744 1328)
+)
+(connector
+	(pt 2928 1304)
+	(pt 2928 1328)
+)
+(connector
+	(pt 2976 648)
+	(pt 3048 648)
+)
+(connector
+	(pt 3640 800)
+	(pt 3648 800)
+)
+(connector
+	(pt 3648 816)
+	(pt 3640 816)
+)
+(connector
+	(pt 3640 976)
+	(pt 3648 976)
+)
+(connector
+	(pt 3648 992)
+	(pt 3640 992)
+)
+(connector
+	(pt 3784 1056)
+	(pt 3784 984)
+)
+(connector
+	(pt 3784 880)
+	(pt 3784 808)
+)
+(connector
+	(pt 3712 808)
+	(pt 3784 808)
+)
+(connector
+	(pt 3712 984)
+	(pt 3784 984)
+)
+(connector
+	(pt 2744 1056)
+	(pt 3784 1056)
+)
+(connector
+	(pt 2744 880)
+	(pt 3784 880)
+)
+(connector
+	(pt 3832 1032)
+	(pt 3712 1032)
+)
+(connector
+	(pt 3712 936)
+	(pt 3832 936)
+)
+(connector
+	(pt 3840 856)
+	(pt 3712 856)
+)
+(connector
+	(pt 3712 760)
+	(pt 3840 760)
+)
+(connector
+	(pt 3592 1440)
+	(pt 3600 1440)
+)
+(connector
+	(pt 3592 1480)
+	(pt 3600 1480)
+)
+(connector
+	(pt 3600 1440)
+	(pt 3600 1448)
+)
+(connector
+	(pt 3600 1448)
+	(pt 3608 1448)
+)
+(connector
+	(pt 3600 1464)
+	(pt 3608 1464)
+)
+(connector
+	(pt 3600 1480)
+	(pt 3600 1464)
+)
+(connector
+	(pt 2728 1512)
+	(pt 3680 1512)
+)
+(connector
+	(pt 3680 1512)
+	(pt 3680 1456)
+)
+(connector
+	(pt 3672 1456)
+	(pt 3680 1456)
+)
+(connector
+	(pt 3528 1488)
+	(pt 3488 1488)
+)
+(connector
+	(pt 3528 1432)
+	(pt 3480 1432)
+)
+(connector
+	(pt 600 1784)
+	(pt 3176 1784)
+)
+(connector
+	(pt 3288 432)
+	(pt 3272 432)
+)
+(connector
+	(pt 3272 488)
+	(pt 3304 488)
+)
+(connector
+	(pt 3272 544)
+	(pt 3320 544)
+)
+(connector
+	(pt 3272 600)
+	(pt 3336 600)
+)
+(connector
+	(pt 3288 416)
+	(pt 3288 432)
+)
+(connector
+	(pt 3304 448)
+	(pt 3304 488)
+)
+(connector
+	(pt 2968 656)
+	(pt 2968 568)
+)
+(connector
+	(pt 2968 568)
+	(pt 2984 568)
+)
+(connector
+	(pt 3088 616)
+	(pt 3088 592)
+)
+(connector
+	(pt 3088 560)
+	(pt 3088 536)
+)
+(connector
+	(pt 3208 536)
+	(pt 3088 536)
+)
+(connector
+	(pt 3088 504)
+	(pt 3088 480)
+)
+(connector
+	(pt 3088 448)
+	(pt 3088 424)
+)
+(connector
+	(pt 3208 424)
+	(pt 3088 424)
+)
+(connector
+	(pt 3296 432)
+	(pt 3296 456)
+)
+(connector
+	(pt 3160 456)
+	(pt 3296 456)
+)
+(connector
+	(pt 3312 464)
+	(pt 3312 512)
+)
+(connector
+	(pt 3160 512)
+	(pt 3312 512)
+)
+(connector
+	(pt 3160 568)
+	(pt 3328 568)
+)
+(connector
+	(pt 3208 440)
+	(pt 3176 440)
+)
+(connector
+	(pt 3056 824)
+	(pt 3056 464)
+)
+(connector
+	(pt 3056 464)
+	(pt 3096 464)
+)
+(connector
+	(pt 3064 1000)
+	(pt 3064 520)
+)
+(connector
+	(pt 3064 520)
+	(pt 3096 520)
+)
+(connector
+	(pt 3208 496)
+	(pt 3184 496)
+)
+(connector
+	(pt 840 1768)
+	(pt 3184 1768)
+)
+(connector
+	(pt 3208 552)
+	(pt 3192 552)
+)
+(connector
+	(pt 3200 608)
+	(pt 3208 608)
+)
+(connector
+	(pt 3200 1448)
+	(pt 3528 1448)
+)
+(connector
+	(pt 1088 1752)
+	(pt 3192 1752)
+)
+(connector
+	(pt 1336 1736)
+	(pt 3200 1736)
+)
+(connector
+	(pt 3096 576)
+	(pt 3072 576)
+)
+(connector
+	(pt 3080 632)
+	(pt 3096 632)
+)
+(connector
+	(pt 1096 1744)
+	(pt 3168 1744)
+)
+(connector
+	(pt 848 1760)
+	(pt 3160 1760)
+)
+(connector
+	(pt 608 1776)
+	(pt 3152 1776)
+)
+(connector
+	(pt 368 1792)
+	(pt 3144 1792)
+)
+(connector
+	(pt 3144 1792)
+	(pt 3144 824)
+)
+(connector
+	(pt 2984 552)
+	(pt 2960 552)
+)
+(connector
+	(pt 3168 1472)
+	(pt 3168 1744)
+)
+(connector
+	(pt 3152 1000)
+	(pt 3152 1776)
+)
+(connector
+	(pt 2992 216)
+	(pt 3208 216)
+)
+(connector
+	(pt 3088 480)
+	(pt 3208 480)
+)
+(connector
+	(pt 3088 592)
+	(pt 3208 592)
+)
+(connector
+	(pt 2704 88)
+	(pt 2992 88)
+)
+(connector
+	(pt 2880 504)
+	(pt 2880 584)
+)
+(connector
+	(pt 3176 800)
+	(pt 3496 800)
+)
+(connector
+	(pt 3432 784)
+	(pt 3496 784)
+)
+(connector
+	(pt 3640 792)
+	(pt 3640 800)
+)
+(connector
+	(pt 3560 792)
+	(pt 3640 792)
+)
+(connector
+	(pt 3640 816)
+	(pt 3640 832)
+)
+(connector
+	(pt 3560 832)
+	(pt 3640 832)
+)
+(connector
+	(pt 3184 976)
+	(pt 3496 976)
+)
+(connector
+	(pt 3448 960)
+	(pt 3496 960)
+)
+(connector
+	(pt 3640 968)
+	(pt 3640 976)
+)
+(connector
+	(pt 3560 968)
+	(pt 3640 968)
+)
+(connector
+	(pt 3640 992)
+	(pt 3640 1008)
+)
+(connector
+	(pt 3560 1008)
+	(pt 3640 1008)
+)
+(connector
+	(pt 3688 560)
+	(pt 3720 560)
+)
+(connector
+	(pt 3696 592)
+	(pt 3720 592)
+)
+(connector
+	(pt 3720 544)
+	(pt 3704 544)
+)
+(connector
+	(pt 3320 544)
+	(pt 3320 480)
+)
+(connector
+	(pt 3336 600)
+	(pt 3336 512)
+)
+(connector
+	(pt 3344 624)
+	(pt 3344 528)
+)
+(connector
+	(pt 3712 576)
+	(pt 3712 632)
+)
+(connector
+	(pt 3648 752)
+	(pt 3640 752)
+)
+(connector
+	(pt 3648 928)
+	(pt 3624 928)
+)
+(connector
+	(pt 3648 1040)
+	(pt 3616 1040)
+)
+(connector
+	(pt 2632 560)
+	(pt 2872 560)
+)
+(connector
+	(pt 2624 584)
+	(pt 2880 584)
+)
+(connector
+	(pt 3648 864)
+	(pt 3632 864)
+)
+(connector
+	(pt 3640 416)
+	(pt 3640 752)
+)
+(connector
+	(pt 3632 864)
+	(pt 3632 432)
+)
+(connector
+	(pt 3624 928)
+	(pt 3624 448)
+)
+(connector
+	(pt 3616 1040)
+	(pt 3616 464)
+)
+(connector
+	(pt 3440 1272)
+	(pt 3488 1272)
+)
+(connector
+	(pt 3856 1128)
+	(pt 3848 1128)
+)
+(connector
+	(pt 3776 1104)
+	(pt 3768 1104)
+)
+(connector
+	(pt 3776 1160)
+	(pt 3768 1160)
+)
+(connector
+	(pt 3608 480)
+	(pt 3608 1104)
+)
+(connector
+	(pt 3776 1104)
+	(pt 3776 1120)
+)
+(connector
+	(pt 3776 1160)
+	(pt 3776 1136)
+)
+(connector
+	(pt 3784 1120)
+	(pt 3776 1120)
+)
+(connector
+	(pt 3784 1136)
+	(pt 3776 1136)
+)
+(connector
+	(pt 3608 1104)
+	(pt 3624 1104)
+)
+(connector
+	(pt 3672 1104)
+	(pt 3704 1104)
+)
+(connector
+	(pt 3704 1096)
+	(pt 3696 1096)
+)
+(connector
+	(pt 3696 1112)
+	(pt 3696 1128)
+)
+(connector
+	(pt 3704 1112)
+	(pt 3696 1112)
+)
+(connector
+	(pt 3696 1128)
+	(pt 3056 1128)
+)
+(connector
+	(pt 3696 1152)
+	(pt 3696 1136)
+)
+(connector
+	(pt 3704 1152)
+	(pt 3696 1152)
+)
+(connector
+	(pt 3048 1136)
+	(pt 3696 1136)
+)
+(connector
+	(pt 3672 1160)
+	(pt 3704 1160)
+)
+(connector
+	(pt 3856 1240)
+	(pt 3848 1240)
+)
+(connector
+	(pt 3776 1272)
+	(pt 3768 1272)
+)
+(connector
+	(pt 3776 1216)
+	(pt 3768 1216)
+)
+(connector
+	(pt 3776 1272)
+	(pt 3776 1248)
+)
+(connector
+	(pt 3776 1216)
+	(pt 3776 1232)
+)
+(connector
+	(pt 3784 1232)
+	(pt 3776 1232)
+)
+(connector
+	(pt 3784 1248)
+	(pt 3776 1248)
+)
+(connector
+	(pt 3696 1264)
+	(pt 3696 1248)
+)
+(connector
+	(pt 3704 1264)
+	(pt 3696 1264)
+)
+(connector
+	(pt 3048 1248)
+	(pt 3696 1248)
+)
+(connector
+	(pt 3696 1224)
+	(pt 3696 1240)
+)
+(connector
+	(pt 3704 1224)
+	(pt 3696 1224)
+)
+(connector
+	(pt 3056 1240)
+	(pt 3696 1240)
+)
+(connector
+	(pt 3704 1280)
+	(pt 3696 1280)
+)
+(connector
+	(pt 3672 1272)
+	(pt 3704 1272)
+)
+(connector
+	(pt 3704 1208)
+	(pt 3696 1208)
+)
+(connector
+	(pt 3696 1208)
+	(pt 3696 1192)
+)
+(connector
+	(pt 3696 1192)
+	(pt 3592 1192)
+)
+(connector
+	(pt 3600 1216)
+	(pt 3624 1216)
+)
+(connector
+	(pt 3672 1216)
+	(pt 3704 1216)
+)
+(connector
+	(pt 3704 1168)
+	(pt 3696 1168)
+)
+(connector
+	(pt 3696 1168)
+	(pt 3696 1184)
+)
+(connector
+	(pt 3696 1184)
+	(pt 3608 1184)
+)
+(connector
+	(pt 3600 1392)
+	(pt 3592 1392)
+)
+(connector
+	(pt 3472 1400)
+	(pt 3528 1400)
+)
+(connector
+	(pt 3160 1384)
+	(pt 3160 1760)
+)
+(connector
+	(pt 3464 1344)
+	(pt 3528 1344)
+)
+(connector
+	(pt 3192 1360)
+	(pt 3528 1360)
+)
+(connector
+	(pt 3600 1376)
+	(pt 3608 1376)
+)
+(connector
+	(pt 3680 1368)
+	(pt 3672 1368)
+)
+(connector
+	(pt 3600 1392)
+	(pt 3600 1376)
+)
+(connector
+	(pt 3600 1352)
+	(pt 3600 1360)
+)
+(connector
+	(pt 3592 1352)
+	(pt 3600 1352)
+)
+(connector
+	(pt 3600 1360)
+	(pt 3608 1360)
+)
+(connector
+	(pt 3056 1288)
+	(pt 3056 1320)
+)
+(connector
+	(pt 3056 1320)
+	(pt 3680 1320)
+)
+(connector
+	(pt 3680 1368)
+	(pt 3680 1320)
+)
+(connector
+	(pt 3696 1096)
+	(pt 3696 1080)
+)
+(connector
+	(pt 3608 1184)
+	(pt 3608 1168)
+)
+(connector
+	(pt 3552 1168)
+	(pt 3608 1168)
+)
+(connector
+	(pt 3696 1280)
+	(pt 3696 1296)
+)
+(connector
+	(pt 3488 1296)
+	(pt 3504 1296)
+)
+(connector
+	(pt 3840 496)
+	(pt 3872 496)
+)
+(connector
+	(pt 3680 320)
+	(pt 3720 320)
+)
+(connector
+	(pt 3696 336)
+	(pt 3720 336)
+)
+(connector
+	(pt 3688 304)
+	(pt 3720 304)
+)
+(connector
+	(pt 3680 576)
+	(pt 3680 320)
+)
+(connector
+	(pt 3432 160)
+	(pt 3720 160)
+)
+(connector
+	(pt 3448 192)
+	(pt 3720 192)
+)
+(connector
+	(pt 3456 208)
+	(pt 3720 208)
+)
+(connector
+	(pt 3464 224)
+	(pt 3720 224)
+)
+(connector
+	(pt 3440 176)
+	(pt 3720 176)
+)
+(connector
+	(pt 3488 272)
+	(pt 3720 272)
+)
+(connector
+	(pt 3480 256)
+	(pt 3720 256)
+)
+(connector
+	(pt 3472 240)
+	(pt 3720 240)
+)
+(connector
+	(pt 3840 240)
+	(pt 3848 240)
+)
+(connector
+	(pt 3848 240)
+	(pt 3848 368)
+)
+(connector
+	(pt 3848 368)
+	(pt 3712 368)
+)
+(connector
+	(pt 3720 400)
+	(pt 3712 400)
+)
+(connector
+	(pt 3712 400)
+	(pt 3712 368)
+)
+(connector
+	(pt 3704 288)
+	(pt 3704 544)
+)
+(connector
+	(pt 3040 360)
+	(pt 3064 360)
+)
+(connector
+	(pt 3040 384)
+	(pt 3040 360)
+)
+(connector
+	(pt 3184 264)
+	(pt 3200 264)
+)
+(connector
+	(pt 3184 280)
+	(pt 3200 280)
+)
+(connector
+	(pt 3184 296)
+	(pt 3200 296)
+)
+(connector
+	(pt 3184 312)
+	(pt 3200 312)
+)
+(connector
+	(pt 2992 328)
+	(pt 3000 328)
+)
+(connector
+	(pt 3048 328)
+	(pt 3064 328)
+)
+(connector
+	(pt 1208 1440)
+	(pt 1208 1504)
+)
+(connector
+	(pt 1208 1504)
+	(pt 2656 1504)
+)
+(connector
+	(pt 1408 1440)
+	(pt 1408 1496)
+)
+(connector
+	(pt 1408 1496)
+	(pt 2648 1496)
+)
+(connector
+	(pt 1608 1440)
+	(pt 1608 1488)
+)
+(connector
+	(pt 1608 1488)
+	(pt 2640 1488)
+)
+(connector
+	(pt 2632 560)
+	(pt 2632 968)
+)
+(connector
+	(pt 2624 584)
+	(pt 2624 960)
+)
+(connector
+	(pt 1968 984)
+	(pt 2648 984)
+)
+(connector
+	(pt 1632 992)
+	(pt 2656 992)
+)
+(connector
+	(pt 1632 928)
+	(pt 1632 992)
+)
+(connector
+	(pt 1968 928)
+	(pt 1968 984)
+)
+(connector
+	(pt 2304 976)
+	(pt 2640 976)
+)
+(connector
+	(pt 2304 928)
+	(pt 2304 976)
+)
+(connector
+	(pt 1936 968)
+	(pt 2632 968)
+)
+(connector
+	(pt 2272 960)
+	(pt 2624 960)
+)
+(connector
+	(pt 1904 56)
+	(pt 1904 96)
+)
+(connector
+	(pt 1904 96)
+	(pt 2848 96)
+)
+(connector
+	(pt 2640 344)
+	(pt 2640 256)
+)
+(connector
+	(pt 2712 216)
+	(pt 2712 152)
+)
+(connector
+	(pt 2144 256)
+	(pt 2640 256)
+)
+(connector
+	(pt 2400 152)
+	(pt 2712 152)
+)
+(connector
+	(pt 608 1640)
+	(pt 608 1656)
+)
+(connector
+	(pt 608 1656)
+	(pt 608 1776)
+)
+(connector
+	(pt 840 1592)
+	(pt 840 1696)
+)
+(connector
+	(pt 840 1696)
+	(pt 840 1768)
+)
+(connector
+	(pt 848 1640)
+	(pt 848 1656)
+)
+(connector
+	(pt 848 1656)
+	(pt 848 1760)
+)
+(connector
+	(pt 1088 1592)
+	(pt 1088 1696)
+)
+(connector
+	(pt 1088 1696)
+	(pt 1088 1752)
+)
+(connector
+	(pt 1096 1640)
+	(pt 1096 1656)
+)
+(connector
+	(pt 1096 1656)
+	(pt 1096 1744)
+)
+(connector
+	(pt 1336 1592)
+	(pt 1336 1696)
+)
+(connector
+	(pt 1336 1696)
+	(pt 1336 1736)
+)
+(connector
+	(pt 368 1640)
+	(pt 368 1656)
+)
+(connector
+	(pt 368 1656)
+	(pt 368 1792)
+)
+(connector
+	(pt 600 1592)
+	(pt 600 1696)
+)
+(connector
+	(pt 600 1696)
+	(pt 600 1784)
+)
+(connector
+	(pt 1024 1512)
+	(pt 1024 1528)
+)
+(connector
+	(pt 1024 1528)
+	(pt 1024 1552)
+)
+(connector
+	(pt 2680 408)
+	(pt 2840 408)
+)
+(connector
+	(pt 2840 408)
+	(pt 2896 408)
+)
+(connector
+	(pt 2696 296)
+	(pt 2696 312)
+)
+(connector
+	(pt 2696 312)
+	(pt 2696 440)
+)
+(connector
+	(pt 2696 440)
+	(pt 2696 456)
+)
+(connector
+	(pt 2696 456)
+	(pt 2696 536)
+)
+(connector
+	(pt 2840 264)
+	(pt 2840 288)
+)
+(connector
+	(pt 2840 288)
+	(pt 2840 296)
+)
+(connector
+	(pt 2880 1392)
+	(pt 2880 1400)
+)
+(connector
+	(pt 2880 1400)
+	(pt 2880 1416)
+)
+(connector
+	(pt 2880 1176)
+	(pt 2880 1184)
+)
+(connector
+	(pt 2880 1184)
+	(pt 2880 1200)
+)
+(connector
+	(pt 2872 768)
+	(pt 2880 768)
+)
+(connector
+	(pt 2880 768)
+	(pt 2944 768)
+)
+(connector
+	(pt 2872 944)
+	(pt 2880 944)
+)
+(connector
+	(pt 2880 944)
+	(pt 2944 944)
+)
+(connector
+	(pt 2656 392)
+	(pt 2840 392)
+)
+(connector
+	(pt 2840 392)
+	(pt 2896 392)
+)
+(connector
+	(pt 2720 1160)
+	(pt 2800 1160)
+)
+(connector
+	(pt 2800 1160)
+	(pt 2808 1160)
+)
+(connector
+	(pt 2736 696)
+	(pt 2736 768)
+)
+(connector
+	(pt 2736 768)
+	(pt 2736 944)
+)
+(connector
+	(pt 2736 944)
+	(pt 2736 1192)
+)
+(connector
+	(pt 2736 1192)
+	(pt 2736 1408)
+)
+(connector
+	(pt 2728 1120)
+	(pt 2744 1120)
+)
+(connector
+	(pt 2744 1328)
+	(pt 2928 1328)
+)
+(connector
+	(pt 2928 1328)
+	(pt 3048 1328)
+)
+(connector
+	(pt 2720 1368)
+	(pt 2744 1368)
+)
+(connector
+	(pt 2744 1368)
+	(pt 2792 1368)
+)
+(connector
+	(pt 2744 1120)
+	(pt 2928 1120)
+)
+(connector
+	(pt 2880 504)
+	(pt 3088 504)
+)
+(connector
+	(pt 3088 504)
+	(pt 3096 504)
+)
+(connector
+	(pt 3048 560)
+	(pt 3088 560)
+)
+(connector
+	(pt 3088 560)
+	(pt 3096 560)
+)
+(connector
+	(pt 3048 616)
+	(pt 3088 616)
+)
+(connector
+	(pt 3088 616)
+	(pt 3096 616)
+)
+(connector
+	(pt 2928 1120)
+	(pt 3040 1120)
+)
+(connector
+	(pt 3040 1120)
+	(pt 3056 1120)
+)
+(connector
+	(pt 3200 608)
+	(pt 3200 1448)
+)
+(connector
+	(pt 3200 1448)
+	(pt 3200 1736)
+)
+(connector
+	(pt 3080 1472)
+	(pt 3168 1472)
+)
+(connector
+	(pt 3168 1472)
+	(pt 3528 1472)
+)
+(connector
+	(pt 2960 552)
+	(pt 2960 608)
+)
+(connector
+	(pt 3176 440)
+	(pt 3176 800)
+)
+(connector
+	(pt 3176 800)
+	(pt 3176 1784)
+)
+(connector
+	(pt 3056 824)
+	(pt 3144 824)
+)
+(connector
+	(pt 3144 824)
+	(pt 3496 824)
+)
+(connector
+	(pt 3184 496)
+	(pt 3184 976)
+)
+(connector
+	(pt 3184 976)
+	(pt 3184 1768)
+)
+(connector
+	(pt 3064 1000)
+	(pt 3152 1000)
+)
+(connector
+	(pt 3152 1000)
+	(pt 3496 1000)
+)
+(connector
+	(pt 3680 576)
+	(pt 3712 576)
+)
+(connector
+	(pt 3712 576)
+	(pt 3720 576)
+)
+(connector
+	(pt 3288 416)
+	(pt 3640 416)
+)
+(connector
+	(pt 3640 416)
+	(pt 3720 416)
+)
+(connector
+	(pt 3304 448)
+	(pt 3624 448)
+)
+(connector
+	(pt 3624 448)
+	(pt 3720 448)
+)
+(connector
+	(pt 3312 464)
+	(pt 3616 464)
+)
+(connector
+	(pt 3616 464)
+	(pt 3720 464)
+)
+(connector
+	(pt 3608 480)
+	(pt 3720 480)
+)
+(connector
+	(pt 3336 512)
+	(pt 3592 512)
+)
+(connector
+	(pt 3592 512)
+	(pt 3720 512)
+)
+(connector
+	(pt 3600 496)
+	(pt 3720 496)
+)
+(connector
+	(pt 3048 1248)
+	(pt 3048 1328)
+)
+(connector
+	(pt 3056 1120)
+	(pt 3056 1128)
+)
+(connector
+	(pt 3056 1128)
+	(pt 3056 1240)
+)
+(connector
+	(pt 3192 552)
+	(pt 3192 1360)
+)
+(connector
+	(pt 3192 1360)
+	(pt 3192 1752)
+)
+(connector
+	(pt 3072 1384)
+	(pt 3160 1384)
+)
+(connector
+	(pt 3160 1384)
+	(pt 3528 1384)
+)
+(connector
+	(pt 3344 528)
+	(pt 3584 528)
+)
+(connector
+	(pt 3584 528)
+	(pt 3720 528)
+)
+(connector
+	(pt 3688 144)
+	(pt 3688 304)
+)
+(connector
+	(pt 3688 304)
+	(pt 3688 560)
+)
+(connector
+	(pt 3696 336)
+	(pt 3696 400)
+)
+(connector
+	(pt 3696 400)
+	(pt 3696 592)
+)
+(connector
+	(pt 3480 1168)
+	(pt 3480 1432)
+)
+(connector
+	(pt 3424 840)
+	(pt 3440 840)
+)
+(connector
+	(pt 3440 840)
+	(pt 3496 840)
+)
+(connector
+	(pt 3432 1016)
+	(pt 3456 1016)
+)
+(connector
+	(pt 3456 1016)
+	(pt 3496 1016)
+)
+(connector
+	(pt 3488 272)
+	(pt 3488 1272)
+)
+(connector
+	(pt 3488 1272)
+	(pt 3488 1296)
+)
+(connector
+	(pt 3488 1296)
+	(pt 3488 1488)
+)
+(connector
+	(pt 3464 1096)
+	(pt 3464 1344)
+)
+(connector
+	(pt 2968 400)
+	(pt 2992 400)
+)
+(connector
+	(pt 2992 400)
+	(pt 3696 400)
+)
+(connector
+	(pt 2992 216)
+	(pt 2992 328)
+)
+(connector
+	(pt 2992 328)
+	(pt 2992 400)
+)
+(connector
+	(pt 1104 1520)
+	(pt 1104 1584)
+)
+(connector
+	(pt 1104 1584)
 	(pt 1104 1608)
+)
+(connector
+	(pt 2648 936)
+	(pt 2648 984)
+)
+(connector
+	(pt 2648 984)
+	(pt 2648 1496)
+)
+(connector
+	(pt 2656 760)
+	(pt 2656 992)
+)
+(connector
+	(pt 2656 992)
+	(pt 2656 1504)
+)
+(connector
+	(pt 2640 976)
+	(pt 2640 1160)
+)
+(connector
+	(pt 2640 1160)
+	(pt 2640 1488)
+)
+(connector
+	(pt 1936 464)
+	(pt 1936 680)
+)
+(connector
+	(pt 1936 680)
+	(pt 1936 968)
+)
+(connector
+	(pt 2272 464)
+	(pt 2272 680)
+)
+(connector
+	(pt 2272 680)
+	(pt 2272 960)
+)
+(connector
+	(pt 2848 96)
+	(pt 2848 112)
+)
+(connector
+	(pt 2848 112)
+	(pt 2848 208)
+)
+(connector
+	(pt 2144 152)
+	(pt 2144 216)
+)
+(connector
+	(pt 2144 216)
+	(pt 2144 256)
+)
+(connector
+	(pt 3048 648)
+	(pt 3048 1136)
+)
+(connector
+	(pt 3048 1136)
+	(pt 3048 1248)
+)
+(connector
+	(pt 3040 656)
+	(pt 3040 1120)
+)
+(connector
+	(pt 2880 288)
+	(pt 2880 344)
+)
+(connector
+	(pt 2872 360)
+	(pt 2896 360)
+)
+(connector
+	(pt 2856 456)
+	(pt 2968 456)
+)
+(connector
+	(pt 3552 1296)
+	(pt 3696 1296)
+)
+(connector
+	(pt 3328 496)
+	(pt 3328 568)
+)
+(connector
+	(pt 3328 496)
+	(pt 3600 496)
+)
+(connector
+	(pt 3320 480)
+	(pt 3608 480)
+)
+(connector
+	(pt 3160 624)
+	(pt 3344 624)
+)
+(connector
+	(pt 3072 576)
+	(pt 3072 1384)
+)
+(connector
+	(pt 3080 632)
+	(pt 3080 1472)
+)
+(connector
+	(pt 3584 528)
+	(pt 3584 1272)
+)
+(connector
+	(pt 3592 512)
+	(pt 3592 1160)
+)
+(connector
+	(pt 3584 1272)
+	(pt 3624 1272)
+)
+(connector
+	(pt 2600 680)
+	(pt 2608 680)
+)
+(connector
+	(pt 2608 464)
+	(pt 2608 608)
+)
+(connector
+	(pt 2608 608)
+	(pt 2608 680)
+)
+(connector
+	(pt 2608 608)
+	(pt 2960 608)
+)
+(connector
+	(pt 2960 608)
+	(pt 2984 608)
+)
+(connector
+	(pt 2872 560)
+	(pt 2872 480)
+)
+(connector
+	(pt 2872 480)
+	(pt 3000 480)
+)
+(connector
+	(pt 3000 448)
+	(pt 3000 480)
+)
+(connector
+	(pt 3000 448)
+	(pt 3088 448)
+)
+(connector
+	(pt 3088 448)
+	(pt 3096 448)
+)
+(connector
+	(pt 3432 160)
+	(pt 3432 744)
+)
+(connector
+	(pt 3264 288)
+	(pt 3704 288)
+)
+(connector
+	(pt 3704 288)
+	(pt 3720 288)
+)
+(connector
+	(pt 3296 432)
+	(pt 3632 432)
+)
+(connector
+	(pt 3632 432)
+	(pt 3720 432)
+)
+(connector
+	(pt 3600 496)
+	(pt 3600 1216)
+)
+(connector
+	(pt 3624 1160)
+	(pt 3592 1160)
+)
+(connector
+	(pt 3592 1192)
+	(pt 3592 1216)
+)
+(connector
+	(pt 3592 1216)
+	(pt 3552 1216)
+)
+(connector
+	(pt 3472 1216)
+	(pt 3472 1400)
+)
+(connector
+	(pt 3472 240)
+	(pt 3472 1216)
+)
+(connector
+	(pt 3440 1216)
+	(pt 3472 1216)
+)
+(connector
+	(pt 3472 1216)
+	(pt 3504 1216)
+)
+(connector
+	(pt 3480 256)
+	(pt 3480 1168)
+)
+(connector
+	(pt 3432 1168)
+	(pt 3480 1168)
+)
+(connector
+	(pt 3480 1168)
+	(pt 3504 1168)
+)
+(connector
+	(pt 3576 1080)
+	(pt 3576 1096)
+)
+(connector
+	(pt 3576 1080)
+	(pt 3696 1080)
+)
+(connector
+	(pt 3464 224)
+	(pt 3464 1096)
+)
+(connector
+	(pt 3432 1096)
+	(pt 3464 1096)
+)
+(connector
+	(pt 3464 1096)
+	(pt 3512 1096)
+)
+(connector
+	(pt 3560 1096)
+	(pt 3576 1096)
+)
+(connector
+	(pt 3576 1024)
+	(pt 3576 1040)
+)
+(connector
+	(pt 3576 1024)
+	(pt 3648 1024)
+)
+(connector
+	(pt 3456 208)
+	(pt 3456 1016)
+)
+(connector
+	(pt 3456 1016)
+	(pt 3456 1040)
+)
+(connector
+	(pt 3456 1040)
+	(pt 3576 1040)
+)
+(connector
+	(pt 3576 944)
+	(pt 3648 944)
+)
+(connector
+	(pt 3576 944)
+	(pt 3576 920)
+)
+(connector
+	(pt 3448 192)
+	(pt 3448 920)
+)
+(connector
+	(pt 3448 920)
+	(pt 3448 960)
+)
+(connector
+	(pt 3432 920)
+	(pt 3448 920)
+)
+(connector
+	(pt 3448 920)
+	(pt 3576 920)
+)
+(connector
+	(pt 3576 848)
+	(pt 3576 864)
+)
+(connector
+	(pt 3576 848)
+	(pt 3648 848)
+)
+(connector
+	(pt 3440 176)
+	(pt 3440 840)
+)
+(connector
+	(pt 3440 840)
+	(pt 3440 864)
+)
+(connector
+	(pt 3440 864)
+	(pt 3576 864)
+)
+(connector
+	(pt 3576 768)
+	(pt 3648 768)
+)
+(connector
+	(pt 3576 768)
+	(pt 3576 744)
+)
+(connector
+	(pt 3432 744)
+	(pt 3432 784)
+)
+(connector
+	(pt 3416 744)
+	(pt 3432 744)
+)
+(connector
+	(pt 3432 744)
+	(pt 3576 744)
 )
 (junction (pt 640 936))
 (junction (pt 640 1128))
@@ -16657,76 +16805,8 @@ agreement for further details.
 (junction (pt 384 1416))
 (junction (pt 624 88))
 (junction (pt 856 88))
-(junction (pt 1104 1568))
 (junction (pt 384 368))
 (junction (pt 352 272))
-(junction (pt 3016 112))
-(junction (pt 3008 408))
-(junction (pt 2864 312))
-(junction (pt 2864 440))
-(junction (pt 2864 456))
-(junction (pt 3008 288))
-(junction (pt 3048 1400))
-(junction (pt 3048 1184))
-(junction (pt 2904 768))
-(junction (pt 2904 944))
-(junction (pt 3048 768))
-(junction (pt 3048 944))
-(junction (pt 3008 392))
-(junction (pt 2968 1160))
-(junction (pt 2912 1120))
-(junction (pt 3488 88))
-(junction (pt 3488 64))
-(junction (pt 3096 1120))
-(junction (pt 2904 1192))
-(junction (pt 3160 400))
-(junction (pt 2808 1160))
-(junction (pt 3208 1120))
-(junction (pt 3096 1328))
-(junction (pt 2912 1368))
-(junction (pt 3600 744))
-(junction (pt 3608 840))
-(junction (pt 3616 920))
-(junction (pt 3624 1016))
-(junction (pt 3648 1160))
-(junction (pt 3640 1208))
-(junction (pt 3256 448))
-(junction (pt 3256 504))
-(junction (pt 3256 560))
-(junction (pt 3256 616))
-(junction (pt 3368 1448))
-(junction (pt 3336 1472))
-(junction (pt 3320 1000))
-(junction (pt 3312 824))
-(junction (pt 3344 800))
-(junction (pt 3352 976))
-(junction (pt 3128 608))
-(junction (pt 3864 400))
-(junction (pt 3880 576))
-(junction (pt 3600 768))
-(junction (pt 3616 944))
-(junction (pt 3808 416))
-(junction (pt 3800 432))
-(junction (pt 3792 448))
-(junction (pt 3784 464))
-(junction (pt 3776 480))
-(junction (pt 3640 1200))
-(junction (pt 3648 1168))
-(junction (pt 3632 1096))
-(junction (pt 3656 1272))
-(junction (pt 3760 512))
-(junction (pt 3768 496))
-(junction (pt 3632 1080))
-(junction (pt 3224 1128))
-(junction (pt 3216 1136))
-(junction (pt 3216 1248))
-(junction (pt 3328 1384))
-(junction (pt 3360 1360))
-(junction (pt 3656 1296))
-(junction (pt 3752 528))
-(junction (pt 3856 304))
-(junction (pt 3872 288))
-(junction (pt 3160 328))
 (junction (pt 1272 1360))
 (junction (pt 1264 784))
 (junction (pt 1264 976))
@@ -16783,42 +16863,6 @@ agreement for further details.
 (junction (pt 1584 184))
 (junction (pt 1352 272))
 (junction (pt 1072 -8))
-(junction (pt 2824 1072))
-(junction (pt 2816 1064))
-(junction (pt 1960 736))
-(junction (pt 1968 784))
-(junction (pt 1960 880))
-(junction (pt 1960 592))
-(junction (pt 1968 640))
-(junction (pt 2296 736))
-(junction (pt 2296 880))
-(junction (pt 2296 592))
-(junction (pt 2304 640))
-(junction (pt 2304 784))
-(junction (pt 2632 736))
-(junction (pt 2632 880))
-(junction (pt 2632 592))
-(junction (pt 2640 640))
-(junction (pt 2640 784))
-(junction (pt 1824 608))
-(junction (pt 1824 752))
-(junction (pt 1792 752))
-(junction (pt 1824 896))
-(junction (pt 1792 896))
-(junction (pt 2160 608))
-(junction (pt 2160 752))
-(junction (pt 2128 752))
-(junction (pt 2160 896))
-(junction (pt 2128 896))
-(junction (pt 2496 608))
-(junction (pt 2496 752))
-(junction (pt 2464 752))
-(junction (pt 2496 896))
-(junction (pt 2464 896))
-(junction (pt 2120 472))
-(junction (pt 2096 760))
-(junction (pt 2432 760))
-(junction (pt 2768 760))
 (junction (pt 1744 128))
 (junction (pt 1616 144))
 (junction (pt 1744 176))
@@ -16826,15 +16870,117 @@ agreement for further details.
 (junction (pt 1624 272))
 (junction (pt 1856 184))
 (junction (pt 1344 -8))
-(junction (pt 2288 472))
-(junction (pt 2296 216))
-(junction (pt 3576 1616))
+(junction (pt 1104 1584))
+(junction (pt 1800 656))
+(junction (pt 1808 704))
+(junction (pt 1800 800))
+(junction (pt 1800 512))
+(junction (pt 1808 560))
+(junction (pt 2136 656))
+(junction (pt 2136 800))
+(junction (pt 2136 512))
+(junction (pt 2144 560))
+(junction (pt 2144 704))
+(junction (pt 2472 656))
+(junction (pt 2472 800))
+(junction (pt 2472 512))
+(junction (pt 2480 560))
+(junction (pt 2480 704))
+(junction (pt 1664 528))
+(junction (pt 1664 672))
+(junction (pt 1632 672))
+(junction (pt 1664 816))
+(junction (pt 1632 816))
+(junction (pt 2000 528))
+(junction (pt 2000 672))
+(junction (pt 1968 672))
+(junction (pt 2000 816))
+(junction (pt 1968 816))
+(junction (pt 2336 528))
+(junction (pt 2336 672))
+(junction (pt 2304 672))
+(junction (pt 2336 816))
+(junction (pt 2304 816))
+(junction (pt 1936 680))
+(junction (pt 2272 680))
+(junction (pt 1960 392))
+(junction (pt 2144 216))
+(junction (pt 2136 392))
+(junction (pt 2232 1600))
+(junction (pt 1640 1672))
+(junction (pt 1640 1696))
+(junction (pt 1720 1552))
+(junction (pt 1728 1592))
+(junction (pt 1648 1648))
+(junction (pt 2840 408))
+(junction (pt 2696 312))
+(junction (pt 2696 440))
+(junction (pt 2696 456))
+(junction (pt 2840 288))
+(junction (pt 2880 1400))
+(junction (pt 2880 1184))
+(junction (pt 2736 768))
+(junction (pt 2880 768))
+(junction (pt 2880 944))
+(junction (pt 2840 392))
+(junction (pt 2744 1120))
+(junction (pt 2800 1160))
+(junction (pt 2736 944))
+(junction (pt 2736 1192))
+(junction (pt 2928 1120))
+(junction (pt 2928 1328))
+(junction (pt 2744 1368))
+(junction (pt 3040 1120))
+(junction (pt 3088 504))
+(junction (pt 3088 560))
+(junction (pt 3088 616))
+(junction (pt 3200 1448))
+(junction (pt 3168 1472))
+(junction (pt 3088 448))
+(junction (pt 2960 608))
+(junction (pt 3176 800))
+(junction (pt 3144 824))
+(junction (pt 3184 976))
+(junction (pt 3152 1000))
+(junction (pt 3712 576))
+(junction (pt 3640 416))
+(junction (pt 3624 448))
+(junction (pt 3616 464))
+(junction (pt 3608 480))
+(junction (pt 3592 512))
+(junction (pt 3048 1136))
+(junction (pt 3600 496))
+(junction (pt 3048 1248))
+(junction (pt 3056 1128))
+(junction (pt 3192 1360))
+(junction (pt 3464 1096))
+(junction (pt 3160 1384))
+(junction (pt 3480 1168))
+(junction (pt 3488 1296))
+(junction (pt 3584 528))
+(junction (pt 3688 304))
+(junction (pt 3696 400))
+(junction (pt 3432 744))
+(junction (pt 3440 840))
+(junction (pt 3456 1016))
+(junction (pt 3488 1272))
+(junction (pt 2992 328))
+(junction (pt 2992 400))
+(junction (pt 2648 984))
+(junction (pt 2656 992))
+(junction (pt 2640 1160))
+(junction (pt 2848 112))
+(junction (pt 2608 608))
+(junction (pt 3704 288))
+(junction (pt 3632 432))
+(junction (pt 3472 1216))
+(junction (pt 3448 920))
 (title_block
-	(rect 3536 1736 3904 1856)
+	(rect 3368 1736 3736 1856)
 	(section (rect 0 24 368 48)(text "COMPANY" (rect 2 0 59 14)(font "Arial" ))(text "Production Automation" (rect 56 2 402 23)(font "Arial" (font_size 12)))(border))
-	(section (rect 0 96 240 120)(text "DATE" (rect 2 0 35 14)(font "Arial" ))(text "Sun Nov 20 18:04:51 2016" (rect 56 3 367 21)(font "Arial" (font_size 10)))(date)(border))
+	(section (rect 0 96 240 120)(text "DATE" (rect 2 0 35 14)(font "Arial" ))(text "Wed Nov 23 09:20:41 2016" (rect 56 3 367 21)(font "Arial" (font_size 10)))(date)(border))
 	(section (rect 0 48 368 72)(text "DESIGNER" (rect 2 0 68 14)(font "Arial" ))(text "James Richters" (rect 56 2 287 23)(font "Arial" (font_size 12)))(border))
-	(section (rect 0 72 280 96)(text "NUMBER" (rect 2 0 51 14)(font "Arial" ))(text "1.0a" (rect 56 1 107 19)(font "Arial" (font_size 10)))(border))
+	(section (rect 0 72 280 96)(text "NUMBER" (rect 2 0 51 14)(font "Arial" ))(text "1.0" (rect 56 1 94 19)(font "Arial" (font_size 10)))(border))
 	(section (rect 310 96 368 120)(text "OF" (rect 10 0 26 14)(font "Arial" ))(text "1" (rect 34 4 46 22)(font "Arial" (font_size 10))))
 	(section (rect 280 72 368 96)(text "REV" (rect 2 1 26 15)(font "Arial" ))(text "B" (rect 43 1 55 19)(font "Arial" (font_size 10)))(border))
 	(section (rect 240 96 310 120)(text "SHEET" (rect 2 0 43 14)(font "Arial" ))(text "1" (rect 55 5 67 23)(font "Arial" (font_size 10))))
