@@ -1,13 +1,14 @@
         Wiring for EPM570T100C5 Board#1
 *Note Pins 37 and 89 are  Ground  on EPM570 and cannot be programmed
 *Note Pins 39 and 87 are 3.3Volts on EPM570 and cannot be programmed
-
-                                             13   12   11   10    9    8    7    6    5    4    3    2    1    <--DB Ribbon capble pins
-         SX-  SX+  SY-  SY+  SZ-  SZ+  LED2  WR  WD-  XS-  XD-   A1   A2  XD+  XS+   WP   A2   WD+ WS+  W-L
+                                                                                         
+                                             13   12   11   10    9    8    7    6    5    4    3    2    1    <--DB Ribbon cable pins
+         SX-  SX+  SY-  SY+  SZ-  SZ+  LED2 RS-  RS+  XS-  XD-   TP LWD-  XD+  XS+  LWP   VP  LWD+ LWS+ LW-L
           99   97   95   91   89   87   85   83   81   77   75   73   71   69   67   61   57   55   53   51
          100   98   96   92  X90X X88X  86   84   82   78   76   74   72   70   68   66   58   56   54   52
-         SA1  WSL  ZSL  ZWP            LED3 ---  GND  GND  GND  GND  GND  GND  GND  GND  X+L  X-L  WS-  W+L
-                             GND  3V3             25   24   23   22   21   20   19   18   17   16   15   14    <--DB Ribbon capble pins
+         SA1  WSL  ZSL  ZWP            LED3 ---  GND  GND  GND  GND  GND  GND  GND  GND  X+L  X-L  LWS- LW+L
+                             GND  3V3             25   24   23   22   21   20   19   18   17   16   15   14    <--DB Ribbon cable pins
+                                                                               R+L  R-L
 
 
 
@@ -23,69 +24,86 @@
 
 
 
-
-                                             13   12   11   10    9    8    7    6    5    4    3    2    1    <--DB Ribbon capble pins
-                    SEN  SXS  SYS  SZS SSC  ...   ZR   ZS-  ZD-  ZWP  ZP  ZD+  ZS+   A2   YD-  YD+ YS+  Y-L
+                                             13   12   11   10    9    8    7    6    5    4    3    2    1    <--DB Ribbon cable pins
+                    SEN  SXS  SYS  SZS SSC   RP  RD-  RD+  ZD-  ZWP   ZP  ZD+  ZS+  ZS-  YD-  YD+  YS+  Y-L
           5V  3V3    2    4    6    8   16   18   20   26   28   30   34   36   38   40   42   44   48   50
          GND  GND    1    3    5    7   15   17   19   21   27   29   33   35  X37X X39X  41   43   47   49
-               SG   SA2  SXD  SYD  SZD SSD  ...  GND  GND  GND  GND  GND  GND  GND  3V3  Z+L  Z-L  YS-  Y+L
-                                                  25   24   23   22   21   20   19   18   17   16   15   14    <--DB Ribbon capble pins
+               SG   SA2  SXD  SYD  SZD SSD  RSL  GND  GND  GND  GND  GND  GND  GND  3V3  Z+L  Z-L  YS-  Y+L
+                                                  25   24   23   22   21   20   19   18   17   16   15   14    <--DB Ribbon cable pins
 
 
 Pin Definitions:
 
-5V  -   5V Power
-3V3 - 3.3V Power
-GND - Ground Connection
-LED1- On Board LED1 - Power Indicator01
-LED2- On Board LED2 - Set to OSC/4000000 - blink led to show CPLD is working
-LED3- On Board LED3 - Set to OSC/2000000 - blink led to show CPLD is working
-SSC - Synchronous Serial Clock - DTR
-SSD - Synchronous Serial Data  - DSR
-XOSC- External Crystal Oscillator Monitor (50MHz)
-OSC - Oscillator Used by Shift Registers
-SG  - Smoothie Ground
-SX+ - Smoothieboard Input  X+ Limit
-SX- - Smoothieboard Input  X- Limit
-SY+ - Smoothieboard Input  Y+ Limit
-SY- - Smoothieboard Input  Y- Limit
-SZ+ - Smoothieboard Input  Z+ Limit
-SZ- - Smoothieboard Input  Z- Limit
-SEN - Smoothieboard Output Enable (any)
-SXS - Smoothieboard Output X Step
-SXD - Smoothieboard Output X Direction
-SYS - Smoothieboard Output Y Step
-SYD - Smoothieboard Output Y Direction
-SZS - Smoothieboard Output Z Step
-SZD - Smoothieboard Output Z Direction
-ZWP - Smoothieboard Output Spindle Power - make high when spindle on selected head should be running
-ZSL - Smoothieboard Output Z Select - make high to control Z axis and Z head with smoothie Z commands
-WSL - Smoothieboard Output W Select - make high to control W axis and W head with smoothie Z commands
-ZWR - Smoothieboard Input  Spindle Running
-X-L - Machine X -Limit Switch - Connect to ground during limit
-X+L - Machine X +Limit Switch - Connect to ground during limit
-Y-L - Machine Y -Limit Switch - Connect to ground during limit
-Y+L - Machine Y +Limit Switch - Connect to ground during limit
-Z-L - Machine Z -Limit Switch - Connect to ground during limit
-Z+L - Machine Z +Limit Switch - Connect to ground during limit
-W-L - Machine W -Limit Switch - Connect to ground during limit
-W+L - Machine W +Limit Switch - Connect to ground during limit
-XS+ - Driver X Step+ - for rising  edge drivers or the + side of differential step signal
-XS- - Driver X Step- - for falling edge drivers or the - side of differential step signal
-YS+ - Driver Y Step+ - for rising  edge drivers or the + side of differential step signal
-YS- - Driver Y Step- - for falling edge drivers or the - side of differential step signal
-ZS+ - Driver Z Step+ - for rising  edge drivers or the + side of differential step signal
-ZS- - Driver Z Step- - for falling edge drivers or the - side of differential step signal
-WS+ - Driver W Step+ - for rising  edge drivers or the + side of differential step signal
-WS- - Driver W Step- - for falling edge drivers or the - side of differential step signal
-ZP  - Z Spindle Power Signal - Goes high when Z spindle is selected
-WP  - W Spindle Power Signal - Goes high when W spindle is selected
-ZWP - Z and W powerup Signal - Goes Low when either spindle is powered up, connects to low side of both spindle drives
-A1  - T Head, or 5X Air Cylinder Control #1
-A2  - U Head, V Head, or 5Y Air Cylinder Control #2
-SA1 - Smoothieboard Output for Air Cylinder Control #1
-SA2 - Smoothieboard Output for Air Cylinder Control #2
+5V   -   5V Power
+3V3  - 3.3V Power
+GND  - Ground Connection
+LED1 - On Board LED1 - Power Indicator01
+LED2 - On Board LED2 - Set to OSC/4000000 - blink led to show CPLD is working
+LED3 - On Board LED3 - Set to OSC/2000000 - blink led to show CPLD is working
+SSC  - Synchronous Serial Clock - DTR
+SSD  - Synchronous Serial Data  - DSR
+XOSC - External Crystal Oscillator Monitor (50MHz)
+OSC  - Oscillator Used by Shift Registers
+SG   - Smoothie Ground
+SX+  - Smoothieboard Input  X+ Limit
+SX-  - Smoothieboard Input  X- Limit
+SY+  - Smoothieboard Input  Y+ Limit
+SY-  - Smoothieboard Input  Y- Limit
+SZ+  - Smoothieboard Input  Z+ Limit
+SZ-  - Smoothieboard Input  Z- Limit
+SEN  - Smoothieboard Output Enable (any)
+SXS  - Smoothieboard Output X Step
+SXD  - Smoothieboard Output X Direction
+SYS  - Smoothieboard Output Y Step
+SYD  - Smoothieboard Output Y Direction
+SZS  - Smoothieboard Output Z Step
+SZD  - Smoothieboard Output Z Direction
+ZWP  - Smoothieboard Output Spindle Power - make high when spindle on selected head should be running
+ZSL  - Smoothieboard Output Z Select - make high to control Z axis and Z head with smoothie Z commands
+WSL  - Smoothieboard Output W Select - make high to control W axis and W head with smoothie Z commands
+ZWR  - Smoothieboard Input  Spindle Running
+X-L  - Machine X -Limit Switch - Connect to ground during limit
+X+L  - Machine X +Limit Switch - Connect to ground during limit
+Y-L  - Machine Y -Limit Switch - Connect to ground during limit
+Y+L  - Machine Y +Limit Switch - Connect to ground during limit
+Z-L  - Machine Z -Limit Switch - Connect to ground during limit
+Z+L  - Machine Z +Limit Switch - Connect to ground during limit
+R-L  - Machine Z -Limit Switch - Connect to ground during limit
+R+L  - Machine Z +Limit Switch - Connect to ground during limit
+LW-L - Machine L or W -Limit Switch - Connect to ground during limit
+LW+L - Machine L or W +Limit Switch - Connect to ground during limit
+XS+  - Driver X Step+ - for rising  edge drivers or the + side of differential step signal
+XS-  - Driver X Step- - for falling edge drivers or the - side of differential step signal
+YS+  - Driver Y Step+ - for rising  edge drivers or the + side of differential step signal
+YS-  - Driver Y Step- - for falling edge drivers or the - side of differential step signal
+ZS+  - Driver Z Step+ - for rising  edge drivers or the + side of differential step signal
+ZS-  - Driver Z Step- - for falling edge drivers or the - side of differential step signal
+RS+  - Driver R Step+ - for rising  edge drivers or the + side of differential step signal
+RS-  - Driver R Step- - for falling edge drivers or the - side of differential step signal
+LWS+ - Driver L or W Step+ - for rising  edge drivers or the + side of differential step signal
+LWS- - Driver L or W Step- - for falling edge drivers or the - side of differential step signal
+XS+  - Driver X Direction+ - for rising  edge drivers or the + side of differential Direction signal
+XS-  - Driver X Direction- - for falling edge drivers or the - side of differential Direction signal
+YS+  - Driver Y Direction+ - for rising  edge drivers or the + side of differential Direction signal
+YS-  - Driver Y Direction- - for falling edge drivers or the - side of differential Direction signal
+ZS+  - Driver Z Direction+ - for rising  edge drivers or the + side of differential Direction signal
+ZS-  - Driver Z Direction- - for falling edge drivers or the - side of differential Direction signal
+RS+  - Driver R Direction+ - for rising  edge drivers or the + side of differential Direction signal
+RS-  - Driver R Direction- - for falling edge drivers or the - side of differential Direction signal
+LWS+ - Driver L or W Direction+ - for rising  edge drivers or the + side of differential Direction signal
+LWS- - Driver L or W Direction- - for falling edge drivers or the - side of differential Direction signal
+ZP   - Z Spindle Power Signal - Goes high when Z spindle is selected
+LWP  - L or W Spindle Power Signal - Goes high when W spindle is selected
+ZWP  - Z and W powerup Signal - Goes Low when either spindle is powered up, connects to low side of both spindle drives
+TP   A1  - T Head, or 5X Air Cylinder Control #1
+VP   A2  - U Head, V Head, or 5Y Air Cylinder Control #2
+!SA1 - Smoothieboard Output for Air Cylinder Control #1 (active low)
+!SA2 - Smoothieboard Output for Air Cylinder Control #2 (active low)
 
 
 
- 
+
+
+
+
+
