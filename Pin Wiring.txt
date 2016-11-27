@@ -6,7 +6,7 @@
          SX-  SX+  SY-  SY+  SZ-  SZ+  LED2 RS-  RS+  XS-  XD-   TP LWD-  XD+  XS+  LWP   VP  LWD+ LWS+ LW-L
           99   97   95   91   89   87   85   83   81   77   75   73   71   69   67   61   57   55   53   51
          100   98   96   92  X90X X88X  86   84   82   78   76   74   72   70   68   66   58   56   54   52
-         SA1  WSL  ZSL  ZWP            LED3 ---  GND  GND  GND  GND  GND  GND  GND  GND  X+L  X-L  LWS- LW+L
+         RSL  WSL  ZSL  ZWP            LED3 ---  GND  GND  GND  GND  GND  GND  GND  GND  X+L  X-L  LWS- LW+L
                              GND  3V3             25   24   23   22   21   20   19   18   17   16   15   14    <--DB Ribbon cable pins
                                                                                R+L  R-L
 
@@ -28,7 +28,7 @@
                     SEN  SXS  SYS  SZS SSC   RP  RD-  RD+  ZD-  ZWP   ZP  ZD+  ZS+  ZS-  YD-  YD+  YS+  Y-L
           5V  3V3    2    4    6    8   16   18   20   26   28   30   34   36   38   40   42   44   48   50
          GND  GND    1    3    5    7   15   17   19   21   27   29   33   35  X37X X39X  41   43   47   49
-               SG   SA2  SXD  SYD  SZD SSD  RSL  GND  GND  GND  GND  GND  GND  GND  3V3  Z+L  Z-L  YS-  Y+L
+               SG   SA2  SXD  SYD  SZD SSD  SA1  GND  GND  GND  GND  GND  GND  GND  3V3  Z+L  Z-L  YS-  Y+L
                                                   25   24   23   22   21   20   19   18   17   16   15   14    <--DB Ribbon cable pins
 
 
