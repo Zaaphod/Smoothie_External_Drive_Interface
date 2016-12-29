@@ -2,30 +2,30 @@
 *Note Pins 37 and 89 are  Ground  on EPM570 and cannot be programmed
 *Note Pins 39 and 87 are 3.3Volts on EPM570 and cannot be programmed
                                                                                          
-                                                     13   12   11   10    9    8    7    6    5    4    3    2    1    <--DB Ribbon cable pins
-S5V  SG          SX-  SX+  SY-  SY+  SZ-  SZ+  LED2 RS-  RS+  XS-  XD-   TP LWD-  XD+  XS+  LWP   VP  LWD+ LWS+ LW-L
-5V  GND   3V3     99   97   95   91   89   87   85   83   81   77   75   73   71   69   67   61   57   55   53   51    <--CPLD pins
-5V  GND   3V3    100   98   96   92  X90X X88X  86   84   82   78   76   74   72   70   68   66   58   56   54   52    <--CPLD pins
-                 RSL  LWSL ZSL  SSP            LED3 ---  GND  GND  GND  GND  GND  GND  R+L  R-L  X+L  X-L  LWS- LW+L
-                                     GND  3V3             25   24   23   22   21   20   19   18   17   16   15   14    <--DB Ribbon cable pins
-                                                                                       
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          
-                                                     13   12   11   10    9    8    7    6    5    4    3    2    1    <--DB Ribbon cable pins
-                            SEN  SXS  SYS  SZS SSC   RP  RD-  RD+  ZD-   SP   ZP  ZD+  ZS+  ZS-  YD-  YD+  YS+  Y-L
-                  5V  3V3    2    4    6    8   16   18   20   26   28   30   34   36   38   40   42   44   48   50    <--CPLD pins
-                 GND  GND    1    3    5    7   15   17   19   21   27   29   33   35  X37X X39X  41   43   47   49    <--CPLD pins
-                       SG   SA2  SXD  SYD  SZD SSD  SA1  GND  GND  GND  GND  GND  GND  GND  3V3  Z+L  Z-L  YS-  Y+L
-                                                          25   24   23   22   21   20   19   18   17   16   15   14    <--DB Ribbon cable pins
+                                                       13   12   11   10    9    8    7    6    5    4    3    2    1    <--DB Ribbon cable pins
+S5V  SG            SX-  SX+  SY-  SY+  SZ-  SZ+  LED2 RS-  RS+  XS-  XD-   TP LWD-  XD+  XS+  LWP   VP  LWD+ LWS+ LW-L     LED2 LED3
+5V  GND  3V3        99   97   95   91   89   87   85   83   81   77   75   73   71   69   67   61   57   55   53   51       D2   D3 <--CPLD pins
+5V  GND  3V3       100   98   96   92  X90X X88X  86   84   82   78   76   74   72   70   68   66   58   56   54   52    <-------------CPLD pins
+                   RSL  LWSL ZSL  SSP            LED3 ---  GND  GND  GND  GND  GND  GND  R+L  R-L  X+L  X-L  LWS- LW+L
+                                       GND  3V3             25   24   23   22   21   20   19   18   17   16   15   14    <--DB Ribbon cable pins
+                                                                                         
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+                                                       13   12   11   10    9    8    7    6    5    4    3    2    1    <--DB Ribbon cable pins
+                              SEN  SXS  SYS  SZS SSC   RP  RD-  RD+  ZD-   SP   ZP  ZD+  ZS+  ZS-  YD-  YD+  YS+  Y-L
+                    5V  3V3    2    4    6    8   16   18   20   26   28   30   34   36   38   40   42   44   48   50    <-------------CPLD pins
+                   GND  GND    1    3    5    7   15   17   19   21   27   29   33   35  X37X X39X  41   43   47   49    <-------------CPLD pins
+                         SG   SA2  SXD  SYD  SZD SSD  SA1  GND  GND  GND  GND  GND  GND  GND  3V3  Z+L  Z-L  YS-  Y+L
+                                                            25   24   23   22   21   20   19   18   17   16   15   14    <--DB Ribbon cable pins
           
 
 Pin Definitions:
