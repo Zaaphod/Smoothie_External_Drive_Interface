@@ -1,24 +1,49 @@
-switch.z_head.enable                           true             # Enable Z head.  Z axis moves will move Z head up and down. Z head limit switches will be passed to Z limits
-switch.z_head.input_on_command                 M381
-switch.z_head.input_off_command                M380
-switch.z_head.output_pin                       0.22
-switch.z_head.output_type                      digital
-switch.z_head.startup_state                    true
-switch.z_head.ignore_on_halt                   true
-
-switch.w_head.enable                           true             # Enable W head.  Z axis moves will move W head up and down. W head limit switches will be passed to Z limits
-switch.w_head.input_on_command                 M380
-switch.w_head.input_off_command                M381
-switch.w_head.output_pin                       0.21
-switch.w_head.output_type                      digital
-switch.w_head.startup_state                    false
-switch.w_head.ignore_on_halt                   true
-
-switch.spindle.enable                           true             # Spindle power.  Will power up selected spindle
-switch.spindle.input_on_command                 M3
-switch.spindle.input_off_command                M5
-switch.spindle.output_pin                       2.3
-switch.spindle.output_type                      digital
-switch.spindle.startup_state                    false
-switch.spindle.fail_safe_set_to                 0
-switch.spindle.ignore_on_halt                   false
+## Switches
+switch.z_head.enable                         true              # Enable Z head.  Z axis moves will move Z head up and down. Z head limit switches will be passed to Z limits
+switch.z_head.input_off_command              M380
+switch.z_head.input_on_command               M381
+switch.z_head.output_pin                     0.22!             # signal is active low -  Low enables the axis - High disables the axis
+switch.z_head.output_type                    digital
+switch.z_head.startup_state                  true              # Default to true to enable the Z head on startup
+switch.z_head.ignore_on_halt                 true
+                                             
+switch.l_head.enable                         true              # Enable L or W head.  Z axis moves will move L or W head up and down. L or W head limit switches will be passed to Z limits
+switch.l_head.input_off_command              M382
+switch.l_head.input_on_command               M383
+switch.l_head.output_pin                     0.21!             # signal is active low -  Low enables the axis - High disables the axis
+switch.l_head.output_type                    digital
+switch.l_head.startup_state                  false             # Default to false to disable the L or W head on startup
+switch.l_head.ignore_on_halt                 true
+                                             
+switch.r_head.enable                         true              # Enable R head.  Z axis moves will move R head up and down. R head limit switches will be passed to Z limits
+switch.r_head.input_off_command              M384
+switch.r_head.input_on_command               M385
+switch.r_head.output_pin                     0.10!             # signal is active low -  Low enables the axis - High disables the axis
+switch.r_head.output_type                    digital
+switch.r_head.startup_state                  false             # Default to false to disable the R head on startup
+switch.r_head.ignore_on_halt                 true
+                                             
+switch.A1.enable                             true              # Air Cylider #1 control used to control T or 5X piggyback heads
+switch.A1.input_off_command                  M386
+switch.A1.input_on_command                   M387
+switch.A1.output_pin                         0.19!             # signal is active low -  Low enables the air cylinder - High disables the air cylinder
+switch.A1.output_type                        digital
+switch.A1.startup_state                      false             # Default to false to disable the T or 5X piggyback head on startup
+switch.A1.ignore_on_halt                     true
+                                             
+switch.A2.enable                             true              # Air Cylider #2 control used to control U, V or 5Y piggyback heads
+switch.A2.input_off_command                  M388
+switch.A2.input_on_command                   M389
+switch.A2.output_pin                         4.29!             # signal is active low -  Low enables the air cylinder - High disables the air cylinder
+switch.A2.output_type                        digital
+switch.A2.startup_state                      false             # Default to false to disable the U, V, or 5Y piggyback head on startup
+switch.A2.ignore_on_halt                     true
+                                             
+switch.spindle.enable                        true              # Spindle power - will power up which ever spindle is selected
+switch.spindle.input_on_command              M3 
+switch.spindle.input_off_command             M5
+switch.spindle.output_pin                    2.3
+switch.spindle.output_type                   digital
+switch.spindle.startup_state                 false             # Default to false to disable spindle power on startup
+switch.spindle.fail_safe_set_to              0
+switch.spindle.ignore_on_halt                false             # Turn spindle off when halt condition
