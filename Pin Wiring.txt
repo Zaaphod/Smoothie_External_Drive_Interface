@@ -9,17 +9,17 @@ S5V  SG            SX-  SX+  SY-  SY+  SZ-  SZ+  LED2 RS-  RS+  XS-  XD-  !TP  L
                   !RSL !LWSL !ZSL SSP            LED3 ---  GND  GND  GND  GND  GND  GND  R+L  R-L  X+L  X-L  LWS- LW+L
                                        GND  3V3             25   24   23   22   21   20   19   18   17   16   15   14    <--DB Ribbon cable pins
                                                                                          
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
-               
+
+
+
+
+
+
+
+
+
+
+
                                                        13   12   11   10    9    8    7    6    5    4    3    2    1    <--DB Ribbon cable pins
                               SEN  SXS  SYS  SZS SSC  !RP  RD-  RD+  ZD-   SP  !ZP  ZD+  ZS+  ZS-  YD-  YD+  YS+  Y-L
                     5V  3V3    2    4    6    8   16   18   20   26   28   30   34   36   38   40   42   44   48   50    <-------------CPLD pins
