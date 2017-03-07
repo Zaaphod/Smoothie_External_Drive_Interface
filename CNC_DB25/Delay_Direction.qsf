@@ -237,8 +237,9 @@ set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to R_Limit_Neg
 set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to R_Limit_Pos
 set_instance_assignment -name SLOW_SLEW_RATE ON -to R_Limit_Neg
 set_instance_assignment -name SLOW_SLEW_RATE ON -to R_Limit_Pos
-set_location_assignment PIN_68 -to R_Limit_Pos
-set_location_assignment PIN_66 -to R_Limit_Neg
 set_global_assignment -name AUTO_PACKED_REGISTERS_MAX "MINIMIZE AREA"
 set_global_assignment -name FITTER_EFFORT "STANDARD FIT"
 set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to R_Select
+set_location_assignment PIN_66 -to GND_18a
+set_location_assignment PIN_68 -to GND_19a
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GND_18a
