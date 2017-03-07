@@ -87,7 +87,7 @@ set_location_assignment PIN_91 -to Y_Pos_Limit
 set_location_assignment PIN_95 -to Y_Neg_Limit
 set_location_assignment PIN_87 -to ZW_Limit_Pos
 set_location_assignment PIN_89 -to ZW_Limit_Neg
-set_location_assignment PIN_34 -to Z_Power
+set_location_assignment PIN_30 -to Z_Power
 set_location_assignment PIN_61 -to W_Power
 set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to Z_Step
 set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to Enable
@@ -131,7 +131,7 @@ set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ZW_Limit_Neg
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ZW_Limit_Pos
 set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to X_Direction
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "NO HEAT SINK WITH STILL AIR"
-set_location_assignment PIN_30 -to ZW_Pwr
+set_location_assignment PIN_34 -to ZW_Pwr
 set_location_assignment PIN_92 -to ZW_Power
 set_global_assignment -name CDF_FILE output_files/Chain3.cdf
 set_location_assignment PIN_12 -to External_Oscilator
