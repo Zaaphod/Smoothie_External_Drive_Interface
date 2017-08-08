@@ -246,23 +246,6 @@ agreement for further details.
 )
 (pin
 	(input)
-	(rect 3216 1360 3408 1376)
-	(text "INPUT" (rect 149 0 190 11)(font "Arial" (font_size 6)))
-	(text "Y_Limit_Neg" (rect 5 0 95 14)(font "Arial" ))
-	(pt 192 8)
-	(drawing
-		(line (pt 108 12)(pt 133 12))
-		(line (pt 108 4)(pt 133 4))
-		(line (pt 137 8)(pt 192 8))
-		(line (pt 108 12)(pt 108 4))
-		(line (pt 133 4)(pt 137 8))
-		(line (pt 133 12)(pt 137 8))
-	)
-	(text "VCC" (rect 152 7 176 18)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect 3336 1376 3408 1400))
-)
-(pin
-	(input)
 	(rect 2168 2056 2336 2072)
 	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
 	(text "ZW_Power" (rect 5 0 71 14)(font "Arial" ))
@@ -11407,6 +11390,21 @@ agreement for further details.
 		(circle (rect 30 12 38 20))
 	)
 )
+(symbol
+	(rect 3320 1360 3352 1376)
+	(text "VCC" (rect 7 0 31 11)(font "Arial" (font_size 6)))
+	(text "inst1" (rect 3 5 44 19)(font "Arial" )(invisible))
+	(port
+		(pt 16 16)
+		(output)
+		(text "1" (rect 19 7 24 21)(font "Courier New" (bold))(invisible))
+		(text "1" (rect 19 7 24 21)(font "Courier New" (bold))(invisible))
+		(line (pt 16 16)(pt 16 8))
+	)
+	(drawing
+		(line (pt 8 8)(pt 24 8))
+	)
+)
 (connector
 	(pt 744 1176)
 	(pt 752 1176)
@@ -15448,10 +15446,6 @@ agreement for further details.
 	(pt 1584 1648)
 )
 (connector
-	(pt 3440 1392)
-	(pt 3560 1392)
-)
-(connector
 	(pt 3424 1216)
 	(pt 3560 1216)
 )
@@ -15558,14 +15552,6 @@ agreement for further details.
 (connector
 	(pt 3408 1272)
 	(pt 3432 1272)
-)
-(connector
-	(pt 3440 1368)
-	(pt 3496 1368)
-)
-(connector
-	(pt 3408 1368)
-	(pt 3440 1368)
 )
 (connector
 	(pt 3448 1448)
@@ -18083,6 +18069,22 @@ agreement for further details.
 	(pt 3672 304)
 	(pt 3672 320)
 )
+(connector
+	(pt 3440 1368)
+	(pt 3496 1368)
+)
+(connector
+	(pt 3336 1392)
+	(pt 3336 1376)
+)
+(connector
+	(pt 3336 1392)
+	(pt 3440 1392)
+)
+(connector
+	(pt 3440 1392)
+	(pt 3560 1392)
+)
 (junction (pt 624 1288))
 (junction (pt 624 1480))
 (junction (pt 624 1672))
@@ -18358,10 +18360,11 @@ agreement for further details.
 (junction (pt 3672 352))
 (junction (pt 3672 368))
 (junction (pt 3672 464))
+(junction (pt 3440 1392))
 (title_block
 	(rect 3680 2048 4048 2168)
 	(section (rect 0 24 368 48)(text "COMPANY" (rect 2 0 59 14)(font "Arial" ))(text "Production Automation" (rect 56 2 402 23)(font "Arial" (font_size 12)))(border))
-	(section (rect 0 96 240 120)(text "DATE" (rect 2 0 35 14)(font "Arial" ))(text "Thu Feb 02 00:33:05 2017" (rect 56 3 367 21)(font "Arial" (font_size 10)))(date)(border))
+	(section (rect 0 96 240 120)(text "DATE" (rect 2 0 35 14)(font "Arial" ))(text "Tue Aug 08 08:11:59 2017" (rect 56 3 367 21)(font "Arial" (font_size 10)))(date)(border))
 	(section (rect 0 48 368 72)(text "DESIGNER" (rect 2 0 68 14)(font "Arial" ))(text "James Richters" (rect 56 2 287 23)(font "Arial" (font_size 12)))(border))
 	(section (rect 0 72 280 96)(text "NUMBER" (rect 2 0 51 14)(font "Arial" ))(text "1.0" (rect 56 1 94 19)(font "Arial" (font_size 10)))(border))
 	(section (rect 310 96 368 120)(text "OF" (rect 10 0 26 14)(font "Arial" ))(text "1" (rect 34 4 46 22)(font "Arial" (font_size 10))))
