@@ -29,7 +29,6 @@ S5V  SG            SX-  SX+  SY-  SY+  SZ-  SZ+  LED2 !TP  !VP  GND  R-L  R+L  L
           
 
 Pin Definitions:
-
 5V   -   5V Power
 3V3  - 3.3V Power
 GND  - Ground Connection
