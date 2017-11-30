@@ -72,9 +72,7 @@ set_location_assignment PIN_8 -to Z_Step
 set_location_assignment PIN_7 -to Z_Direction
 set_location_assignment PIN_50 -to Y_Limit_Neg
 set_location_assignment PIN_49 -to Y_Limit_Pos
-set_location_assignment PIN_43 -to Z_Limit_Neg
 set_location_assignment PIN_41 -to Z_Limit_Pos
-set_location_assignment PIN_51 -to W_Limit_Neg
 set_location_assignment PIN_52 -to W_Limit_Pos
 set_location_assignment PIN_56 -to X_Limit_Neg
 set_location_assignment PIN_58 -to X_Limit_Pos
@@ -242,3 +240,4 @@ set_global_assignment -name FITTER_EFFORT "STANDARD FIT"
 set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to R_Select
 set_location_assignment PIN_66 -to GND_18a
 set_location_assignment PIN_68 -to GND_19a
+set_global_assignment -name OPTIMIZATION_MODE "AGGRESSIVE POWER"
