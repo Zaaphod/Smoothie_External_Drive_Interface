@@ -237,13 +237,13 @@ set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to R_Limit_Neg
 set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to R_Limit_Pos
 set_instance_assignment -name SLOW_SLEW_RATE ON -to R_Limit_Neg
 set_instance_assignment -name SLOW_SLEW_RATE ON -to R_Limit_Pos
-set_global_assignment -name AUTO_PACKED_REGISTERS_MAX "MINIMIZE AREA WITH CHAINS"
+set_global_assignment -name AUTO_PACKED_REGISTERS_MAX AUTO
 set_global_assignment -name FITTER_EFFORT "STANDARD FIT"
 set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to R_Select
 set_location_assignment PIN_66 -to GND_18a
 set_location_assignment PIN_68 -to GND_19a
-set_global_assignment -name OPTIMIZATION_MODE "AGGRESSIVE POWER"
-set_global_assignment -name SLOW_SLEW_RATE ON
+set_global_assignment -name OPTIMIZATION_MODE BALANCED
+set_global_assignment -name SLOW_SLEW_RATE OFF
 set_global_assignment -name WEAK_PULL_UP_RESISTOR ON
 set_global_assignment -name ROUTER_REGISTER_DUPLICATION ON
 set_global_assignment -name GUARANTEE_MIN_DELAY_CORNER_IO_ZERO_HOLD_TIME ON
