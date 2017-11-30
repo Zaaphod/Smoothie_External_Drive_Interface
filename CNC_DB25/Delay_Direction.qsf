@@ -242,3 +242,18 @@ set_global_assignment -name FITTER_EFFORT "STANDARD FIT"
 set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to R_Select
 set_location_assignment PIN_66 -to GND_18a
 set_location_assignment PIN_68 -to GND_19a
+set_global_assignment -name OPTIMIZATION_MODE "AGGRESSIVE POWER"
+set_global_assignment -name SLOW_SLEW_RATE ON
+set_global_assignment -name WEAK_PULL_UP_RESISTOR ON
+set_global_assignment -name ROUTER_REGISTER_DUPLICATION ON
+set_global_assignment -name GUARANTEE_MIN_DELAY_CORNER_IO_ZERO_HOLD_TIME ON
+set_global_assignment -name FIT_ONLY_ONE_ATTEMPT OFF
+set_global_assignment -name SEED 1
+set_global_assignment -name AUTO_DELAY_CHAINS_FOR_HIGH_FANOUT_INPUT_PINS ON
+set_global_assignment -name PHYSICAL_SYNTHESIS_COMBO_LOGIC OFF
+set_global_assignment -name PHYSICAL_SYNTHESIS_ASYNCHRONOUS_SIGNAL_PIPELINING OFF
+set_global_assignment -name FITTER_AUTO_EFFORT_DESIRED_SLACK_MARGIN "0 ns"
+set_global_assignment -name PHYSICAL_SYNTHESIS_EFFORT NORMAL
+set_global_assignment -name ROUTER_LCELL_INSERTION_AND_LOGIC_DUPLICATION AUTO
+set_global_assignment -name AUTO_GLOBAL_REGISTER_CONTROLS ON
+set_global_assignment -name ALM_REGISTER_PACKING_EFFORT HIGH
