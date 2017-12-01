@@ -21126,10 +21126,6 @@ agreement for further details.
 	(pt 4472 4184)
 )
 (connector
-	(pt 4384 4176)
-	(pt 4472 4176)
-)
-(connector
 	(pt 4376 4136)
 	(pt 4400 4136)
 )
@@ -21198,10 +21194,6 @@ agreement for further details.
 	(pt 4488 3448)
 )
 (connector
-	(pt 4400 3440)
-	(pt 4488 3440)
-)
-(connector
 	(pt 4392 3400)
 	(pt 4416 3400)
 )
@@ -21256,10 +21248,6 @@ agreement for further details.
 (connector
 	(pt 4416 3080)
 	(pt 4496 3080)
-)
-(connector
-	(pt 4408 3072)
-	(pt 4496 3072)
 )
 (connector
 	(pt 4400 3000)
@@ -21338,10 +21326,6 @@ agreement for further details.
 	(pt 4504 2704)
 )
 (connector
-	(pt 4416 2696)
-	(pt 4504 2696)
-)
-(connector
 	(pt 4408 2624)
 	(pt 4408 2656)
 )
@@ -21404,10 +21388,6 @@ agreement for further details.
 (connector
 	(pt 4440 1968)
 	(pt 4520 1968)
-)
-(connector
-	(pt 4432 1960)
-	(pt 4520 1960)
 )
 (connector
 	(pt 4424 1920)
@@ -21484,10 +21464,6 @@ agreement for further details.
 (connector
 	(pt 4408 2432)
 	(pt 4408 2376)
-)
-(connector
-	(pt 4424 2328)
-	(pt 4512 2328)
 )
 (connector
 	(pt 4416 2288)
@@ -21582,14 +21558,6 @@ agreement for further details.
 	(pt 4336 2152)
 )
 (connector
-	(pt 4520 2000)
-	(pt 4520 2136)
-)
-(connector
-	(pt 3416 2136)
-	(pt 4520 2136)
-)
-(connector
 	(pt 4328 2176)
 	(pt 3904 2176)
 )
@@ -21604,14 +21572,6 @@ agreement for further details.
 (connector
 	(pt 3904 2264)
 	(pt 3776 2264)
-)
-(connector
-	(pt 4512 2368)
-	(pt 4512 2504)
-)
-(connector
-	(pt 3424 2504)
-	(pt 4512 2504)
 )
 (connector
 	(pt 4328 2440)
@@ -21650,14 +21610,6 @@ agreement for further details.
 	(pt 4504 2736)
 )
 (connector
-	(pt 4504 2736)
-	(pt 4504 2872)
-)
-(connector
-	(pt 3432 2872)
-	(pt 4504 2872)
-)
-(connector
 	(pt 4320 2808)
 	(pt 4320 2880)
 )
@@ -21688,14 +21640,6 @@ agreement for further details.
 (connector
 	(pt 4312 2912)
 	(pt 4312 2992)
-)
-(connector
-	(pt 3440 3248)
-	(pt 4496 3248)
-)
-(connector
-	(pt 4496 3112)
-	(pt 4496 3248)
 )
 (connector
 	(pt 4312 3184)
@@ -21750,14 +21694,6 @@ agreement for further details.
 	(pt 4488 3480)
 )
 (connector
-	(pt 4488 3480)
-	(pt 4488 3616)
-)
-(connector
-	(pt 3448 3616)
-	(pt 4488 3616)
-)
-(connector
 	(pt 3784 4112)
 	(pt 3912 4112)
 )
@@ -21780,14 +21716,6 @@ agreement for further details.
 (connector
 	(pt 4024 4272)
 	(pt 4024 4368)
-)
-(connector
-	(pt 4472 4352)
-	(pt 3464 4352)
-)
-(connector
-	(pt 4472 4216)
-	(pt 4472 4352)
 )
 (connector
 	(pt 3352 5088)
@@ -21888,6 +21816,102 @@ agreement for further details.
 (connector
 	(pt 3936 3448)
 	(pt 3936 4184)
+)
+(connector
+	(pt 4560 1960)
+	(pt 4560 2136)
+)
+(connector
+	(pt 4432 1960)
+	(pt 4520 1960)
+)
+(connector
+	(pt 4520 1960)
+	(pt 4560 1960)
+)
+(connector
+	(pt 3416 2136)
+	(pt 4560 2136)
+)
+(connector
+	(pt 4536 2328)
+	(pt 4536 2504)
+)
+(connector
+	(pt 4424 2328)
+	(pt 4512 2328)
+)
+(connector
+	(pt 4512 2328)
+	(pt 4536 2328)
+)
+(connector
+	(pt 3424 2504)
+	(pt 4536 2504)
+)
+(connector
+	(pt 4520 2696)
+	(pt 4520 2872)
+)
+(connector
+	(pt 4416 2696)
+	(pt 4504 2696)
+)
+(connector
+	(pt 4504 2696)
+	(pt 4520 2696)
+)
+(connector
+	(pt 3432 2872)
+	(pt 4520 2872)
+)
+(connector
+	(pt 4520 3072)
+	(pt 4520 3248)
+)
+(connector
+	(pt 4408 3072)
+	(pt 4496 3072)
+)
+(connector
+	(pt 4496 3072)
+	(pt 4520 3072)
+)
+(connector
+	(pt 3440 3248)
+	(pt 4520 3248)
+)
+(connector
+	(pt 4504 3440)
+	(pt 4504 3616)
+)
+(connector
+	(pt 4400 3440)
+	(pt 4488 3440)
+)
+(connector
+	(pt 4488 3440)
+	(pt 4504 3440)
+)
+(connector
+	(pt 3448 3616)
+	(pt 4504 3616)
+)
+(connector
+	(pt 4488 4176)
+	(pt 4488 4352)
+)
+(connector
+	(pt 4384 4176)
+	(pt 4472 4176)
+)
+(connector
+	(pt 4472 4176)
+	(pt 4488 4176)
+)
+(connector
+	(pt 3464 4352)
+	(pt 4488 4352)
 )
 (junction (pt 616 1864))
 (junction (pt 848 1864))
@@ -22244,19 +22268,19 @@ agreement for further details.
 (junction (pt 3952 2608))
 (junction (pt 3944 2240))
 (junction (pt 3944 1872))
-(junction (pt 4472 4216))
-(junction (pt 4496 3112))
-(junction (pt 4520 2000))
-(junction (pt 4512 2368))
-(junction (pt 4504 2736))
-(junction (pt 4488 3480))
 (junction (pt 3472 576))
 (junction (pt 3456 640))
 (junction (pt 3472 368))
+(junction (pt 4520 1960))
+(junction (pt 4512 2328))
+(junction (pt 4504 2696))
+(junction (pt 4496 3072))
+(junction (pt 4488 3440))
+(junction (pt 4472 4176))
 (title_block
 	(rect 4568 3896 4936 4016)
 	(section (rect 0 24 368 48)(text "COMPANY" (rect 2 0 59 14)(font "Arial" ))(text "Production Automation" (rect 56 2 402 23)(font "Arial" (font_size 12)))(border))
-	(section (rect 0 96 240 120)(text "DATE" (rect 2 0 35 14)(font "Arial" ))(text "Thu Nov 30 15:19:40 2017" (rect 56 3 367 21)(font "Arial" (font_size 10)))(date)(border))
+	(section (rect 0 96 240 120)(text "DATE" (rect 2 0 35 14)(font "Arial" ))(text "Fri Dec 01 12:22:48 2017" (rect 56 3 367 21)(font "Arial" (font_size 10)))(date)(border))
 	(section (rect 0 48 368 72)(text "DESIGNER" (rect 2 0 68 14)(font "Arial" ))(text "James Richters" (rect 56 2 287 23)(font "Arial" (font_size 12)))(border))
 	(section (rect 0 72 280 96)(text "NUMBER" (rect 2 0 51 14)(font "Arial" ))(text "1.0" (rect 56 1 94 19)(font "Arial" (font_size 10)))(border))
 	(section (rect 310 96 368 120)(text "OF" (rect 10 0 26 14)(font "Arial" ))(text "1" (rect 34 4 46 22)(font "Arial" (font_size 10))))
