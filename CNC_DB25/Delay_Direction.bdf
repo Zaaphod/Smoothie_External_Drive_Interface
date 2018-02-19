@@ -16945,6 +16945,22 @@ agreement for further details.
 	(pt 2864 1960)
 	(pt 2864 1976)
 )
+(connector
+	(pt 2568 400)
+	(pt 2488 400)
+)
+(connector
+	(pt 2488 400)
+	(pt 2488 440)
+)
+(connector
+	(pt 2568 360)
+	(pt 2480 360)
+)
+(connector
+	(pt 2480 360)
+	(pt 2480 448)
+)
 (junction (pt 624 1288))
 (junction (pt 624 1480))
 (junction (pt 624 1672))
@@ -17208,7 +17224,7 @@ agreement for further details.
 (title_block
 	(rect 3680 2048 4048 2168)
 	(section (rect 0 24 368 48)(text "COMPANY" (rect 2 0 59 14)(font "Arial" ))(text "Production Automation" (rect 56 2 402 23)(font "Arial" (font_size 12)))(border))
-	(section (rect 0 96 240 120)(text "DATE" (rect 2 0 35 14)(font "Arial" ))(text "Fri Nov 24 21:46:17 2017" (rect 56 3 367 21)(font "Arial" (font_size 10)))(date)(border))
+	(section (rect 0 96 240 120)(text "DATE" (rect 2 0 35 14)(font "Arial" ))(text "Mon Feb 19 14:49:42 2018" (rect 56 3 367 21)(font "Arial" (font_size 10)))(date)(border))
 	(section (rect 0 48 368 72)(text "DESIGNER" (rect 2 0 68 14)(font "Arial" ))(text "James Richters" (rect 56 2 287 23)(font "Arial" (font_size 12)))(border))
 	(section (rect 0 72 280 96)(text "NUMBER" (rect 2 0 51 14)(font "Arial" ))(text "1.0" (rect 56 1 94 19)(font "Arial" (font_size 10)))(border))
 	(section (rect 310 96 368 120)(text "OF" (rect 10 0 26 14)(font "Arial" ))(text "1" (rect 34 4 46 22)(font "Arial" (font_size 10))))
