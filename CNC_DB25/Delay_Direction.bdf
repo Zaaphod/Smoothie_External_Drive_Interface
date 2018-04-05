@@ -12930,24 +12930,12 @@ agreement for further details.
 	(pt 1872 552)
 )
 (connector
-	(pt 2112 552)
-	(pt 2112 600)
-)
-(connector
 	(pt 1984 552)
 	(pt 1984 600)
 )
 (connector
 	(pt 1992 504)
 	(pt 1992 568)
-)
-(connector
-	(pt 2112 536)
-	(pt 2120 536)
-)
-(connector
-	(pt 2120 744)
-	(pt 2120 536)
 )
 (connector
 	(pt 2264 504)
@@ -14200,14 +14188,6 @@ agreement for further details.
 (connector
 	(pt 1608 744)
 	(pt 1944 744)
-)
-(connector
-	(pt 1944 744)
-	(pt 2120 744)
-)
-(connector
-	(pt 2120 744)
-	(pt 2280 744)
 )
 (connector
 	(pt 2680 648)
@@ -16961,6 +16941,22 @@ agreement for further details.
 	(pt 2864 1960)
 	(pt 2864 1976)
 )
+(connector
+	(pt 1944 744)
+	(pt 2112 744)
+)
+(connector
+	(pt 2112 744)
+	(pt 2280 744)
+)
+(connector
+	(pt 2112 552)
+	(pt 2112 600)
+)
+(connector
+	(pt 2112 600)
+	(pt 2112 744)
+)
 (junction (pt 624 1288))
 (junction (pt 624 1480))
 (junction (pt 624 1672))
@@ -17082,7 +17078,6 @@ agreement for further details.
 (junction (pt 2288 1024))
 (junction (pt 2288 1168))
 (junction (pt 1944 744))
-(junction (pt 2120 744))
 (junction (pt 2824 760))
 (junction (pt 2680 664))
 (junction (pt 2680 792))
@@ -17221,10 +17216,12 @@ agreement for further details.
 (junction (pt 2864 1728))
 (junction (pt 2864 1960))
 (junction (pt 2864 1512))
+(junction (pt 2112 744))
+(junction (pt 2112 600))
 (title_block
 	(rect 3680 2048 4048 2168)
 	(section (rect 0 24 368 48)(text "COMPANY" (rect 2 0 59 14)(font "Arial" ))(text "Production Automation" (rect 56 2 402 23)(font "Arial" (font_size 12)))(border))
-	(section (rect 0 96 240 120)(text "DATE" (rect 2 0 35 14)(font "Arial" ))(text "Fri Nov 24 21:46:17 2017" (rect 56 3 367 21)(font "Arial" (font_size 10)))(date)(border))
+	(section (rect 0 96 240 120)(text "DATE" (rect 2 0 35 14)(font "Arial" ))(text "Wed Apr 04 22:47:16 2018" (rect 56 3 367 21)(font "Arial" (font_size 10)))(date)(border))
 	(section (rect 0 48 368 72)(text "DESIGNER" (rect 2 0 68 14)(font "Arial" ))(text "James Richters" (rect 56 2 287 23)(font "Arial" (font_size 12)))(border))
 	(section (rect 0 72 280 96)(text "NUMBER" (rect 2 0 51 14)(font "Arial" ))(text "1.0" (rect 56 1 94 19)(font "Arial" (font_size 10)))(border))
 	(section (rect 310 96 368 120)(text "OF" (rect 10 0 26 14)(font "Arial" ))(text "1" (rect 34 4 46 22)(font "Arial" (font_size 10))))
