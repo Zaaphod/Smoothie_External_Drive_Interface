@@ -1,0 +1,70 @@
+01  Heavy Blue 220
+02  Fan #1
+03  Heavy Blue 220 
+04  Fan #2
+05  Pink jumper
+06  Red Valve
+07  Pink jumper
+08  Yellow Valve
+09  Pink jumper
+10  Green Valve
+11  Pink jumper
+12  Blue Valve
+13  Pink jumper
+14  Pink Probe
+15  Pink jumper
+16   
+17  TC Blue
+18  Valve White & Grey & White Jumper   /  TC Black & Grey
+19  TC Green
+20  White Jumper / jumper
+21  TC Purple
+22  White Jumper / White Jumper & White to S3
+23  TC Grey-Pink
+24  White Jumper / White -24 & White -24 Limits
+25  Pink Jumper / Red Jumper
+26  should be TC Pink
+27  Red Jumper / Red Jumper
+28  (TC Pink)
+29  Red Jumper / Red Jumper
+30 
+31  TC +24 Group / Red +24 & REd +24 Limits
+32  Red Jumper
+
+
+
+
+01  Red +5
+02  
+03
+04  Orange Jumper
+05
+06  Orange
+07
+08  Red
+09
+10  Yellow
+11
+12  Green
+13
+14  Blue
+15  Brown
+16  Green 2 
+17  Blue 0v
+18
+19
+20  Orange S1
+21
+22  Yellow S2
+23
+24  Green Button
+25  
+26  White Thermal
+27  Brown 2
+28  Yellow 2
+29  Black 2
+30  Orange 2
+31  Yellow 0v
+32  Red 2
+33  Black  0V / Black S3
+34  Blue 2
