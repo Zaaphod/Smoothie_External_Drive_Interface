@@ -76,23 +76,6 @@ agreement for further details.
 )
 (pin
 	(input)
-	(rect 2688 1024 2856 1040)
-	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
-	(text "Enable" (rect 5 0 54 14)(font "Arial" ))
-	(pt 168 8)
-	(drawing
-		(line (pt 84 12)(pt 109 12))
-		(line (pt 84 4)(pt 109 4))
-		(line (pt 113 8)(pt 168 8))
-		(line (pt 84 12)(pt 84 4))
-		(line (pt 109 4)(pt 113 8))
-		(line (pt 109 12)(pt 113 8))
-	)
-	(text "VCC" (rect 128 7 152 18)(font "Arial" (font_size 6)))
-	(annotation_block (location)(rect 2688 1000 2768 1024))
-)
-(pin
-	(input)
 	(rect 2752 1464 2920 1480)
 	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
 	(text "Z_Select" (rect 5 0 71 14)(font "Arial" ))
@@ -447,6 +430,23 @@ agreement for further details.
 	)
 	(text "VCC" (rect 152 7 176 18)(font "Arial" (font_size 6)))
 	(annotation_block (location)(rect 3216 1712 3288 1736))
+)
+(pin
+	(input)
+	(rect 3328 208 3608 224)
+	(text "INPUT" (rect 237 0 278 11)(font "Arial" (font_size 6)))
+	(text "Probe_In_Pin22_Old_Gnd" (rect 5 0 187 14)(font "Arial" ))
+	(pt 280 8)
+	(drawing
+		(line (pt 196 12)(pt 221 12))
+		(line (pt 196 4)(pt 221 4))
+		(line (pt 225 8)(pt 280 8))
+		(line (pt 196 12)(pt 196 4))
+		(line (pt 221 4)(pt 225 8))
+		(line (pt 221 12)(pt 225 8))
+	)
+	(text "VCC" (rect 240 7 264 18)(font "Arial" (font_size 6)))
+	(annotation_block (location)(rect 3328 184 3408 208))
 )
 (pin
 	(output)
@@ -977,23 +977,6 @@ agreement for further details.
 )
 (pin
 	(output)
-	(rect 176 1432 352 1448)
-	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
-	(text "GND_22a" (rect 90 0 147 14)(font "Arial" ))
-	(pt 0 8)
-	(drawing
-		(line (pt 0 8)(pt 52 8))
-		(line (pt 52 4)(pt 78 4))
-		(line (pt 52 12)(pt 78 12))
-		(line (pt 52 12)(pt 52 4))
-		(line (pt 78 4)(pt 82 8))
-		(line (pt 82 8)(pt 78 12))
-		(line (pt 78 12)(pt 82 8))
-	)
-	(annotation_block (location)(rect 176 1448 248 1472))
-)
-(pin
-	(output)
 	(rect 176 1480 352 1496)
 	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
 	(text "GND_23a" (rect 90 0 147 14)(font "Arial" ))
@@ -1314,6 +1297,23 @@ agreement for further details.
 		(line (pt 78 12)(pt 82 8))
 	)
 	(annotation_block (location)(rect 2944 2048 3016 2072))
+)
+(pin
+	(output)
+	(rect 3696 208 3998 224)
+	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
+	(text "Probe_Out_Pin2_Old_Enable" (rect 90 0 296 14)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+	(annotation_block (location)(rect 3696 184 3768 208))
 )
 (symbol
 	(rect 528 1952 576 1984)
@@ -11022,10 +11022,6 @@ agreement for further details.
 	(pt 176 1392)
 )
 (connector
-	(pt 168 1440)
-	(pt 176 1440)
-)
-(connector
 	(pt 168 1488)
 	(pt 176 1488)
 )
@@ -13552,14 +13548,6 @@ agreement for further details.
 (connector
 	(pt 168 1344)
 	(pt 168 1392)
-)
-(connector
-	(pt 168 1392)
-	(pt 168 1440)
-)
-(connector
-	(pt 168 1440)
-	(pt 168 1488)
 )
 (connector
 	(pt 168 1488)
@@ -16750,10 +16738,6 @@ agreement for further details.
 	(pt 3792 352)
 )
 (connector
-	(pt 3672 368)
-	(pt 3792 368)
-)
-(connector
 	(pt 3688 448)
 	(pt 3792 448)
 )
@@ -16796,14 +16780,6 @@ agreement for further details.
 (connector
 	(pt 3672 336)
 	(pt 3672 352)
-)
-(connector
-	(pt 3672 352)
-	(pt 3672 368)
-)
-(connector
-	(pt 3672 368)
-	(pt 3672 464)
 )
 (connector
 	(pt 3672 464)
@@ -16961,6 +16937,30 @@ agreement for further details.
 	(pt 2864 1960)
 	(pt 2864 1976)
 )
+(connector
+	(pt 168 1392)
+	(pt 168 1488)
+)
+(connector
+	(pt 3672 352)
+	(pt 3672 464)
+)
+(connector
+	(pt 3792 368)
+	(pt 3640 368)
+)
+(connector
+	(pt 3640 368)
+	(pt 3640 216)
+)
+(connector
+	(pt 3696 216)
+	(pt 3640 216)
+)
+(connector
+	(pt 3640 216)
+	(pt 3608 216)
+)
 (junction (pt 624 1288))
 (junction (pt 624 1480))
 (junction (pt 624 1672))
@@ -16979,7 +16979,6 @@ agreement for further details.
 (junction (pt 168 1296))
 (junction (pt 168 1344))
 (junction (pt 168 1392))
-(junction (pt 168 1440))
 (junction (pt 168 1488))
 (junction (pt 168 1536))
 (junction (pt 168 1584))
@@ -17215,16 +17214,16 @@ agreement for further details.
 (junction (pt 3664 736))
 (junction (pt 3688 704))
 (junction (pt 3672 352))
-(junction (pt 3672 368))
 (junction (pt 3672 464))
 (junction (pt 2864 1288))
 (junction (pt 2864 1728))
 (junction (pt 2864 1960))
 (junction (pt 2864 1512))
+(junction (pt 3640 216))
 (title_block
 	(rect 3680 2048 4048 2168)
 	(section (rect 0 24 368 48)(text "COMPANY" (rect 2 0 59 14)(font "Arial" ))(text "Production Automation" (rect 56 2 402 23)(font "Arial" (font_size 12)))(border))
-	(section (rect 0 96 240 120)(text "DATE" (rect 2 0 35 14)(font "Arial" ))(text "Fri Nov 24 21:46:17 2017" (rect 56 3 367 21)(font "Arial" (font_size 10)))(date)(border))
+	(section (rect 0 96 240 120)(text "DATE" (rect 2 0 35 14)(font "Arial" ))(text "Tue Jul 23 20:01:33 2019" (rect 56 3 367 21)(font "Arial" (font_size 10)))(date)(border))
 	(section (rect 0 48 368 72)(text "DESIGNER" (rect 2 0 68 14)(font "Arial" ))(text "James Richters" (rect 56 2 287 23)(font "Arial" (font_size 12)))(border))
 	(section (rect 0 72 280 96)(text "NUMBER" (rect 2 0 51 14)(font "Arial" ))(text "1.0" (rect 56 1 94 19)(font "Arial" (font_size 10)))(border))
 	(section (rect 310 96 368 120)(text "OF" (rect 10 0 26 14)(font "Arial" ))(text "1" (rect 34 4 46 22)(font "Arial" (font_size 10))))
