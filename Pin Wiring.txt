@@ -24,9 +24,9 @@ Limit Switches, Spindle Power, & Probe
 S5V  SG            SA-  SA+  SB-  SB+  SC-  SC+  LED2 GND  CD-  CD+  CS-  CS+  BD-  BD+  BS-  BS+  AD-  AD+  AS-  AS+      LED2 LED3
 5V  GND  3V3        99   97   95   91   89   87   85   83   81   77   75   73   71   69   67   61   57   55   53   51       D2   D3 <--CPLD pins
 5V  GND  3V3       100   98   96   92  X90X X88X  86   84   82   78   76   74   72   70   68   66   58   56   54   52    <-------------CPLD pins
-                   SInk SLsr SKil SPau           LED3 ---  GND  GND  Ink  Lasr Kill Paus C-L  C+L  B-L  B+L  A-L  A+L
+                   SInk SLsr SPr1 SPr2           LED3 ---  SP1  SP2  Ink  Lasr Kill Paus C-L  C+L  B-L  B+L  A-L  A+L
                                        GND  3V3             25   24   23   22   21   20   19   18   17   16   15   14    <--DB Ribbon cable pins
-                                                                SHLD Brn  Grey  Brn   W  Blue   P    Y    G    R    O             
+                                                                     Brn  Grey  Brn   W  Blue   P    Y    G    R    O             
 
 
 
@@ -34,10 +34,10 @@ S5V  SG            SA-  SA+  SB-  SB+  SC-  SC+  LED2 GND  CD-  CD+  CS-  CS+  B
                                                                                                      
                                                           
                                                        13   12   11   10    9    8    7    6    5    4    3    2    1    <--DB Ribbon cable pins
-                                   SAS  SBS  SCS SSC  GND  GND  GND  GND  GND  GND  GND  GND  GND  GND  GND  GND  GND
+                              SAS  SBS  SCD SKil SSC  GND  GND  GND  GND  GND  GND  GND  GND  GND  GND  GND  GND  GND
                     5V  3V3    2    4    6    8   16   18   20   26   28   30   34   36   38   40   42   44   48   50    <-------------CPLD pins
                    GND  GND    1    3    5    7   15   17   19   21   27   29   33   35  X37X X39X  41   43   47   49    <-------------CPLD pins
-                         SG        SAD  SBD  SCD SSD  GND  GND  GND  GND  GND  GND  GND            GND  GND  GND  GND
+                         SG   SAD  SBD  SPau SCS SSD  GND  GND  GND  GND  GND  GND  GND            GND  GND  GND  GND
                                                             25   24   23   22   21   20   19   18   17   16   15   14    <--DB Ribbon cable pins
                                                                                                    
 
@@ -59,24 +59,26 @@ XOSC - External Crystal Oscillator Monitor (50MHz)
 OSC  - Oscillator Used by Shift Registers
 
 Smoothie Pins:
-SG   - Smoothie Ground
-S5V  - Smoothie 5V from one of the limit switches
-SA+  - Smoothieboard Input  A+ Limit
-SA-  - Smoothieboard Input  A- Limit
-SB+  - Smoothieboard Input  B+ Limit
-SB-  - Smoothieboard Input  B- Limit
-SC+  - Smoothieboard Input  C+ Limit
-SC-  - Smoothieboard Input  C- Limit
-SAS  - Smoothieboard Output A Step
-SAD  - Smoothieboard Output A Direction
-SBS  - Smoothieboard Output B Step
-SBD  - Smoothieboard Output B Direction
-SCS  - Smoothieboard Output C Step
-SCD  - Smoothieboard Output C Direction
-SInk - Smoothieboard Ink Solenoid Signal
-SLsr - Smoothieboard Laser PWM Control Signal
-SKil - Smoothieboard Kill Signal
-SPau - Smoothieboard Pause Signal
+      SG   - Smoothie Ground
+      S5V  - Smoothie 5V from one of the limit switches
+0.26  SA-  - Smoothieboard Input  A- Limit
+0.25  SA+  - Smoothieboard Input  A+ Limit
+0.24  SB-  - Smoothieboard Input  B- Limit
+0.23  SB+  - Smoothieboard Input  B+ Limit
+2.8   SC-  - Smoothieboard Input  C- Limit
+2.13   SC+  - Smoothieboard Input  C+ Limit
+1.22  SAD  - Smoothieboard Output A Direction
+1.23  SAS  - Smoothieboard Output A Step
+1.31  SBD  - Smoothieboard Output B Direction
+1.30  SBS  - Smoothieboard Output B Step
+3.25  SCD  - Smoothieboard Output C Direction
+3.26  SCS  - Smoothieboard Output C Step
+2.7   SInk - Smoothieboard Ink Solenoid Signal
+2.5   SLsr - Smoothieboard Laser PWM Control Signal
+2.4   SPr1 - Smoothieboard Spare 1
+2.6   SPr2 - Smoothieboard Spare 2
+2.12  SKil - Smoothieboard Kill Signal
+2.11  SPau - Smoothieboard Pause Signal
 
 
 Machine Control Pins:

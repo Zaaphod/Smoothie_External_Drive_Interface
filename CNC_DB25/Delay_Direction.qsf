@@ -54,192 +54,118 @@ set_global_assignment -name EDA_RUN_TOOL_AUTOMATICALLY OFF -section_id eda_simul
 set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
 set_global_assignment -name QIP_FILE Oscilator.qip
 set_global_assignment -name BDF_FILE Delay_Direction.bdf
-set_instance_assignment -name VIRTUAL_PIN OFF -to X_Direction
-set_location_assignment PIN_3 -to X_Direction
 set_global_assignment -name VECTOR_WAVEFORM_FILE Delay_Direction.vwf
-set_location_assignment PIN_43 -to W_Dir_Delay_Pos
-set_location_assignment PIN_49 -to W_Step_Pos
-set_location_assignment PIN_44 -to X_Dir_Delay_Pos
-set_location_assignment PIN_50 -to X_Step_Pos
-set_location_assignment PIN_36 -to Y_Dir_Delay_Pos
-set_location_assignment PIN_40 -to Y_Step_Pos
-set_location_assignment PIN_26 -to Z_Dir_Delay_Pos
-set_location_assignment PIN_30 -to Z_Step_Pos
-set_location_assignment PIN_4 -to X_Step
-set_location_assignment PIN_6 -to Y_Step
-set_location_assignment PIN_5 -to Y_Direction
-set_location_assignment PIN_8 -to Z_Step
-set_location_assignment PIN_7 -to Z_Direction
-set_location_assignment PIN_57 -to Y_Limit_Neg
-set_location_assignment PIN_55 -to Y_Limit_Pos
-set_location_assignment PIN_67 -to Z_Limit_Neg
-set_location_assignment PIN_61 -to Z_Limit_Pos
-set_location_assignment PIN_71 -to W_Limit_Neg
-set_location_assignment PIN_69 -to W_Limit_Pos
-set_location_assignment PIN_53 -to X_Limit_Neg
-set_location_assignment PIN_51 -to X_Limit_Pos
-set_location_assignment PIN_96 -to Z_Select
-set_location_assignment PIN_98 -to W_Select
-set_location_assignment PIN_99 -to X_Neg_Limit
-set_location_assignment PIN_97 -to X_Pos_Limit
-set_location_assignment PIN_91 -to Y_Pos_Limit
-set_location_assignment PIN_95 -to Y_Neg_Limit
-set_location_assignment PIN_87 -to ZW_Limit_Pos
-set_location_assignment PIN_89 -to ZW_Limit_Neg
-set_location_assignment PIN_54 -to Z_Power
-set_location_assignment PIN_56 -to W_Power
-set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to Z_Step
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to W_Dir_Delay_Neg
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to W_Dir_Delay_Pos
-set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to W_Limit_Neg
-set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to W_Limit_Pos
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to W_Power
-set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to W_Select
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to W_Step_Neg
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to W_Step_Pos
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to X_Dir_Delay_Neg
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to X_Dir_Delay_Pos
-set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to X_Limit_Neg
-set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to X_Limit_Pos
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to X_Neg_Limit
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to X_Pos_Limit
-set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to X_Step
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to X_Step_Neg
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to X_Step_Pos
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Y_Dir_Delay_Neg
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Y_Dir_Delay_Pos
-set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to Y_Direction
-set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to Y_Limit_Neg
-set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to Y_Limit_Pos
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Y_Neg_Limit
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Y_Pos_Limit
-set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to Y_Step
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Y_Step_Neg
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Y_Step_Pos
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Z_Dir_Delay_Neg
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Z_Dir_Delay_Pos
-set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to Z_Direction
-set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to Z_Limit_Neg
-set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to Z_Limit_Pos
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Z_Power
-set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to Z_Select
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Z_Step_Neg
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Z_Step_Pos
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ZW_Limit_Neg
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ZW_Limit_Pos
-set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to X_Direction
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "NO HEAT SINK WITH STILL AIR"
-set_location_assignment PIN_52 -to ZW_Pwr
-set_location_assignment PIN_92 -to ZW_Power
 set_global_assignment -name CDF_FILE output_files/Chain3.cdf
 set_location_assignment PIN_12 -to External_Oscilator
 set_global_assignment -name CDF_FILE output_files/Chain4.cdf
 set_global_assignment -name CDF_FILE output_files/Chain8.cdf
 set_global_assignment -name CDF_FILE output_files/Chain9.cdf
-set_location_assignment PIN_47 -to W_Step_Neg
-set_location_assignment PIN_41 -to W_Dir_Delay_Neg
-set_location_assignment PIN_42 -to X_Dir_Delay_Neg
-set_location_assignment PIN_48 -to X_Step_Neg
-set_location_assignment PIN_34 -to Y_Dir_Delay_Neg
-set_location_assignment PIN_38 -to Y_Step_Neg
-set_location_assignment PIN_20 -to Z_Dir_Delay_Neg
-set_location_assignment PIN_28 -to Z_Step_Neg
 set_location_assignment PIN_86 -to Osc_div_2000000
 set_location_assignment PIN_85 -to Osc_div_4000000
 set_global_assignment -name CDF_FILE output_files/Chain11.cdf
-set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to Z_Limit_Pos
-set_instance_assignment -name SLOW_SLEW_RATE ON -to Z_Limit_Pos
-set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to Z_Limit_Neg
-set_instance_assignment -name SLOW_SLEW_RATE ON -to Z_Limit_Neg
-set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to Y_Limit_Pos
-set_instance_assignment -name SLOW_SLEW_RATE ON -to Y_Limit_Pos
-set_instance_assignment -name SLOW_SLEW_RATE ON -to Y_Limit_Neg
-set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to Y_Limit_Neg
-set_instance_assignment -name SLOW_SLEW_RATE ON -to X_Limit_Pos
-set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to X_Limit_Pos
-set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to X_Limit_Neg
-set_instance_assignment -name SLOW_SLEW_RATE ON -to X_Limit_Neg
-set_instance_assignment -name SLOW_SLEW_RATE ON -to W_Limit_Pos
-set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to W_Limit_Pos
-set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to W_Limit_Neg
-set_instance_assignment -name SLOW_SLEW_RATE ON -to W_Limit_Neg
 set_global_assignment -name CDF_FILE output_files/Chain14.cdf
 set_location_assignment PIN_15 -to SSD
 set_location_assignment PIN_16 -to SSC
 set_global_assignment -name VECTOR_WAVEFORM_FILE "SSI Test.vwf"
 set_global_assignment -name VECTOR_WAVEFORM_FILE SSI_Test.vwf
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform.vwf
-set_location_assignment PIN_72 -to GND_21a
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform1.vwf
-set_location_assignment PIN_74 -to GND_22a
-set_location_assignment PIN_76 -to GND_23a
-set_location_assignment PIN_78 -to GND_24a
-set_location_assignment PIN_82 -to GND_25a
-set_location_assignment PIN_35 -to GND_20b
-set_location_assignment PIN_19 -to GND_25b
+set_location_assignment PIN_21 -to GND_24a
+set_location_assignment PIN_50 -to GND_25b
 set_global_assignment -name VECTOR_WAVEFORM_FILE Test_SSI.vwf
-set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to Z_Step
-set_instance_assignment -name SLOW_SLEW_RATE ON -to Z_Step
-set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to Y_Step
-set_instance_assignment -name SLOW_SLEW_RATE ON -to Y_Step
-set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to X_Direction
-set_instance_assignment -name SLOW_SLEW_RATE ON -to X_Direction
-set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to ZW_Power
 set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to External_Oscilator
 set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to SSC
-set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to W_Select
-set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to X_Step
-set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to Y_Direction
-set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to ZW_Power
-set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to Z_Direction
-set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to Z_Select
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ZW_Pwr_Inv
-set_location_assignment PIN_17 -to SA1
-set_location_assignment PIN_1 -to SA2
-set_location_assignment PIN_81 -to Air_1
-set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to SA1
-set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to SA2
 set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to SSC
-set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to SA1
-set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to SA2
-set_instance_assignment -name SLOW_SLEW_RATE ON -to X_Step
-set_instance_assignment -name SLOW_SLEW_RATE ON -to Y_Direction
-set_instance_assignment -name SLOW_SLEW_RATE ON -to W_Select
-set_instance_assignment -name SLOW_SLEW_RATE ON -to Z_Select
-set_instance_assignment -name SLOW_SLEW_RATE ON -to ZW_Power
-set_instance_assignment -name SLOW_SLEW_RATE ON -to Z_Direction
-set_location_assignment PIN_83 -to Air_2
-set_location_assignment PIN_21 -to R_Dir_Delay_Neg
-set_location_assignment PIN_27 -to R_Dir_Delay_Pos
-set_location_assignment PIN_29 -to R_Step_Neg
-set_location_assignment PIN_33 -to R_Step_Pos
-set_location_assignment PIN_58 -to R_Power
-set_location_assignment PIN_100 -to R_Select
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Oscilator
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to R_Dir_Delay_Neg
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to R_Dir_Delay_Pos
-set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to R_Limit_Neg
-set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to R_Limit_Pos
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to R_Power
-set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to R_Select
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to R_Step_Neg
-set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to R_Step_Pos
-set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to R_Limit_Neg
-set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to R_Limit_Pos
-set_instance_assignment -name SLOW_SLEW_RATE ON -to R_Limit_Neg
-set_instance_assignment -name SLOW_SLEW_RATE ON -to R_Limit_Pos
-set_location_assignment PIN_73 -to R_Limit_Pos
-set_location_assignment PIN_75 -to R_Limit_Neg
 set_global_assignment -name AUTO_PACKED_REGISTERS_MAX "MINIMIZE AREA"
 set_global_assignment -name FITTER_EFFORT "STANDARD FIT"
-set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to R_Select
-set_instance_assignment -name SLOW_SLEW_RATE ON -to R_Select
-set_instance_assignment -name SLOW_SLEW_RATE ON -to SA1
-set_instance_assignment -name SLOW_SLEW_RATE ON -to SA2
 set_instance_assignment -name SLOW_SLEW_RATE ON -to SSC
-set_location_assignment PIN_2 -to Probe_old_Enable
-set_location_assignment PIN_70 -to Probe_Input
-set_location_assignment PIN_18 -to GND_13b
-set_location_assignment PIN_77 -to GND_11a
-set_instance_assignment -name IO_STANDARD "2.5V SCHMITT TRIGGER INPUT" -to Probe_Input
-set_instance_assignment -name IO_STANDARD "2.5V SCHMITT TRIGGER INPUT" -to External_Oscilator
+set_location_assignment PIN_83 -to GND_13b
+set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to External_Oscilator
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to A_Dir_Delay_Pos
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to A_Dir_Delay_Neg
+set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to A_Direction
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to A_Neg_Limit
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to A_Pos_Limit
+set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to A_Limit_Neg
+set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to A_Limit_Pos
+set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to A_Step
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to A_Step_Neg
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to A_Step_Pos
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to B_Dir_Delay_Neg
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to B_Dir_Delay_Pos
+set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to B_Direction
+set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to B_Limit_Neg
+set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to B_Limit_Pos
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to B_Neg_Limit
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to B_Pos_Limit
+set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to B_Step
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to B_Step_Neg
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to B_Step_Pos
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to C_Dir_Delay_Neg
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to C_Dir_Delay_Pos
+set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to C_Direction
+set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to C_Limit_Neg
+set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to C_Limit_Pos
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to C_Neg_Limit
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to C_Pos_Limit
+set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to C_Step
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to C_Step_Neg
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to C_Step_Pos
+set_location_assignment PIN_51 -to A_Step_Pos
+set_location_assignment PIN_53 -to A_Step_Neg
+set_location_assignment PIN_55 -to A_Dir_Delay_Pos
+set_location_assignment PIN_57 -to A_Dir_Delay_Neg
+set_location_assignment PIN_61 -to B_Step_Pos
+set_location_assignment PIN_67 -to B_Step_Neg
+set_location_assignment PIN_69 -to B_Dir_Delay_Pos
+set_location_assignment PIN_71 -to B_Dir_Delay_Neg
+set_location_assignment PIN_73 -to C_Step_Pos
+set_location_assignment PIN_75 -to C_Step_Neg
+set_location_assignment PIN_77 -to C_Dir_Delay_Pos
+set_location_assignment PIN_81 -to C_Dir_Delay_Neg
+set_location_assignment PIN_66 -to C_Limit_Pos
+set_location_assignment PIN_68 -to C_Limit_Neg
+set_location_assignment PIN_56 -to B_Limit_Pos
+set_location_assignment PIN_58 -to B_Limit_Neg
+set_location_assignment PIN_52 -to A_Limit_Pos
+set_location_assignment PIN_54 -to A_Limit_Neg
+set_location_assignment PIN_100 -to Ink_Input
+set_location_assignment PIN_98 -to Laser_PWM_Input
+set_location_assignment PIN_8 -to Kill_Output
+set_location_assignment PIN_5 -to Pause_Output
+set_location_assignment PIN_76 -to Ink_Output
+set_location_assignment PIN_74 -to Laser_PWM_Outpout
+set_location_assignment PIN_72 -to Kill_Input
+set_location_assignment PIN_70 -to Pause_Input
+set_location_assignment PIN_99 -to A_Neg_Limit
+set_location_assignment PIN_97 -to A_Pos_Limit
+set_location_assignment PIN_95 -to B_Neg_Limit
+set_location_assignment PIN_91 -to B_Pos_Limit
+set_location_assignment PIN_89 -to C_Neg_Limit
+set_location_assignment PIN_87 -to C_Pos_Limit
+set_location_assignment PIN_2 -to A_Step
+set_location_assignment PIN_4 -to B_Step
+set_location_assignment PIN_7 -to C_Step
+set_location_assignment PIN_1 -to A_Direction
+set_location_assignment PIN_3 -to B_Direction
+set_location_assignment PIN_6 -to C_Direction
+set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to Pause_Input
+set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to Laser_PWM_Input
+set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to Kill_Input
+set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to Ink_Input
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Pause_Output
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Laser_PWM_Outpout
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Kill_Output
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Ink_Output
+set_location_assignment PIN_96 -to Spare_Input_1
+set_location_assignment PIN_92 -to Spare_Input_2
+set_location_assignment PIN_78 -to Spare_Output_2
+set_location_assignment PIN_82 -to Spare_Output_1
+set_location_assignment PIN_19 -to GND_25a
+set_location_assignment PIN_27 -to GND_23a
+set_location_assignment PIN_29 -to GND_22a
+set_location_assignment PIN_33 -to GND_21a
+set_location_assignment PIN_35 -to GND_20b
+set_location_assignment PIN_49 -to GND_11a
