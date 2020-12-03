@@ -74,8 +74,8 @@ set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform1.vwf
 set_location_assignment PIN_21 -to GND_24a
 set_location_assignment PIN_50 -to GND_25b
 set_global_assignment -name VECTOR_WAVEFORM_FILE Test_SSI.vwf
-set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to External_Oscilator
-set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to SSC
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to External_Oscilator
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to SSC
 set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to SSC
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to Oscilator
 set_global_assignment -name AUTO_PACKED_REGISTERS_MAX "MINIMIZE AREA"
@@ -169,3 +169,23 @@ set_location_assignment PIN_29 -to GND_22a
 set_location_assignment PIN_33 -to GND_21a
 set_location_assignment PIN_35 -to GND_20b
 set_location_assignment PIN_49 -to GND_11a
+set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to Spare_Input_1
+set_instance_assignment -name IO_STANDARD "3.3V SCHMITT TRIGGER INPUT" -to Spare_Input_2
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to A_Direction
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to A_Limit_Neg
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to A_Limit_Pos
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to A_Step
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to B_Direction
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to B_Limit_Neg
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to B_Limit_Pos
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to B_Step
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to C_Direction
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to C_Limit_Neg
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to C_Limit_Pos
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR OFF -to C_Step
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to Ink_Input
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to Kill_Input
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to Laser_PWM_Input
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to Pause_Input
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to Spare_Input_1
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to Spare_Input_2

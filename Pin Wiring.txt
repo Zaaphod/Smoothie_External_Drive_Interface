@@ -13,12 +13,12 @@ Stepper Motor Drivers
                                                        13   12   11   10    9    8    7    6    5    4    3    2    1    <--DB 25 Pins for Stac6
                                                           25   24   23   22   21   20   19   18   17   16   15   14      <--DB 25 Pins for Stac6
                                                                                                  O/W    O 
-                                                                                                   
-
+                                                                                       6-       Black  Grey  
+                                                                                       4-       Black  Red
 
                                             
 Limit Switches, Spindle Power, & Probe
-
+                                                      Black  
                                                            B/W    B  G/W    G  B/W    B  G/W    G  B/W    B  G/W    G
                                                        13   12   11   10    9    8    7    6    5    4    3    2    1    <--DB Ribbon cable pins
 S5V  SG            SA-  SA+  SB-  SB+  SC-  SC+  LED2 GND  CD-  CD+  CS-  CS+  BD-  BD+  BS-  BS+  AD-  AD+  AS-  AS+      LED2 LED3
@@ -26,8 +26,9 @@ S5V  SG            SA-  SA+  SB-  SB+  SC-  SC+  LED2 GND  CD-  CD+  CS-  CS+  B
 5V  GND  3V3       100   98   96   92  X90X X88X  86   84   82   78   76   74   72   70   68   66   58   56   54   52    <-------------CPLD pins
                    SInk SLsr SPr1 SPr2           LED3 ---  SP1  SP2  Ink  Lasr Kill Paus C-L  C+L  B-L  B+L  A-L  A+L
                                        GND  3V3             25   24   23   22   21   20   19   18   17   16   15   14    <--DB Ribbon cable pins
-                                                                     Brn  Grey  Brn   W  Blue   P    Y    G    R    O             
-
+                                                        6-                      Brn   W  Blue   P    Y    G    R    O 
+                                                        4-                      Brn   W                       Blue  G
+                                                                           Red
 
 
 
@@ -61,18 +62,18 @@ OSC  - Oscillator Used by Shift Registers
 Smoothie Pins:
       SG   - Smoothie Ground
       S5V  - Smoothie 5V from one of the limit switches
-0.26  SA-  - Smoothieboard Input  A- Limit
-0.25  SA+  - Smoothieboard Input  A+ Limit
-0.24  SB-  - Smoothieboard Input  B- Limit
-0.23  SB+  - Smoothieboard Input  B+ Limit
-2.8   SC-  - Smoothieboard Input  C- Limit
-2.13   SC+  - Smoothieboard Input  C+ Limit
-1.22  SAD  - Smoothieboard Output A Direction
-1.23  SAS  - Smoothieboard Output A Step
-1.31  SBD  - Smoothieboard Output B Direction
-1.30  SBS  - Smoothieboard Output B Step
-3.25  SCD  - Smoothieboard Output C Direction
-3.26  SCS  - Smoothieboard Output C Step
+0.23  SA-  - Smoothieboard Input  A- Limit
+0.24  SA+  - Smoothieboard Input  A+ Limit
+0.25  SB-  - Smoothieboard Input  B- Limit
+0.26  SB+  - Smoothieboard Input  B+ Limit
+2.13  SC-  - Smoothieboard Input  C- Limit
+2.8   SC+  - Smoothieboard Input  C+ Limit
+1.30  SAD  - Smoothieboard Output A Direction
+1.31  SAS  - Smoothieboard Output A Step
+1.23  SBD  - Smoothieboard Output B Direction
+1.22  SBS  - Smoothieboard Output B Step
+3.26  SCD  - Smoothieboard Output C Direction
+3.25  SCS  - Smoothieboard Output C Step
 2.7   SInk - Smoothieboard Ink Solenoid Signal
 2.5   SLsr - Smoothieboard Laser PWM Control Signal
 2.4   SPr1 - Smoothieboard Spare 1
