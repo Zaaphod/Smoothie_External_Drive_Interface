@@ -144,8 +144,6 @@ set_location_assignment PIN_34 -to Y_Dir_Delay_Neg
 set_location_assignment PIN_38 -to Y_Step_Neg
 set_location_assignment PIN_20 -to Z_Dir_Delay_Neg
 set_location_assignment PIN_28 -to Z_Step_Neg
-set_location_assignment PIN_86 -to Osc_div_2000000
-set_location_assignment PIN_85 -to Osc_div_4000000
 set_global_assignment -name CDF_FILE output_files/Chain11.cdf
 set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to Z_Limit_Pos
 set_instance_assignment -name SLOW_SLEW_RATE ON -to Z_Limit_Pos
@@ -243,3 +241,16 @@ set_location_assignment PIN_18 -to GND_13b
 set_location_assignment PIN_77 -to GND_11a
 set_instance_assignment -name IO_STANDARD "2.5V SCHMITT TRIGGER INPUT" -to Probe_Input
 set_instance_assignment -name IO_STANDARD "2.5V SCHMITT TRIGGER INPUT" -to External_Oscilator
+set_global_assignment -name OPTIMIZE_HOLD_TIMING "IO PATHS AND MINIMUM TPD PATHS"
+set_global_assignment -name FINAL_PLACEMENT_OPTIMIZATION AUTOMATICALLY
+set_global_assignment -name FITTER_AGGRESSIVE_ROUTABILITY_OPTIMIZATION AUTOMATICALLY
+set_global_assignment -name AUTO_DELAY_CHAINS ON
+set_global_assignment -name FITTER_AUTO_EFFORT_DESIRED_SLACK_MARGIN "0 ns"
+set_global_assignment -name ROUTER_LCELL_INSERTION_AND_LOGIC_DUPLICATION AUTO
+set_global_assignment -name ROUTER_REGISTER_DUPLICATION ON
+set_global_assignment -name AUTO_GLOBAL_CLOCK ON
+set_global_assignment -name AUTO_GLOBAL_REGISTER_CONTROLS ON
+set_global_assignment -name ALM_REGISTER_PACKING_EFFORT HIGH
+set_global_assignment -name OPTIMIZATION_MODE "AGGRESSIVE PERFORMANCE"
+set_location_assignment PIN_85 -to X_Step_Bin
+set_location_assignment PIN_86 -to Y_Step_Bin
