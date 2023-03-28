@@ -144,8 +144,6 @@ set_location_assignment PIN_34 -to Y_Dir_Delay_Neg
 set_location_assignment PIN_38 -to Y_Step_Neg
 set_location_assignment PIN_20 -to Z_Dir_Delay_Neg
 set_location_assignment PIN_28 -to Z_Step_Neg
-set_location_assignment PIN_86 -to Osc_div_2000000
-set_location_assignment PIN_85 -to Osc_div_4000000
 set_global_assignment -name CDF_FILE output_files/Chain11.cdf
 set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to Z_Limit_Pos
 set_instance_assignment -name SLOW_SLEW_RATE ON -to Z_Limit_Pos
@@ -230,7 +228,7 @@ set_instance_assignment -name SLOW_SLEW_RATE ON -to R_Limit_Neg
 set_instance_assignment -name SLOW_SLEW_RATE ON -to R_Limit_Pos
 set_location_assignment PIN_73 -to R_Limit_Pos
 set_location_assignment PIN_75 -to R_Limit_Neg
-set_global_assignment -name AUTO_PACKED_REGISTERS_MAX "MINIMIZE AREA"
+set_global_assignment -name AUTO_PACKED_REGISTERS_MAX "MINIMIZE AREA WITH CHAINS"
 set_global_assignment -name FITTER_EFFORT "STANDARD FIT"
 set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to R_Select
 set_instance_assignment -name SLOW_SLEW_RATE ON -to R_Select
@@ -243,3 +241,27 @@ set_location_assignment PIN_18 -to GND_13b
 set_location_assignment PIN_77 -to GND_11a
 set_instance_assignment -name IO_STANDARD "2.5V SCHMITT TRIGGER INPUT" -to Probe_Input
 set_instance_assignment -name IO_STANDARD "2.5V SCHMITT TRIGGER INPUT" -to External_Oscilator
+set_global_assignment -name OPTIMIZATION_MODE "AGGRESSIVE PERFORMANCE"
+set_global_assignment -name EXTRACT_VERILOG_STATE_MACHINES ON
+set_global_assignment -name REMOVE_REDUNDANT_LOGIC_CELLS ON
+set_global_assignment -name MAXII_OPTIMIZATION_TECHNIQUE AREA
+set_global_assignment -name FORCE_SYNCH_CLEAR OFF
+set_global_assignment -name OPTIMIZE_TIMING "NORMAL COMPILATION"
+set_global_assignment -name FITTER_AUTO_EFFORT_DESIRED_SLACK_MARGIN "0 ns"
+set_location_assignment PIN_85 -to X_Step_Bin
+set_location_assignment PIN_86 -to Y_Step_Bin
+set_global_assignment -name MUX_RESTRUCTURE OFF
+set_global_assignment -name STATE_MACHINE_PROCESSING AUTO
+set_global_assignment -name SAFE_STATE_MACHINE ON
+set_global_assignment -name ALLOW_POWER_UP_DONT_CARE ON
+set_global_assignment -name IGNORE_CARRY_BUFFERS OFF
+set_global_assignment -name STRATIX_CARRY_CHAIN_LENGTH 70
+set_global_assignment -name AUTO_OPEN_DRAIN_PINS ON
+set_global_assignment -name ADV_NETLIST_OPT_SYNTH_WYSIWYG_REMAP ON
+set_global_assignment -name AUTO_SHIFT_REGISTER_RECOGNITION ALWAYS
+set_global_assignment -name ALLOW_SHIFT_REGISTER_MERGING_ACROSS_HIERARCHIES AUTO
+set_global_assignment -name AUTO_CLOCK_ENABLE_RECOGNITION ON
+set_global_assignment -name AUTO_RESOURCE_SHARING ON
+set_global_assignment -name OPTIMIZE_POWER_DURING_SYNTHESIS "EXTRA EFFORT"
+set_global_assignment -name SYNTH_CLOCK_MUX_PROTECTION ON
+set_global_assignment -name ALM_REGISTER_PACKING_EFFORT HIGH
