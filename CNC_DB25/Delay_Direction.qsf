@@ -265,3 +265,5 @@ set_global_assignment -name AUTO_RESOURCE_SHARING ON
 set_global_assignment -name OPTIMIZE_POWER_DURING_SYNTHESIS "EXTRA EFFORT"
 set_global_assignment -name SYNTH_CLOCK_MUX_PROTECTION ON
 set_global_assignment -name ALM_REGISTER_PACKING_EFFORT HIGH
+set_global_assignment -name CDF_FILE output_files/Chain1.cdf
+set_global_assignment -name CDF_FILE output_files/Chain13.cdf
