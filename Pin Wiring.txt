@@ -90,8 +90,8 @@ Pin Definitions:
 3V3  - 3.3V Power
 GND  - Ground Connection
 LED1 - On Board LED1 - Power Indicator01
-LED2 - On Board LED2 - Set to OSC/4000000 - blink led to show CPLD is working
-LED3 - On Board LED3 - Set to OSC/2000000 - blink led to show CPLD is working
+LED2 - On Board LED2 - Set to Reset_Count - LED is on when Counts are Reset
+LED3 - On Board LED3 - Set to Load_Shift_Registers - LED is on when Shift Registers are Loaded
 SSC  - Synchronous Serial Clock - DTR
 SSD  - Synchronous Serial Data  - DSR
 XOSC - External Crystal Oscillator Monitor (50MHz)

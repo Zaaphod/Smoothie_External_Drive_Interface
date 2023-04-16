@@ -248,8 +248,6 @@ set_global_assignment -name MAXII_OPTIMIZATION_TECHNIQUE AREA
 set_global_assignment -name FORCE_SYNCH_CLEAR OFF
 set_global_assignment -name OPTIMIZE_TIMING "NORMAL COMPILATION"
 set_global_assignment -name FITTER_AUTO_EFFORT_DESIRED_SLACK_MARGIN "0 ns"
-set_location_assignment PIN_85 -to X_Step_Bin
-set_location_assignment PIN_86 -to Y_Step_Bin
 set_global_assignment -name MUX_RESTRUCTURE OFF
 set_global_assignment -name STATE_MACHINE_PROCESSING AUTO
 set_global_assignment -name SAFE_STATE_MACHINE ON
@@ -265,3 +263,5 @@ set_global_assignment -name AUTO_RESOURCE_SHARING ON
 set_global_assignment -name OPTIMIZE_POWER_DURING_SYNTHESIS "EXTRA EFFORT"
 set_global_assignment -name SYNTH_CLOCK_MUX_PROTECTION ON
 set_global_assignment -name ALM_REGISTER_PACKING_EFFORT HIGH
+set_location_assignment PIN_85 -to Reset_Counts
+set_location_assignment PIN_86 -to Load_Shift_Registers
